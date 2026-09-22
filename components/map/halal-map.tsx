@@ -73,7 +73,12 @@ export default function HalalMap({
   const markersRef = useRef<Map<string, L.Marker>>(new Map());
   const userMarkerRef = useRef<L.Marker | null>(null);
   const onSelectRef = useRef(onSelect);
-  const lastFlyToken = useRef(flyTarget.token);
+  // Start below any real token (which begins at 0) so that if flyTarget was
+  // already updated before this map finished mounting — e.g. geolocation
+  // resolving while the map's own chunk is still loading — the pending
+  // fly-to still gets picked up once the map exists, instead of being
+  // silently treated as "already seen".
+  const lastFlyToken = useRef(-1);
 
   useEffect(() => {
     onSelectRef.current = onSelect;

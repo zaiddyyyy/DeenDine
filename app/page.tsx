@@ -99,6 +99,13 @@ export default function Home() {
     return () => window.removeEventListener("keydown", handleKeyDown);
   }, [certRestaurant]);
 
+  // Ask for location as soon as the site loads, so results are sorted by
+  // distance immediately rather than waiting for the user to press "Near me".
+  useEffect(() => {
+    requestUserLocation();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
+
   function flyTo(lat: number, lng: number, zoom: number) {
     setFlyTarget((prev) => ({ center: [lat, lng], zoom, token: prev.token + 1 }));
   }
@@ -177,7 +184,7 @@ export default function Home() {
     scrollToMap();
   }
 
-  function useMyLocation() {
+  function requestUserLocation() {
     if (typeof navigator === "undefined" || !("geolocation" in navigator)) {
       setGeoStatus("error");
       return;
@@ -270,7 +277,7 @@ export default function Home() {
                   aria-label="Use my location"
                   variant="ghost"
                   size="icon"
-                  onClick={useMyLocation}
+                  onClick={requestUserLocation}
                   className="hidden size-11 rounded-full text-[#1c6b54] hover:bg-[#e7f5ef] sm:inline-flex"
                 >
                   {geoStatus === "loading" ? <Loader2 className="size-5 animate-spin" /> : <LocateFixed className="size-5" />}
@@ -325,7 +332,7 @@ export default function Home() {
                 </Badge>
                 <button
                   type="button"
-                  onClick={useMyLocation}
+                  onClick={requestUserLocation}
                   className="pointer-events-auto grid size-10 place-items-center rounded-full bg-white text-[#153f32] shadow-md transition-[background-color,transform] duration-150 ease-out hover:bg-[#e7f4ee] motion-safe:active:scale-[0.95]"
                   aria-label="Center on my location"
                 >
@@ -439,7 +446,7 @@ export default function Home() {
                   type="button"
                   size="sm"
                   variant="outline"
-                  onClick={useMyLocation}
+                  onClick={requestUserLocation}
                   className="h-8 rounded-full text-xs font-bold"
                 >
                   {geoStatus === "loading" ? <Loader2 className="size-3.5 animate-spin" /> : <LocateFixed className="size-3.5" />}
