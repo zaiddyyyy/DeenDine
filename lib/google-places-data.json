@@ -1,0 +1,1244 @@
+{
+  "karachi-chaat-house": {
+    "placeId": "ChIJJe-O-t_RD4gRNLnlHsRN7UI",
+    "matchedName": "Karachi Chaat House",
+    "formattedAddress": "2301 W Devon Ave, Chicago, IL 60659, USA",
+    "lat": 41.9975856,
+    "lng": -87.6876524,
+    "rating": 4.2,
+    "userRatingCount": 1742,
+    "googleMapsUri": "https://maps.google.com/?cid=4822596280710969652&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://karachichaathouse.com/",
+    "openingHours": [
+      "Monday: 12:00 PM – 2:00 AM",
+      "Tuesday: 12:00 PM – 2:00 AM",
+      "Wednesday: 12:00 PM – 2:00 AM",
+      "Thursday: 12:00 PM – 2:00 AM",
+      "Friday: 12:00 PM – 2:00 AM",
+      "Saturday: 12:00 PM – 2:00 AM",
+      "Sunday: 12:00 PM – 2:00 AM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJJe-O-t_RD4gRNLnlHsRN7UI/photos/AVoNoXQmH1yMwgM9emWzPgcKmhlKtA0hT4-zY6SuThcNfdFBl5TuHGz2K6A8M-YidyAPlLOaG-i-_u3VYgdEQXaPEICAPNojLwZga9RzRpmlvXhWmDuVYMBi63xmFlkW0m0YvZiH3-ngr800rjX5qyP1CJUazE1KTo-I0943ceMuQBOMJBTEtqVzUI2dPsgj1yOcGAEa9Gvhes3QRYY6B_gWq2DMABaPzDqcEeQpCIalDxo7voRib8VRY7KRGlV_i1p35CsKPmcqsq9c0HOhS_-SAsDKwQC7gLBDx_51jsIZmgIdg0Xu0YImIUqJgBzmve04EVVM_EmdkxZXj7eeSgT30snCN9h8j2zO4qdyIITQmtvpuQbgz7OfNfgyVF95bNROHpyAP3rSkQZqOwIFpu4bDU_W8_Os2pB9pCekd24f5-CeoU_Gf_hB7Y-7yyCp7Sig",
+        "widthPx": 4800,
+        "heightPx": 3063
+      },
+      {
+        "name": "places/ChIJJe-O-t_RD4gRNLnlHsRN7UI/photos/AVoNoXRicCPke9Jssnh7CvshcDySdOaj_o9pXBtIVr7dAPXfSSLnU90rMO4Di_47TpCpJBw1n07AM0Uafwbn-r5JiSczPtlJq2voVXrBxSuLqxeDoouCAJ8GRRolQeQAaQY7qraHIiJ4i4ADnrtQMScfureEwKX0HGvKZi5z7Q5anoH3oGWCq5Y2mNU9JwyfJdoe-telWaB4gqnbVvURpPnWFk5WaF9OOLW68_iTYSKN74ed63_ju8uGMS8DHcvRZ1HGMo14kWaREdToY_3oCzEqXiPUBkvv1Kg34_flwAq79Q2mmy58tl4usODI-N8Zk9pbC8uDgIZeGZiZyGlply-slBZKk7otbuoJYv6VZoai-JLK9EY8BV0KkveGWb8djFCcbpaFsSp30LUM9xln9sUBJtCbGlrGpKHi_IjYv7JiXCBnKZRC-xgB80WJP-axKnLr",
+        "widthPx": 3270,
+        "heightPx": 1582
+      },
+      {
+        "name": "places/ChIJJe-O-t_RD4gRNLnlHsRN7UI/photos/AVoNoXS86Zw12bMtwaexZb9CDTqf4z01bkh_WaGuoDD31j1ONf4Tgnfmc9wCnP-Urc-6c43gp8ZQOEOqV2d6Wuxu3m-uNSG-LoLFhQwN_NPCreZ4zYkJIMIBNFmIR0OYYL73WtCz8Agz_oxkfSWUB0vWRL-txI9v8F2nrlgWUUiFrwefKgVsWTOEHy-54l_G9K2xFUJeHwoqnAIjFE3oMf_9l7oaNEkMWaAwIsSog6bc1lLl_E5Ymw4n-SCT1Gjq1LrN-vfwLOUGs8f01jdoo5wmoVVGe58PR8mRpcbhHA9FZ69c7-36o_W-4_-W_EELATc88-mVIGA1HB9mEYOt-1IjwsvWSqDYp3k2vv0kxUOkdto0wIQRVG8lfOqN6O1m_J97uEULArhDLWVo-WhwSO5MY5jowKgw9yT-ZxlWQUHBkQzfGbk_uRg6WGxgeC1NMg",
+        "widthPx": 1148,
+        "heightPx": 765
+      }
+    ]
+  },
+  "usmania-fine-dining": {
+    "placeId": "ChIJsXGF2MLRD4gRAnhcpO-Mu0w",
+    "matchedName": "Usmania Fine Dining",
+    "formattedAddress": "2244 W Devon Ave, Chicago, IL 60659, USA",
+    "lat": 41.9980925,
+    "lng": -87.686887,
+    "rating": 4,
+    "userRatingCount": 3127,
+    "googleMapsUri": "https://maps.google.com/?cid=5529167928410011650&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://usmaniafinedining.com/",
+    "openingHours": [
+      "Monday: 12:00 – 11:30 PM",
+      "Tuesday: 12:00 – 11:30 PM",
+      "Wednesday: 12:00 – 11:30 PM",
+      "Thursday: 12:00 – 11:30 PM",
+      "Friday: 12:00 – 11:30 PM",
+      "Saturday: 12:00 – 11:30 PM",
+      "Sunday: 12:00 – 11:30 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJsXGF2MLRD4gRAnhcpO-Mu0w/photos/AVoNoXSv3jHucn_iEE5HrLHzUwlbaMy_LivyvPcdt4JkhYKlLe_s3zfQjoB2b9rN8sLCGBP0IjBwJlUn50gmSSFcksMtP5yRx9ZewitBR6yRjPXZz6Zq0-oFoC8HL6jH9k4Qs4OGV2sNEjug6Fh1GxsWOf32vnEZM_5RC9g4CNGyp7pjH2jxWs30U101rxfpDMkduzuR7g2HeTZNq2rPwtoRG7G4A5NlMHqQyMyyfnVc5qaHofa1ozzkcQ4SxZQRbkhZh8NjywXFHJAWsC_BUiaGzalqa0wLsjjNBEZtH_4p6dMqsUNmUHmc_lB3R21kgqhgBHkyPQSRzzcwOGoITgTfFSqEXmzRZ7Mo5W5jTLfn5XmF764YxSnHoPPr6x4JFX73SBliVP8c4YUjbpq0p5PoXlZQzg",
+        "widthPx": 3680,
+        "heightPx": 2456
+      },
+      {
+        "name": "places/ChIJsXGF2MLRD4gRAnhcpO-Mu0w/photos/AVoNoXQ6EpnZyBf8MBnobwVwEDZvzIJWE4BRlp1rjil1icExeDJho3nsWd_of7aKth3wBBCcxNozAhEX34PwgPoD38ExOODwUYu5ibG9bQfKJvfVj78u0dFTfCmhxWmoBziYx0Dub6H56u6ux4elgNMZCrRIWPlAwCsvp1bzYrOMBZFxE2N_I1qvOgdo5YYIP1B-PuMIMhzWAh-Yvrn8GQn4brj95Hd8NxE614FVtjwlwZu_g5TnH1xVaZ8mbxnanxXImk81ii84oFs456_j_an9yJkvv04pFLTGnkcv3eBP2XQTxMCq9RI5Mg14mPyI0RjItxKW_-x3-_UAlbHqqSoRUMJMyc33PvTtah-q0bimhma7JQqctNkwtxynIRKLYm1fLplB892l6btX5hBHVDwCv5ZWgf8RPUGDdDym3aDQY-tw",
+        "widthPx": 3000,
+        "heightPx": 4000
+      },
+      {
+        "name": "places/ChIJsXGF2MLRD4gRAnhcpO-Mu0w/photos/AVoNoXQT5xgPV5c3g_SSDWCsn-w53aCQym1b89iC7HzJykO-KhsI_-qp4lipzrmvqGSBtHE_JoPBFh0opIUHTzZv48pNTQpUL5IBjK5ikiZYVaAKiDJi27C-BaU8WtuMdw2bOryjAgSbBIWvAE_y5nrSvAx4aAXyq4yBSnv6rjpORtN8Xx5T7ZFv9dt87by882-8WPQMv4q_XKOMlG4dTs0spY6u7EGeygC9rR861Bn0ZUE10Lp5Rc9WQSCWGM6uNllgsrmFkj-R8va4J2lNQBl4SZwshkvw53j4fJrn7zUiv8uiTnVpI5sreFWBOHHt5qR5CzeEpoHgV-DSpG_JvdK0fxevA_YDOwyBhQfOvRG1weqPFW30GF_-aRnfNihTinSWnY5qD1XZlabPQR1au1BCAD9GcA",
+        "widthPx": 4032,
+        "heightPx": 2688
+      }
+    ]
+  },
+  "spinzer-restaurant": {
+    "placeId": "ChIJzSgAI93RD4gRHURk7LXBHyg",
+    "matchedName": "Spinzer Restaurant | Authentic Pakistani Food",
+    "formattedAddress": "2331 W Devon Ave, Chicago, IL 60659, USA",
+    "lat": 41.9976579,
+    "lng": -87.6888295,
+    "rating": 4.1,
+    "userRatingCount": 878,
+    "googleMapsUri": "https://maps.google.com/?cid=2891242472894383133&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "http://www.spinzerchicago.com/",
+    "openingHours": [
+      "Monday: 12:00 – 11:45 PM",
+      "Tuesday: 12:00 – 11:45 PM",
+      "Wednesday: 12:00 – 11:45 PM",
+      "Thursday: 12:00 – 11:45 PM",
+      "Friday: 1:30 PM – 12:45 AM",
+      "Saturday: 12:00 PM – 12:45 AM",
+      "Sunday: 12:00 – 11:45 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJzSgAI93RD4gRHURk7LXBHyg/photos/AVoNoXT4kvCby_1O8lxdEMs3nn0mLQcnK1LSKop-B4KiDYLD8nPOf1ZVPZuDTLecmTWhyVR9m09l9OkKgPVXOsE_huFDPJnxlXFZS1CQFBTLS8U6VIpodJLjjtz5MWdhe6FPhY8xTpz2F_w8SHq8adiF0uNaLFGkMH-egf_Sncw4RylmMe-_lwcwJ75AhG2eyTbPAGgkOFPa39YYQaOfL9uWSet-uR6dMojEOCWMeuTla4xtYyE-OBbdqVMn-El74GjDE4Px2JSDsUvNPPqA6YMqYXqT2R2D4VhFWOvtN7uurRBTyNvddrx8tzcvTEKAKbzLDXgoDu2RdgrkNMTV1Sos-SRvEnCMUYupGysBkeXnaAgcOMF1JRjC4EaCleSqBNzyvSAjOgMhvItFvRrg_i6jcEUmeRTnLMFI_ZMwjJ_rEtiCc50",
+        "widthPx": 1328,
+        "heightPx": 747
+      },
+      {
+        "name": "places/ChIJzSgAI93RD4gRHURk7LXBHyg/photos/AVoNoXSTPojj3UbSYvX89kC2_A_Es-0HZ-bSShWtWoXhXN9PMwhuylNcpcN5Lz2LAvDWU_5Pi9B1ydUKTV885ijY2e2nBDja_IxJcMNfDerDR5-aRO4CfMuLsH4XCC0VVX26ieGbvor0764dULORmNeUkKva9APd3IvLGOizuBjY0YRe39o9ycaPQzIW_JZJ_73sCSdD4nxyNvxeKvi7V6KrFYZWWa0ZuevUkQTrpcmaqhB2deNXM2_FMrbKRozfB75QhPFqKHnyRPRW2xYzSvS2OHqg7kB9mpQhBII63oTfoQCvtUCg4X7MU9m3FGZk5ogYekjv3V2WH_Hf2k9iN0MGkAdd598ZjdB7nmhMI12E9sau0cMLbI6lUxGa2sv6VfzejyNmMEZG-vg5dexvdtLqrgKk0TIPQxlulImKHCSUMvtHjs9n",
+        "widthPx": 1280,
+        "heightPx": 721
+      },
+      {
+        "name": "places/ChIJzSgAI93RD4gRHURk7LXBHyg/photos/AVoNoXSxm_WoO2xiYwNK6lRNv39Vd65c3e6J-Ax_MPH9xnQIdva96dnJpIFUZH_xt97fsuL4yTrmlhA3atJCEUYuqKVrslr9Kckbn2apAFdfNXqGZXBXtk_ZCFsSlKpcJBJ_0w3MrnVV1lDOPxiy3CfwJDsv_mHaYFGimRyN86Hlel_uDOkhdgvF4XDw8Z-tppikTb-Adt0QvHFnwajvmpkGJ8RryCkXm_0yPP5o-QXH1pdZ2C7X3i2-LBU1iv209F40XuzDlE_aGpSjjWiFF9oso9MRRNftAqFwuuMYFIDwRbs5eORdix7cTUJ5nP8qAFLa9LH3YBCtDOjLRE__ArHB18ok3FKpmj_2BcRCPM04zOpeLRSOtyO9R2bHyFhidGHsSXqWlCHYBm7JJeYmGfdG4_G0xIZEqXdQ8A18zUAnhqoGew",
+        "widthPx": 842,
+        "heightPx": 473
+      }
+    ]
+  },
+  "ghareeb-nawaz": {
+    "placeId": "ChIJ855DdcHRD4gRo6iEljO2bUc",
+    "matchedName": "Ghareeb Nawaz Restaurant",
+    "formattedAddress": "2032 W Devon Ave, Chicago, IL 60659, USA",
+    "lat": 41.9980708,
+    "lng": -87.68157649999999,
+    "rating": 4.1,
+    "userRatingCount": 6703,
+    "googleMapsUri": "https://maps.google.com/?cid=5146970281839208611&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://www.ghareebnawazonline.com/",
+    "openingHours": [
+      "Monday: 8:00 AM – 2:00 AM",
+      "Tuesday: 8:00 AM – 2:00 AM",
+      "Wednesday: 8:00 AM – 2:00 AM",
+      "Thursday: 8:00 AM – 2:00 AM",
+      "Friday: 8:00 AM – 2:00 AM",
+      "Saturday: 8:00 AM – 2:00 AM",
+      "Sunday: 8:00 AM – 2:00 AM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJ855DdcHRD4gRo6iEljO2bUc/photos/AVoNoXS2KA__Lx0O7yEvDpHgqG6AE6-yn24rboGEVzd9lUogdyQJQH86XoKxSgSU54JpXbmqhOPsUTfAR-xdhKO4gHkkRh2zfIVCQWov3rVLTOXPnhVmcSk2mwifPBAvtbnCWVnSp4PAhF__KoDk9k-Rd-cwnl-70BF_8vR7P6_o2aK7o4uUkHGiJk4VdfRW_XZab29miERqQ6EGTECxoVz1ot1eW4AQOPRPPRl3JqMH5JUFUaVUvGKEdrgvefIKcwtG1_oOYSxwXK9tdgbl8dytxkX3ujxQW0BM4B1qXEUmGEkb6jxMlBk0ydeQLngLQOs_bB7e2sxsQGfqNd0I8wFE3H1qAH8Iv_YbExHW-QiiCKJ_ilmQUErBT69tWVnW2bbH8IKbRiNSdYhs-Gm0CY80Iz4foJFIM-9aCzb-f2aF_rc",
+        "widthPx": 1600,
+        "heightPx": 1000
+      },
+      {
+        "name": "places/ChIJ855DdcHRD4gRo6iEljO2bUc/photos/AVoNoXT3CtrVFGmQln_z-AZbg8YO0TkV1CI2hMMHvVR3zDaOg9zjz7slcROhAIyj96KkWoyFmJqPdS5ESX960nrUp7C_tyWoqVoIUmryjjtBEE90F7rujrfiAfdDOmux5SNnScMS8t5TnbcIRwUi9alwvQaVrFYXzZXTUMgdZ-MOlvzxQ8SSR7QmiIZ5DUbxB-n52kPl5vgiInWOsOIfQZP4s_6UYIoLi7ZW6zdQlUqjHLgmlqpB4IIv_9OGLBs0gHKUhdLvWbcvlpUGpqoAgFYryfGWP0EPlQsYNDnQht3Ql0_EK4ldO86KvMNbmL7ea68gQL3ZrGj6CK4PKrizJWDuIwP1nie8p_3RDPHl9ahZM8ab_d0rAGLLEmmVfU9QjbbX_vR-fSeApVoKcGFsmZjoCoy3vhTdEcPv4P3Rs3OqEwchL6YXPI9_HRe29os3-BaX",
+        "widthPx": 1080,
+        "heightPx": 1080
+      },
+      {
+        "name": "places/ChIJ855DdcHRD4gRo6iEljO2bUc/photos/AVoNoXTzW898ahGQ5az14jkdJXBl-yboW0I6OkiPPkhKoltzfr8H4_1Hxl4K1yBrNVlMAtsTTH8UGLuPupom5C8X4MLL1cEZ1ll_mEVePeBAiaquWMb6WhvNXYfVTagw9Svlz_Kj9YTKDN6vsmMDvhTnttqUg7VbBcgXXHpC4vK2BA2qDScKhk-tLbL_kcWeMCx3aLH-O1l8b7ICMitkCINbigqNttc1BzDazs9so2yxuh-62oKP2ny5lB6VR4xXXgQ9b1gW6YU1-5hskT2pRkqEACjEcKSeg0uNaahFWg-ev-Gt5FAiFT8lCF-Mz9N9h0wWNVUlq8buMpTQHaeIhpw-Gz6NdeFTCxc_x8q5Bl6EEzFH2pJLjjZhKlnpol0-UUh3DCYZkt2bzVhKVXMB3aQMXOFScOqLoCnNYUTsSXSunGsCTLAX",
+        "widthPx": 3024,
+        "heightPx": 4032
+      }
+    ]
+  },
+  "new-naan-on-devon": {
+    "placeId": "ChIJP827LN3RD4gRnsD2bUymdJE",
+    "matchedName": "Naan On Devon & Grill (Indian Hyderabadi)",
+    "formattedAddress": "2241 W Devon Ave, Chicago, IL 60659, USA",
+    "lat": 41.9975739,
+    "lng": -87.6866058,
+    "rating": 4.1,
+    "userRatingCount": 1209,
+    "googleMapsUri": "https://maps.google.com/?cid=10481185079990599838&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://www.naanondevonandgrill.com/",
+    "openingHours": [
+      "Monday: 12:00 PM – 2:00 AM",
+      "Tuesday: 12:00 PM – 2:00 AM",
+      "Wednesday: 12:00 PM – 2:00 AM",
+      "Thursday: 12:00 PM – 2:00 AM",
+      "Friday: 12:00 PM – 2:00 AM",
+      "Saturday: 12:00 PM – 2:00 AM",
+      "Sunday: 12:00 PM – 2:00 AM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJP827LN3RD4gRnsD2bUymdJE/photos/AVoNoXTZXMJCC0g4Gycr7D680SjfRP6wXjqp9fI0Kbtd9057YY3SVBUTzxKErQ1dqQ12RQ4D8_iUTUHQXZABGYd_3HskGe63xJn3cI9L1n2q7GGh1E1GPyVpXoCHbIIoYRC54W3tmfwLC1am4vY8v7wN9ULNS_TFNhQPMUvJbc7zGTTWV9tRs-G_lFvWPKYt7ohf9yR6U9lWYHr0_-X-In1EPXaNnIzfye62-RHzkUfapgaDGsCkY37ZfwPeSKEz_PvqLCHOBzyGZI9A1OTblxvfrMA0Zc0cFejaQI7mhm4ENSW3bH6iQPyHOBpdTL_j5jVcqRAWAlHlgHQqfWid12MJ_nn4Ok3CY0LvokV9h6ETNqhfq29FI_hE3YX5QONyWo6RbAVFTwg7fifGfThkrqfxuYKytMw",
+        "widthPx": 791,
+        "heightPx": 791
+      },
+      {
+        "name": "places/ChIJP827LN3RD4gRnsD2bUymdJE/photos/AVoNoXRkRKGbweD-8QTTcXsGEyZDFGF7V8PFx3_3omQgco6d3Hb1L7kHHMs37dKjWKyMeHqxpmr8DnNN5sT_UR3-bx2UMkzgYK3sW19IMY58_Q1Vzpy7JGMZ6Bwj2TtzmJERpHBsHT_pG_tBIh5o5Zg0njAMbdPqCtdck3vaBwAcHPcOdueWk_r6Vq6i7EO4cPtxp6NibnHUhKFR8SK0mDJWdyI74TP9XlyRars_Zul8AR-uoJ-Ol8LxjWXmXrjMNc13EzO5vVHUiSCg93tM_sSuelERA7Z9_97lX0umV73TX8tFFBhgCTD29jgbli6sm4H8RGU2H7sBwXIm6N3Pia6VmaPIgMvyrL15mUB6YBa8WpKMmMyQQvPz96eRD4172VOe7XgZHO13FPb40mBnniGgRgLnuW62c9rVVJ0ECIUhukdbcA",
+        "widthPx": 2478,
+        "heightPx": 2462
+      },
+      {
+        "name": "places/ChIJP827LN3RD4gRnsD2bUymdJE/photos/AVoNoXQTmVi_2rfqhKLdXAz5W8qZKzTbPWAfZy2mcjUGBYCQuL1ZjOso4-HAimNWFScqhwcqtzZ2nTwL-WlKu5u9VaDihNqQsrfJK1d0ZjaJJFCvM9doy93b2BRJiYhMcidOSExFuUleO820AP2Ge5e0iTebIOr3nId4Bs3yz47d5MMzWhPo9SRVwI_SG8c83oOmPsTKtq6b-z7OZqsltMt-8namLD5-mF8G4whiN8uqsR4K_NiIIWF0KNFn1PUyTaYAIoB9Nu_fS_PNce0WZ9RJBPNZ_oTGn9pRaW-2cXpPwRL4gXa4zQhLkbo_4aM97e0RZAxap2L6BrMmmj8YW5pS6YwVaqA1WM3odr5FI_kPyt1ME4CkORGxHGlHlC0ei_CafXKK5IUDaSF8wHqo6TWBdNBa-MZFVzWzTuuCGv9L8ojCCA",
+        "widthPx": 2048,
+        "heightPx": 1969
+      }
+    ]
+  },
+  "sultans-market": {
+    "placeId": "ChIJQxe2x7jSD4gRV3jvn6EEciY",
+    "matchedName": "Sultan's Market",
+    "formattedAddress": "2057 W North Ave, Chicago, IL 60647, USA",
+    "lat": 41.9103457,
+    "lng": -87.67973839999999,
+    "rating": 4.5,
+    "userRatingCount": 1599,
+    "googleMapsUri": "https://maps.google.com/?cid=2770281813005793367&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://chicagofalafel.com/wicker-park/",
+    "openingHours": [
+      "Monday: 10:00 AM – 10:00 PM",
+      "Tuesday: 10:00 AM – 10:00 PM",
+      "Wednesday: 10:00 AM – 10:00 PM",
+      "Thursday: 10:00 AM – 10:00 PM",
+      "Friday: 10:00 AM – 10:00 PM",
+      "Saturday: 10:00 AM – 10:00 PM",
+      "Sunday: 10:00 AM – 9:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJQxe2x7jSD4gRV3jvn6EEciY/photos/AVoNoXT2PKO3O4AdZaPdjsmnBuFc7emNwGZR1sMTAV2XDcANnBrepxzjR14gEhoVmAIj6TgdibjT-OPGbvipGHQ79TmHSG0wajfElyjXHe6o_0S1h3lvVoU-WXVezP8F2V8mWu_JATm4nRkH5LCnV0VjO9R05PyOXAbNg-Df0XyA-WBK0YqXWbx7tsZwjpfDpajnB_2P-o63O-5CE3ulEIvM-YyiPe13uBra1ghHjJ83XbtZeETJ4EnQVRM8a4d507Y7UZ8xwrdpx1Z3V22c2t82DvB4gzJIDkV3fIaHHvNrXyy7UmAdjx2JTMxK-X-XluJHfIB-kz-6xGJv_fQcIEMIHY4gYcRlWaImf0V3QAClgyTsIXBR_lOUcSBmXspiqbsM-IlqOTts2-_f8d0IfO60FHrZDezr7STUwA8fal5nIkD6NnA",
+        "widthPx": 3024,
+        "heightPx": 4032
+      },
+      {
+        "name": "places/ChIJQxe2x7jSD4gRV3jvn6EEciY/photos/AVoNoXQE1TeusAPqKPUfSGgVDeFApE-sK6ZCAgI8s_DB_0n1BvtYGkn7wIIAWhZJNEq6gg53PwFKGPsDVL6G8vmg50MrO12PslLZ1bfO7PoCX7CGDZpy6DghQwQd9b1vO8BtCOL8d-Dgc3U-FqEHtOTn9C-hGn-9-HOaxxc6f9lMRdUr6_AiQoWQpZChDf7gjjoapJsdgnNCUGi5sJRL8zdfqxBal-UmeNj4JZNmcrGk8AjL22l-g1GSqtq0KiBcrbagF3RlDVSCcGsKslDFt-BWyqRPjUA9MQCBhtBxdjslVCGG97Rf2rGH6eM0dT8yV6AbK9HZTGoYHoJvBIHC164gTVZmKfGgJeG2va1A0hGclp693vdkznXueMRmhOemQQXXNvfs8dAs3P3brMBtdC2bQa3BysR7m7X_5tQjV7apVfELc31HEfpZQXw7zDxLoP0a",
+        "widthPx": 2000,
+        "heightPx": 1182
+      },
+      {
+        "name": "places/ChIJQxe2x7jSD4gRV3jvn6EEciY/photos/AVoNoXRd6RbJgkA18c0vPHlpd8YAbnnFmiiTNACk_VUaQaPP5UNqb3rS1q8WQayZEQwOFZOdeppkr59XolTuWJlOSnu6jGyGLy-2R8EtnxpdblgatEnriDkAoLHXh7nz_yq6kmdH7BGqd18-ta_R3khUppRTMlSjBhdlr5NtUGE2MrB4i1CNvGk03Ph77ch_x6WwktB4F_F9EHxOFOEVsgGOHYt_8FlxZn6Kkte1847HjnOcyvBPu41DYWBtJl5bOq_bmjeSG1aIB31CnjiOONwBlFVewc_ssEHoQVV0ivzNGiZlczSUNKh8jQpKbmgXLFw2NaVDaOjEK_BRUPXyDn-_5yfB28iepqRAXfva08aT34MWo6bO5ARSXhcl1UhIutV4eOtm5IiAuXA6RPgxr_lprrorAXAhAW0so4OwhqgvphxDax8GUepK6LHvQAg1vg",
+        "widthPx": 1920,
+        "heightPx": 1584
+      }
+    ]
+  },
+  "semiramis": {
+    "placeId": "ChIJjUXk8-_ND4gRinUYGvNCUcQ",
+    "matchedName": "Semiramis Mediterreanean Restaurant",
+    "formattedAddress": "4639 N Kedzie Ave, Chicago, IL 60625, USA",
+    "lat": 41.9659133,
+    "lng": -87.7082247,
+    "rating": 4.3,
+    "userRatingCount": 315,
+    "googleMapsUri": "https://maps.google.com/?cid=14146161516429735306&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": null,
+    "openingHours": null,
+    "photos": [
+      {
+        "name": "places/ChIJjUXk8-_ND4gRinUYGvNCUcQ/photos/AVoNoXRC8pUTBqDWpRlfNA4qP_T1k2eHIRj9ky0nHTxhjv1n-NZWjXJdpHhA5mIhGor2aFlnRmuwmQCRxyigF-WFKCg0NOfZ3WSOaDOnzthrE4fXIE2vqzIC9OlT93TvXJNZ_1B6HoNsj_8lvZRpiSYSUp2IX1hgdXNAUWcFGEyiEPskXGdRLv8PyeCxFeXgcDHsiWMKhjImFa0IY1RBqlI5w0RS3yNUuovFAXdYvyQjeY1wg4YKg8VKUZHRjOALYQ2urg-Y1toBhlXPjFpj15yiC4hx1xOnHmKwl5jWFP7TVihf-lqLzolQP1CuFT8nyCPgsoX_3bU-fwjKk9UsecxC_FWz89whLYPnklAfGAiEQ1bMZ8XyHGw1UaTrbncz3nbw_fdjsPqRrkXdYhmpfR5l5pm7fcVruoU",
+        "widthPx": 4656,
+        "heightPx": 3492
+      },
+      {
+        "name": "places/ChIJjUXk8-_ND4gRinUYGvNCUcQ/photos/AVoNoXShs_kltdo0LukjHamvoMviFOPvXqNzzfaTBaG7W56I0MCPFyhSoKaQl8BYUK-ljSE07hZOsGiP99rcnahCXC4nZEPQa76cWOfiZWtLnRDd8pUXZQW5cXGIBYr6TrzdaNmgRr9cMl6DoH9ZrJnhttceLK21wBtogCOirMozXl2nlckiYt320HUAzTPKXK_D5uhRWybsFmO6X_6Yjn5pQtd7RTMUffwjRYZzGi4-eoRO8SozWt1CTy2qocCgCnkHM6flrYWIE0YYsSXJhTUbA_E1iaEuTkrteUWMpQwOla9PlQde0R7SQwYzD0JzRbMqaEsIxWbM4DwieB5Bt2twedwMyWCMPnwLM4yempn5UO3_WOw4Cm6HutjCXK53FdfkYGbJNDhi8NCxNCpQMJITdSC0B5k",
+        "widthPx": 2048,
+        "heightPx": 1365
+      },
+      {
+        "name": "places/ChIJjUXk8-_ND4gRinUYGvNCUcQ/photos/AVoNoXT4RATS_QJRGKkemDe8rqXlazu7eVO_0BiZ86F4UoGXchvXgJ6clXydTAMxDHjPRxQPBIspex2n5XO8Bz8i8PuONyUcPMQsLbDe49paGuxC96f2bzztODe0loTAvImfvxkjwJpe69nnbGDfZ_lINsXUgfQ82qtGvnXe3-_lt3O36QwUSBqPWaBum7cY-bA4uBiMzFPbgGOUU_Jzgf2w5v-WB__o6wn5kYXgG1hrLqFjQgzBb9hnyLR87hs_ukEl5fKcXTDwitA_NdvH1HnmYxF2_vkKy6jSywOsfOuZZ1sOlBhI92kTQe9tlkKg5wCTeOfeGeymWejcoyjrV1gFp1P_Bv3g7hMX-CJMp44XxpAvUedjWcVrRWEO310EvY5jZqVarCsicghv-Mtns_BhqfquhQ0",
+        "widthPx": 4032,
+        "heightPx": 3024
+      }
+    ]
+  },
+  "kabul-house": {
+    "placeId": "ChIJrSUPru7PD4gR9j0j1Ddi0mI",
+    "matchedName": "Kabul House Restaurant",
+    "formattedAddress": "2424 Dempster St, Evanston, IL 60202, USA",
+    "lat": 42.0407515,
+    "lng": -87.7083615,
+    "rating": 4.4,
+    "userRatingCount": 2458,
+    "googleMapsUri": "https://maps.google.com/?cid=7120861952747978230&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "http://www.kabulhouse.com/",
+    "openingHours": [
+      "Monday: 11:00 AM – 9:00 PM",
+      "Tuesday: 11:00 AM – 9:00 PM",
+      "Wednesday: 11:00 AM – 9:00 PM",
+      "Thursday: 11:00 AM – 9:00 PM",
+      "Friday: 11:00 AM – 10:00 PM",
+      "Saturday: 11:00 AM – 10:00 PM",
+      "Sunday: 11:00 AM – 8:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJrSUPru7PD4gR9j0j1Ddi0mI/photos/AVoNoXTBsQJQHL4L3e6FZ0RnqZkzbkN7k09fviXL06aUhtHOWh0mQqThGr7L_0gwndVJdsDgEEETQC-a9LtvNFwUon5V_TBaB_9n0WwxgdP_7Ov7DyWygqfqGM2z0R_mmPI3m5vCRjwiMN_OT2BNHctyYMA4Xq9F4hXtTVxaeiFoQhnz5MuwO84ApJcNHx8vFQprn-hJ0Q6sGhO7_i9JqrFU61VnwwX9x2xKdmlcXs8Kg2QoNzs22CdOmMNylY-Fg4wja6hOL8xTYdGBX9YaLPEdv48vriIbIa3hTyejAOAv8eB8_w9fT0VkcjNNcQgXy4RvrQbL-8a2SpwN-QgQcA1jskf6wrUgRbE05Dy1o24WQMhDaRobLJOg4wMXh8YAccdjXnR8NsjogM9EiQX8a-Vzx0el3Fw",
+        "widthPx": 761,
+        "heightPx": 571
+      },
+      {
+        "name": "places/ChIJrSUPru7PD4gR9j0j1Ddi0mI/photos/AVoNoXRunwzJ1iKvF3v0RmD_1k8OqVNjyWkhvRKLpbAhcUaD1attu-T5EjfPVPLN8oyd8Ih-M7OzkpYqdOJrJfxtCporv01LQzZquS-hsR4J_U21-9pSwiXB3HuNFN1_f1ey2UYakDZsusYzJZZanV2XLcKejngK_XhpsE55GbgvKyy94F9B4ac0yQStu_caL3EXPIaNzHk9BMGXdk2zHHJTLgPA8zHTrxUpf_tvi2XS2TgobsORg0DQU4aiMuc9Rf8qjizDRfR-EWMIdiWvGIUL0sxRqtX-CEmItIM_NNmbExNWj-PR6siEIgzMUfWiPsTMy4kNTcRgHNz6yvv_aKQ7wB0N1qNzg3nsSinwJRaPj0CFGSwpKjkIyj7Pr6e1K_eZzvC926q6cJzjPR7izUFSMpZPbpuf",
+        "widthPx": 659,
+        "heightPx": 372
+      },
+      {
+        "name": "places/ChIJrSUPru7PD4gR9j0j1Ddi0mI/photos/AVoNoXQ0yHQY6kEr0yx3a3dHaa_kcXGDk4p-j6xsU9KcFnL77Itu4WpDcff135iqmCcV5BR38MYbIkwS1xiQAXk2GlGt71SQxZVNooGKOKZvTg2SkctdjEfOHqdDQw40OEB4bkhRcjZbxHxUQgRS0jEcgeXi4ysKfFUGKBkLbmOj3f9NlqjIPd_KipCNJvJhgTK9eG6870G53Cp1jGKBGN8S4sdyXwoxZTPJQbFf7rrY5F6Nti6i3JQZNL43SAXR5pgsv1Ciczq5AAHWAlkJv13J8tqv3zV16MoO3Wru53MBLMxSdkUuErmkag0Ka5oUHYQYDo1Z0eB--9wYwzGbJNOUsPvBjIEvl8VBtXXaL-QtjXfsOSki7GoNvSPNRsKUO45DLLVWWo0vNkhyRfn4_I_ShteEKQ-neC796liwzgj8V_nanQ",
+        "widthPx": 4800,
+        "heightPx": 3600
+      }
+    ]
+  },
+  "jarasa-kabob": {
+    "placeId": "ChIJSStU26TPD4gRQ5FbBm8aEqw",
+    "matchedName": "Jarasa Kabob - Skokie",
+    "formattedAddress": "3641 Dempster St, Skokie, IL 60076, USA",
+    "lat": 42.0404589,
+    "lng": -87.7195102,
+    "rating": 4.7,
+    "userRatingCount": 1836,
+    "googleMapsUri": "https://maps.google.com/?cid=12399001788254753091&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://jarasakabob.com/skokie?utm_source=google",
+    "openingHours": [
+      "Monday: 11:00 AM – 9:00 PM",
+      "Tuesday: 11:00 AM – 9:00 PM",
+      "Wednesday: 11:00 AM – 9:00 PM",
+      "Thursday: 11:00 AM – 9:00 PM",
+      "Friday: 11:00 AM – 9:00 PM",
+      "Saturday: 11:00 AM – 9:00 PM",
+      "Sunday: 11:00 AM – 9:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJSStU26TPD4gRQ5FbBm8aEqw/photos/AVoNoXQ3rBK1hfdkR5lmq8UxrmQbzb3nMOQIbgeq7ksuZShxa20dZBS8YJ14524F-zdo9qU8m4uHt9Z5cuw2qt_N1yL8CtuvPhu-GuC3qJYN1-_-5Y_tL4oNGlggWnDIuP1gkHZkoePZYzTvfcugJcWcw1DJZmhW3APWnVJIcW6ogVr9sXpeeebXM_flNb1tiZkAMIX5vO47zkaluUv8PVj6lQZPjXUHtJ-yeBoXmtgudCuPXQpuUQhNt2pukOCcvV4zmf3CdTdoGv7OJhiQbb37lwqn0gNKjcZnV46wOCXnZG1-Df0ejlyYyGhq_ZbBwLvclHuIwhg2VBGhniowHqxJp7zmsid-cggSl6LKLS1hXbE0PXDnaVXuDT094A9eyAjig_4vYN2rQSZZ2NF5Tex4B1GkeqjIU8TvxKA9LYzIi41KW7yj",
+        "widthPx": 4608,
+        "heightPx": 3456
+      },
+      {
+        "name": "places/ChIJSStU26TPD4gRQ5FbBm8aEqw/photos/AVoNoXQutKtjsbEQnEASRcEBE1HBr8Lw0IGrumsC_7yvlj1xU0A0iC8QJ-y0p8STL1aciVrKDIo6KsquPSakoOXofW8Tipedl7nFYFa7DF-Y1DOOL4d1uPcIcn7JxStcS8qnNdyxZNtqNs7e45KqryGb4KzHfTn-sTVxP-k8w0QNOakOE_JKw4QNE1WwGvSi7r8HBGwCBYKuGIJbEvyNlEH9Wrs7Jw4qMd2NkrYtAV2ZhGR5XkEG7qyAhmgd1AQC-a-OhZ91s_hTQaxwuyi1ERUnmcoIdOPXicNbqJlNLa-9ZtsejwQHcjqF6N-FXrlvYDY69EqB9fS9HCPsecN9T3skcfEUdfJLYukY9LRnyDNXtCKdLajL_cUSK8PW5V1IBqWiN-co7qWF5CvkNVgoput-_sUIVMpDRGARpf_TyVPRyhCUdQ",
+        "widthPx": 1920,
+        "heightPx": 1080
+      },
+      {
+        "name": "places/ChIJSStU26TPD4gRQ5FbBm8aEqw/photos/AVoNoXQJgwvnx7cXSl4xlqmupnvlTo0Sq4yeiaRAo7nz3i_9GcpJPzT8XxCDdY8-33XVWJK0vb7MXN3mCpUz6DAJ9nPHcqgluQ8eRa6xxMSWBpDnGYs4s8UCSYwf1HERNKvI6ox77u-Qzh4brwlmmhoIrY_jwiVyeLrZdeKs_y3j1na2TKKAPi10LnFQS0gVJfxZxEre7H-vyAbahVc6eaD8h4XfTFw1mT9qmo82WlcZnnoaSlvwv7t-tda2PVPQGyPlEA03kLhKd66l7ZgtKhX-l0vw_At-uBzWmpyvpECFymVKYSHVWLPI92MhtVOXGZzP9PCjvx5p0CoTRxc85pHQY7-DUYkdJm6E_jtGbEBHenRMjPIfZU6aoYUTw-KeMd5GZLShQYYLRFvAExTvJWVE3hRBdSLfsLc37qpFjx_TvDjoKJvNDlp_1dBjJftDbBkt",
+        "widthPx": 1900,
+        "heightPx": 1423
+      }
+    ]
+  },
+  "sheikhs-n-burgers": {
+    "placeId": "ChIJx4-xSjPPD4gR3ER37j8EP0Q",
+    "matchedName": "Sheikhs N Burgers",
+    "formattedAddress": "7158 Carpenter Rd, Skokie, IL 60077, USA",
+    "lat": 42.011033,
+    "lng": -87.76228379999999,
+    "rating": 4.6,
+    "userRatingCount": 259,
+    "googleMapsUri": "https://maps.google.com/?cid=4917653990742115548&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://order.toasttab.com/online/sheikhs-n-burgers-skokie-il-7158-carpenter-road",
+    "openingHours": [
+      "Monday: 11:00 AM – 11:00 PM",
+      "Tuesday: 11:00 AM – 11:00 PM",
+      "Wednesday: 11:00 AM – 11:00 PM",
+      "Thursday: 11:00 AM – 11:00 PM",
+      "Friday: 11:00 AM – 11:00 PM",
+      "Saturday: 11:00 AM – 11:00 PM",
+      "Sunday: 11:00 AM – 11:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJx4-xSjPPD4gR3ER37j8EP0Q/photos/AVoNoXSxxb2I0E8Qb84NR3NMR1UKjfBz0_eHYF9qKEUpD0eWK5kiygigEqObWvaqT4Q2vmrBCqoYgNcX4Qs9SUGReA15-SN9w3Y0ENRmJoSfAdDVLY2_DTvV7hiPckdqC3jtfATWX6FG2E4rj32bLvl25cysq-oGsChtvPokcZpVUDoNi95wuA4nKKZ-OmC4PYH4DNqgUlXb0YtVoiHlZmOGqdQM_wsWm40bcvEjdtP8ZmQmijTRlsQi5B-CiwyZgqduu1KG3VOQ2D5B_yqv5f1I6JsgzmSJVvmCiC2mj_A3QQdwd9K6OhOZ6p_6xk4OX027ZNTe6eYpHqehaWu3tDReuiymcsxyBcqB7m6lvtCS4vXwX8f8gYFyng5w-xgHtrJUt6xIHC456tM3jOEfPEzfFp_wyc8MP0qt1EfyOwSKHehR",
+        "widthPx": 3024,
+        "heightPx": 4032
+      },
+      {
+        "name": "places/ChIJx4-xSjPPD4gR3ER37j8EP0Q/photos/AVoNoXRvEfsSynJ5mXCE217RecBEKmgm8JrZZ809EtGQ9V0lcRPrnWYXRRTC7nJP3a0w9LZwWhxmXK9OmlwtzoNWST3j9BamlBTXddjmFxzxiUwlSCTJMuL5uouk99hPnEmNgEBZP7SGOTfEsukXeDh43yLNwt2C6lVFB8o-3XPEcgAME4IhClMirUdJff1cL-V-aQ7CSg_V7UUaG1kppzMmHDq9aUYr05IYJofUoNoqVEwy395pmfG5DgNhJeELMGFiRFwyqsnw2O-7RxM1H7S9ZCAFzqG1TlaJiB3xgFO4mtiTH6145TAeNz0n2rE6QYh6vliR6KAKzjpEhtTvan-gutxjz3taK3jju2cthwtXk9TVV8U7V9hNe41KHLyIouBERWCOypiWGo_9D9w9rmD2YLrZCyuF9mohTVnEK38rm_UVug",
+        "widthPx": 2882,
+        "heightPx": 2304
+      },
+      {
+        "name": "places/ChIJx4-xSjPPD4gR3ER37j8EP0Q/photos/AVoNoXQMViYoZD4UFSVaEfJPuouYfl1oaki7Lf_uuGT-SJJyinIEio5dnbc5avVos8W-Dk85alWi3ggi14_liMKJLCJLBW7xEnXM8DZGAU1qW-bgwq4-WjSs_8Pbrp56Lp1E1Zpxk8iIK8T8GF9nGJQNylSoBmeibBKWX5cYjEKg2o1-yFwGqzJfl_-t9-cSGulh8FKzlcNpB6wCq1OAwA2G1LACVTYjJiUb-ZnavooDVzUMWedF-5dWiTkHKdjB7HkOlucuxV26_fXqhlGNu6X-HFf4W850Cqj45bU_syRYJRiNyr0YmQzBDc0C9s-jWdDBJVsJwx8eO2AnMVSiAem5679GwMBZ1Xve5fMJ0lSxOEngyLsJev-TztqOwE3eH1C9-sn9yh_uKAwiF_i8WO5gRJNnfbebvDGF1j3fO_ULqTpc",
+        "widthPx": 4000,
+        "heightPx": 3000
+      }
+    ]
+  },
+  "afghan-kabob-skokie": {
+    "placeId": "ChIJY4Pnx_vJD4gRmANn1JR-vD8",
+    "matchedName": "Afghan Kabob",
+    "formattedAddress": "6002 Dempster St, Morton Grove, IL 60053, USA",
+    "lat": 42.0411742,
+    "lng": -87.77668129999999,
+    "rating": 4.8,
+    "userRatingCount": 593,
+    "googleMapsUri": "https://maps.google.com/?cid=4592684897694843800&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": null,
+    "openingHours": [
+      "Monday: Closed",
+      "Tuesday: 11:00 AM – 9:00 PM",
+      "Wednesday: 11:00 AM – 9:00 PM",
+      "Thursday: 11:00 AM – 9:00 PM",
+      "Friday: 11:00 AM – 9:00 PM",
+      "Saturday: 11:00 AM – 9:00 PM",
+      "Sunday: 11:00 AM – 9:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJY4Pnx_vJD4gRmANn1JR-vD8/photos/AVoNoXRPSC-RtlgQyROWPj8SDKelGyVPCGTisP4ro8hYyr2Yhzig8YR1coAWzO02p9EPtSAsBKH58pTPNOkMj41w60SN0V1lNahSvDdUumS6WCI5TMWx1rMCeKCJOMN6Eiw-kW9rAZ_x0mIKUr5gnCqn6JBJ9xoxI9Rm1bUPHBudwJFz5aq4KgXhtSaw--GWUbO_LG9sPqSPxFIXSeRcdqwz5Kf7GzUeoTij2Lc816kjXYc9gXcotDRg-lobrHj63nrGDcIhZzJH7MUyVKIWDSksdEsfbfFT8dDG0vm029j6dGivyFFZqZegF20fwLxstfwfBRMY-EX21h4VLEreM213xGddoXI6zsnD9p769YkCnHyYxfmngFTQoMIjEUYztlNxwQSVDAK9jp2ZQqvMYiUfRKq3IWYd7YNcAD_D2cxKPSv5_qRf_FCNkLGz0oOCyRuC",
+        "widthPx": 3024,
+        "heightPx": 4032
+      },
+      {
+        "name": "places/ChIJY4Pnx_vJD4gRmANn1JR-vD8/photos/AVoNoXTzHg3en0FxIiAYYLSeYTni769WWf_WUie3lxptG_ashOf5YbFLNv_8XD-ase0v4R1mRKp5g7bIUCFPeOdA3Dw2q5R3u0irgI7529c6dW-i1bkfYqPiFbQGJFb9n2qgVzIBvBiB6RKq9CNove0mK_GurUWl4j2OJgUnoBCZqzlrMiqK02bkaH1x3cQ2E9Qr1YkxSEOXP-rvm3XwzRVvY3pN24tv4wMOteM2gRZau6Ne8tpXnTjoUnDCHq_j29NOr9QgDXtX-ok3bBEI3T-s5blL6YgtynjixkVdXu2X5btsK3kSvF7OpTMrJxplBdBVWoZdQV7ddHLZLIZB5wRFuhDOMPt2ejA6yypMiWinLZaA66vgPdRcXYs7Tv_-iHAy2M4dcQfJ1ESfXyNa8EEeGtiw5OQJ2meTL_CLOYioT3KctDQQ",
+        "widthPx": 2945,
+        "heightPx": 1658
+      },
+      {
+        "name": "places/ChIJY4Pnx_vJD4gRmANn1JR-vD8/photos/AVoNoXRQEXeudkIzikaSQwsDGR4r7YRq65W8WfKeY1-2nJs3j6sahkFtsbA8PpIfOsoAjANMbd9ebVVkP0EUT70xKQtJbvPztJ1611tdXWl3BjwARZVo2tOYsVF-1ZE6bkMzl1ki8XcXGTGxsUdU77KSC-nh4e7EQy4gzzgpNf8pwV-vHf6HF8_nAD6tOdjZFlr9nr19K8YfwsovTlMjmANQaqb0yJUB3xDdeqXiwiPbm2kge3WqfnLXuhNPPlhqdJAIKgRXgKAVWB5in-zulTGwaBxJBg-Dc8ayRr1Ojb00gy4EL5952pvtLjN9LoRLoLGXjp8SVvU04E2iqRQnQ7OXBuQjFmvZBHcMpM-pn6kn0awNyIV-k0ZgbQ2OxAryAKgVF6QbT7LWgbvtln2AhEmLFhvBJSa6cejcEc86T-Adv2W25j00dff-zNrgX604FXeB",
+        "widthPx": 1024,
+        "heightPx": 1365
+      }
+    ]
+  },
+  "byrds-hot-chicken": {
+    "placeId": "ChIJG7shkhPPD4gRvsKux-JTUfo",
+    "matchedName": "Byrd's Hot Chicken",
+    "formattedAddress": "4839 Oakton St, Skokie, IL 60077, USA",
+    "lat": 42.0260162,
+    "lng": -87.7492876,
+    "rating": 4.2,
+    "userRatingCount": 630,
+    "googleMapsUri": "https://maps.google.com/?cid=18037290216073380542&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://getbyrds.com/",
+    "openingHours": [
+      "Monday: 11:00 AM – 3:30 AM",
+      "Tuesday: 11:00 AM – 3:30 AM",
+      "Wednesday: 11:00 AM – 3:30 AM",
+      "Thursday: 11:00 AM – 3:30 AM",
+      "Friday: 11:00 AM – 3:30 AM",
+      "Saturday: 11:00 AM – 3:30 AM",
+      "Sunday: 11:00 AM – 3:30 AM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJG7shkhPPD4gRvsKux-JTUfo/photos/AVoNoXTZyC5EOPhUG0D3-he8CCDjvbU5LEVNtUry37qi_NMIn-djj59r6TkOKK4S4WuUg1ea1qDAEKggHO2VhyD4JKhDAwCs_zT9k1GzodSDjmVxVzdAHVgCZW0wkakgFSj02nK7KTu6fU646z3202tlQwN_PRHOqbiFTGXgaIrUKWlFJaTilDCssxCXvO4Rh6i2Jzv5xC2orolhq5Udv6CHGK-m1hXjPIRKSGqwNd0JLGiV41Tx1a8HI6VKXeRXTC5tO46_mCMBQPKY04GoakL1eYutBMjzirVmlSiClzSUQYjvRvTmg9X78rNhtySU_mT9o0YNLFR-YHU8qxAFVTSQ97OHFvKa16r95lHhJlCnZBubAAzoPTBXgEjkHlzqVjxTHa0XSUPYPCx-paMeWT9rt09f6A",
+        "widthPx": 4080,
+        "heightPx": 3072
+      },
+      {
+        "name": "places/ChIJG7shkhPPD4gRvsKux-JTUfo/photos/AVoNoXT1NKS1BS7SS5O251AeD2GCsdPW7QkrKmbVojEydlyIEymGrprqcOb-0wuA_7mqfDEM1vplhnWBoSsw_y-kq_JYcSN46S_Mfi-h3Yoy9CxoBlIbw5c2cIZJD_3mFWvuCjdDHTdRUzEh1ZreihtMJw2eZl5OapeVz6YmSx7fi1psdZUcraAX7N2gCLVa-r-eIqjfMP04rOqiWECzSvvCwvWQRTJ-lZvvFXKtmvCjbDndRMaLRd5i1CI_AAS1CTFfe9-QbAnk_bd-U4cFZdQtxHc82uYtxtk_IXaiveitOMvrW1d8x6QvXVSvPzIZZRF93VCW2e7fDe7y4mv8Lo3kLh4BLG40H0iYW6oYQdQCybNmq34wmI_o9f3TORdnEK7uehYI_NKVO4oRT6qSSc31jF6IUYQ8-HCfB5NRC1xc_xOmcg",
+        "widthPx": 4032,
+        "heightPx": 3024
+      },
+      {
+        "name": "places/ChIJG7shkhPPD4gRvsKux-JTUfo/photos/AVoNoXRdmaLZaSoVJRF8I3lGH5dvOyuuv_L1U2cif_-zguYurzTwFseSVrxTdbWvM5f-QyYmrqJ7OlvvkByAMuaU-3Ln8MKtTbPmnfib67vFj0Rnfc3Qe0Hxi-kgSScWp3eXOsT_Y6RZS_DT2Pb_tgkjAPB5UwEzxR97THz_r5_RLAusgl1x33lqdMtYtfiqT7ZJfrJpFt6IUOcJ5DVSVz8L4e0QmeEtEloy8vjiiNQm-Os1bMjYVK0vntsL1NEuub8FiHR0RMp432fkAlvAVhyL7ziewslS32YC3XU5z1xoFjhkENXcCCI_eKQZ1n2TKQni6qziI9jnaEeyGPZ3S6s6_McYdMbKkDVoeejWDjt5n9QnZLwK0I2PD5P9ZBBoVmzr8JW15dF9Edf9fEUgOUH4yvhCIaRIppYGgrwlZyAJvh1stw",
+        "widthPx": 3024,
+        "heightPx": 4032
+      }
+    ]
+  },
+  "barakat-restaurant": {
+    "placeId": "ChIJp4SoUwCxD4gRA4Refu2cktA",
+    "matchedName": "Barakat Restaurant",
+    "formattedAddress": "1090 Landmeier Rd, Elk Grove Village, IL 60007, USA",
+    "lat": 42.012743799999996,
+    "lng": -87.9695596,
+    "rating": 4.7,
+    "userRatingCount": 862,
+    "googleMapsUri": "https://maps.google.com/?cid=15029247450330072067&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://barakatplace.com/",
+    "openingHours": [
+      "Monday: 9:00 AM – 11:00 PM",
+      "Tuesday: 9:00 AM – 11:00 PM",
+      "Wednesday: 9:00 AM – 11:00 PM",
+      "Thursday: 9:00 AM – 11:00 PM",
+      "Friday: 9:00 AM – 12:00 AM",
+      "Saturday: 9:00 AM – 12:00 AM",
+      "Sunday: 9:00 AM – 11:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJp4SoUwCxD4gRA4Refu2cktA/photos/AVoNoXRxPjiU0BeeFWnnrutP3PuMx2a1gjhBvHoylbxLH3NNyGr8PJKnayZkIjPw4TQQjH9hIQj2TYn5Rfg2JZ7TcG6ci9UWSLZST0Wk09rY82TYQTl544phJUy5x2QbGDa1G-IO4HUzwI_amOXekw-P463hdOI1H0sWWjvlep0g-c3wOG2XZzrXJigNA-4vSWNh1IE_OfIT4zqeGwLAVOBbPS5mbIiRhRFoCcfXY3K3F4FAvO_o5DUirHUFhCXTT1wPhMMOuVmRUqNictcj30C4nVLpNes9UdtFVG0U4k4Fth0v3EIysamtNwMVBXVtpmzsNTlmqZcxVq8JDWgxpgPy95GiwfLjbieLpEtG79Zo4jSBGMwAd5gPnr0tK3OvR0ngOgsX9SDDMyOXOSUtqQhwEagVLwlTxX4qPqSxNEy09B-Tzw",
+        "widthPx": 2832,
+        "heightPx": 4240
+      },
+      {
+        "name": "places/ChIJp4SoUwCxD4gRA4Refu2cktA/photos/AVoNoXRq8Eb68Bey6nxcN5dK6e2VeUUGYMCERlr19k_mgBzQzEdYwaJ4SNbxaQGbKE8MptGOsJZqnZBpq2o1s6paBYKf1xWgttTOEX0uGv6I0_q0B3icvti6EPNjsbt5w3Ynvr8cNDl8tZcBNbEh1IRy-ZaCcqL-Arv2XgT02cAlLt1-QYJ7u4IU2hYTtIhhW4Lxsb3vZQSjF9BaAXyUI3v_z1toHuDvPXo5NOWZV8NIsAnM-7CCvuoCbxm2i73klhXXZqXSt-mt7CY81A5f6Aq_MQMpiRyXGgITfgHu4LC6fdmf_CIXjhciTC7UPH7CAOLIm6_GTOxyKjQfX_a5WqiKFHo39Pyi4DHunJ_CY50L9gYCZ0DjOPQjWgbdKwEwferTuM-pknNkd2EO11b9CI0UDreESr-ckSEMKcSe1-Qd4lJDvw",
+        "widthPx": 3024,
+        "heightPx": 4032
+      },
+      {
+        "name": "places/ChIJp4SoUwCxD4gRA4Refu2cktA/photos/AVoNoXT3Qv6gxRI1bWudVn3-N55nKvbT8Ec9gm1nOIilabRXALSbuFwQBV2KvLDIxdPWDnN51wlZn3Xw2vCn6X_ycfUmygOHjQVn7hz2h29REhTcrWKmXAdtq6leTnHvbdyzuDrbggLymECj0yu6pjjpzIXM0q7ZQr5v-kHBmFKwZRkAB-HNnjfweXVQrpOV4Il-o_WYXFZTyLRx5W0pwbV9HLHKmiwYJNOYV5oNeo-pViGdQ18uzhWzH3lh5nLUK0Ntaf-SvCbsrG63w5lShJPkHGEWfMNb2MuN45QJlebjJROSPAt_stUPl4Zj3d-Lol1leTt-kOl79VVO9-Hi_T5SEyYQ4ylQ80y6rGYJigUKKv87vx0s0C0L3WyG8mji-_tSfFj-YfPsrgmWMD6jNXcMaybyW2Q-zFQhekzXf-v5YSxRig",
+        "widthPx": 2832,
+        "heightPx": 4240
+      }
+    ]
+  },
+  "ali-baba-kabab": {
+    "placeId": "ChIJpfIlTrivD4gR-DCk43kSCmQ",
+    "matchedName": "Ali Baba Kabab",
+    "formattedAddress": "869 S Roselle Rd, Schaumburg, IL 60193, USA",
+    "lat": 42.011392199999996,
+    "lng": -88.0789013,
+    "rating": 4.1,
+    "userRatingCount": 831,
+    "googleMapsUri": "https://maps.google.com/?cid=7208594468279431416&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://alibaba-kabab.com/?utm_source=google",
+    "openingHours": null,
+    "photos": [
+      {
+        "name": "places/ChIJpfIlTrivD4gR-DCk43kSCmQ/photos/AVoNoXScemGFIgusLeuHFbAohEzl4D1VNgfXfBiqaB2IM3FVUDT8zg1n79iZa2myUj6_kiNCUkiPU6lZOg_8eKpHy0sX3wa9m8C_e4b9efhWI3WOpaH_qcDUANEs1ju-tWDGeGr9Z6jL3jvrukglvhKP-_oywmVUMtP19GUacx218yA4gyvxIfGpUv2K1qfMXKCEmEtHNUjroWzisgPP8aAVKp-4q3yuTi1tXJ6tk9U0ELNRTT-p1dhxqBlPri_twm2Mg4OQjo8GRXIdOTUHDL3UZtGq_9YBis-7D8Nx2v4Y0qKB0n4lZ6GfZepqrW6VnQ5HrFe8OD1AwBsg5bkBudLCTRXGJ216qprRVVk_yUhII6i93uZuqIUFx6esD9iu1yN-q7Lqs2wXKGgm3CnYMuVlY2_vbxn6vUV7jafFxIbSJ-663L17",
+        "widthPx": 828,
+        "heightPx": 811
+      },
+      {
+        "name": "places/ChIJpfIlTrivD4gR-DCk43kSCmQ/photos/AVoNoXRnQNn0GeIKRxGuqYUxZfniBKrNaqXshjaxIIRsi9YiTDUQbEOruoV16jPkSkyMOMi1O1G50LJKSby1bDoyHPBc67gR0xqz_F_wHashqMRAKK_qclPabcMNdBuSZv_28U9ZF2xmcBddrVlMLBNTsj_RMH2bCepMdzDXP-AJHx43wBbPnYC3EBNXUIrmnKJx-cTxv3S2C_zzix-dus_aRrqKWmcr4b-b86XEc4Bd4jcz8x38yQ9WelG7gIYYgI3v0IxtorgoznzkaRuQUz2Ko3WMqalw0S5icB9d4pcARFArblzoJ5ottVU54SXj52tM2lmMsTSDE3yUJHJ41jgQp6Fo6yfjKtCs3d6hn3aqbTM-t_daChaGsVCiwIpQQLmwnCZL5XI_hWmJqebznijN3BOa8oKWqYgGYdr18vsU4ZNkd0Y",
+        "widthPx": 765,
+        "heightPx": 1020
+      },
+      {
+        "name": "places/ChIJpfIlTrivD4gR-DCk43kSCmQ/photos/AVoNoXRENSLVBasbhOU8UWqzL4SSUUMFE8MLJKeOlAlAc6kFXc00Pxg89Lv_qSsMIIHkxAZlasQe9NqwSACTq1iBPHhLlEiLZT5E9HXGKcTj3tj9F0xADYg-PsH8n0XupOto9CxBQwirHKkg10ZugqBs-43rzNVCvNiEFDXFp08wODx6ijmseUEdJ3Bgv8ozvwu14Di4cA94cmkxZqhB2TCeqbjcLlIpzi5e-SVf95UnkgQwEB-u3RPD4yuyiwmwQ7ImBAV58UH5xz6ndw7ybNXjbx4Kr8K8aLPUvl-GPNuA1hg4Z3Cl3BSjQ77VBmVsTXFmaZBW6affkPXSUG8pvBpccNT7hghY45W1J2_bah3wXybrpl00cRvLeEK6_bGst6VszHEW9wbtARfsq_z2Ryjr4JnwWwy0UL9x6__BJdQQFloXv7fN-wlxAb9kpW4tdy92",
+        "widthPx": 500,
+        "heightPx": 500
+      }
+    ]
+  },
+  "curry-naanstop": {
+    "placeId": "ChIJ0fTk0n-7D4gR8Kmds8rHBCw",
+    "matchedName": "Curry NaanStop Indian Grill",
+    "formattedAddress": "338 E Rand Rd, Arlington Heights, IL 60004, USA",
+    "lat": 42.112721,
+    "lng": -87.9783391,
+    "rating": 4.8,
+    "userRatingCount": 938,
+    "googleMapsUri": "https://maps.google.com/?cid=3171879710986447344&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://www.currynaanstopil.com/",
+    "openingHours": [
+      "Monday: 11:00 AM – 2:30 PM, 5:00 – 9:30 PM",
+      "Tuesday: 11:00 AM – 2:30 PM, 5:00 – 9:30 PM",
+      "Wednesday: 11:00 AM – 2:30 PM, 5:00 – 9:30 PM",
+      "Thursday: 11:00 AM – 2:30 PM, 5:00 – 9:30 PM",
+      "Friday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM",
+      "Saturday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM",
+      "Sunday: 11:30 AM – 3:00 PM, 5:00 – 10:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJ0fTk0n-7D4gR8Kmds8rHBCw/photos/AVoNoXQfKeasCVVz1yCM_XUjEiPfcNjpwx-8ruPgH6cutkFYH7LN9hVCoEKrgXWjGQwiolEhmMCGM1i8b52RdFTx6OiXlkB3jNkm3RawgLBIdZCsksKrG02M7eH2mhovDNXAdpVDpKNuSyrfYRLVoSfcI02LlJZ-SlXiQ_-OwSlsdfE3GYLV1Rr-ttw8F0b9ci0iKEHTWYwRcVsBdGSpddcn4MvkGBZXY1YmhyUlQjUn8z5efM_wVg97IrPUHL-6KKyoeoriAtKd26s_Lk0gAKP90rJozs9KqgREUtH4WSwoF3_ecZnpLsH1EKctE2dTKjwLmR8-XBbTfZWflOfDVDyQEZICrD3k3vmDuLYYzEe3n4gZlEsyXISAmTTXABsBfQl-qlVOZZ80jWtrCfoHVq6z9m5c3Bg",
+        "widthPx": 1600,
+        "heightPx": 1108
+      },
+      {
+        "name": "places/ChIJ0fTk0n-7D4gR8Kmds8rHBCw/photos/AVoNoXSLRSz_RG2qqiqVjrhlfmCzCbMqXFd-vXt7KDi66pUHjhAF9fhCLH8PWYzufhXiTOisHze_rltoB3piZXoTZJIRCsgQhhJKdWZyUwzBJWle77O9NR_W3FMcon_5rEiJjkrOYEPJ9LhlwtfarjndVzu9L_DIC4fW2mC0pIJrLgN6DYcpx7moAxF98xTdJufOpphqmk-RnJUCHteB_W_gHO7EaISGLfXyc2arvNPoh3r60-BRifKfMVekWcnYoX9gQ1qPxHpg7ScbO8W8dKnAbLK03W4-BHRADVQ1u4I-22DDUv1mp4NcVmfBBXqy30GguAxVSSt-Im5r1SVS-QwdiFiqvl8DAe3lDAo6pi0TPcpRFNmM317t6QO410SNJ1dp_l_oQofgzlbccrgC3jGeZWkb6cId-CXn2SOWOe6M5ZVDEg",
+        "widthPx": 870,
+        "heightPx": 672
+      },
+      {
+        "name": "places/ChIJ0fTk0n-7D4gR8Kmds8rHBCw/photos/AVoNoXSouPpKC2be7aDmEfeaQ_tP2U2FzFuH4onLN-uXr380AY0xV2wL8sfU_W_mBmSPt5548sCRgJmsn0K-qhM2o9jkjkp3TRL6EKw_Wrq-5ZanPWNMRc_bYJdN1nRAqh5SkORfTfo07yUO1zHqdCEHjGmd_5Ule-HkHx-zVtt3L-ZpSL8UUqUl5G297Pd9SHwie64Vz69QvkVMjluoch-TXemjVScTv52TjT5JSWZIQBzodu_jMQ1nv0Yn5aJG9P-uU_PiUsZrROdJbwm_-ynsriSTZj5uH4-nOhMJ411QNkMOC3-0qCuq6Rv8CRFrT0R-Z3U30Hm6SaIHBVso8ugyaqJ-jnd8CRiq3kMTIMRw1u1y8c9o9Cvp0ZL4Dm9AF_Eh1uDpwrorKCweyP98MGudxPG48DhxS2g67c7W_IidZkku3Q",
+        "widthPx": 4032,
+        "heightPx": 3024
+      }
+    ]
+  },
+  "uyghur-lagman-house": {
+    "placeId": "ChIJ0xH42aylD4gRU7Zmvh1713c",
+    "matchedName": "Uyghur Lagman House",
+    "formattedAddress": "2997 Kirchoff Rd, Rolling Meadows, IL 60008, USA",
+    "lat": 42.07745020000001,
+    "lng": -88.0167031,
+    "rating": 4.1,
+    "userRatingCount": 599,
+    "googleMapsUri": "https://maps.google.com/?cid=8635506178184885843&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://www.uyghurlagmanhouse.com/",
+    "openingHours": [
+      "Monday: 11:00 AM – 10:00 PM",
+      "Tuesday: 11:00 AM – 10:00 PM",
+      "Wednesday: 11:00 AM – 10:00 PM",
+      "Thursday: 11:00 AM – 10:00 PM",
+      "Friday: 11:00 AM – 10:00 PM",
+      "Saturday: 11:00 AM – 10:00 PM",
+      "Sunday: 11:00 AM – 10:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJ0xH42aylD4gRU7Zmvh1713c/photos/AVoNoXS13sinPksrBSKDWOu5f9UUe4SxTMd4_6_rSBJjzFM1vbuMhkiGGEqKwB8DrEXmQKb-yP9ktayhPLC3wiZZRrM--FMEotjcNMdhzPaHKli0iSGEpoZlaIiugisgrLUXXV4u2VGpnP_ReG0PhtC26gVHUoZz91d3guHNRoSp6FDUmLpQw_OCc3vKr_AOcQMjV8jJUM88ainVo5HsnCLf5TNfLiYAevgbweDYFe5GHr6cEyzgz5xL8S4lNDw3nqMMhUZR59WMIXh4E02g1XDEbeDsMeNlyJGO1Rt1yYwbrJfl47ZcemuBCONRkah791O4HkEhucENxkmcmQjTEwn8izgZWGAoHBO4cgsYFiECgrah_4ewX8M6hOlsFAr2yg_53TXlEXcw4ihbn0es0VsVZrsAmXnGtzQnBx_Ab6N-_nV3aB9Jdo4Dc1jFae4Maeoj",
+        "widthPx": 4800,
+        "heightPx": 3600
+      },
+      {
+        "name": "places/ChIJ0xH42aylD4gRU7Zmvh1713c/photos/AVoNoXTCXmTFz6A1S-AWB19Ut8_graN7_wiHkD7JFyrWLPk5uX9syggKfODbKrAlTqQJbZvnbKiKIAaq-WdDdizqfqnqwt2vB_v8SdUdLoJumy2JN7TInfmPypWHJFmr_ydKezWW5SmSmLau7JvJ8WDXXyQ3tmwNJMujMeA3JqonSmALUcHTi64qOfpEzVuItXWJXNtrTejFi33fUNvGX4RA_CjdpfdYj42HhL3QCC3qbLIP94Pa5eFbLgda7m5BhUV81uPgJRI65IosRniqfyjDptRtd1SK6m4LvofD4FeplgrfsFjsmncQ9iDiT24kwG4jgnj5duz8g8xLT6n5RuqK-Pqp6xjk_Y2gwaZnyUFS_WS3z0YasVgD2jCCxFGbLUT2KJeEf25jo-4wtqwu31SktteHiKM9XIHUTDc5iKXi7gdW6xUFGKPhqhs6XRXGzA",
+        "widthPx": 682,
+        "heightPx": 435
+      },
+      {
+        "name": "places/ChIJ0xH42aylD4gRU7Zmvh1713c/photos/AVoNoXTgpCE_n261TkbTMWtMFWcJqrvsdilQaQFlVsaLg7pccr_BfhmqOvEOWlN8nA5-a-fdCcDUi0U7-cMycYGUBVKS1uicmtkhze475MEX2mYKkAPopMLEeM6W5Lta41Zi8o5Z_XIZiQ2qdRsTAjpt5fWDo67Mhczj5IM376ktpbnoyRd4Q79lSC4FtWzKHpwwH1vFSjYoYd2uh26ln3Rv6bVJSmF9DRLpI1XDYHdjLE2akBAwZrNht7EKpgKEiW5Z4k0wKtG6ja7gJddRe4lPaVDnsR_7SlN5JGOe9_FoWc-61Ah1CW_fkPofgKFi8jxO1cjGTIWDtDh3_v0Fsl0cSc4KUnF0SssWDSLkNup41_YZ2AZLxPvgxBK83ezeS3rM7ST2V-R9mw5DbX99258bnkB4v_viLcPgPcquPERCpbSzO9CL2857-gpNS6wyw1CH",
+        "widthPx": 3013,
+        "heightPx": 2110
+      }
+    ]
+  },
+  "mazmez-grill": {
+    "placeId": "ChIJ0ynyHVyuD4gRJ5msbo09JIU",
+    "matchedName": "MazMez Middle Eastern Grill",
+    "formattedAddress": "642 Meacham Rd, Elk Grove Village, IL 60007, USA",
+    "lat": 42.006267699999995,
+    "lng": -88.04689049999999,
+    "rating": 4.6,
+    "userRatingCount": 968,
+    "googleMapsUri": "https://maps.google.com/?cid=9593860783862487335&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "http://www.mazmezgrill.com/",
+    "openingHours": [
+      "Monday: 11:00 AM – 9:00 PM",
+      "Tuesday: 11:00 AM – 9:00 PM",
+      "Wednesday: 11:00 AM – 9:00 PM",
+      "Thursday: 11:00 AM – 9:00 PM",
+      "Friday: 11:00 AM – 9:00 PM",
+      "Saturday: 11:00 AM – 9:00 PM",
+      "Sunday: 11:00 AM – 9:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJ0ynyHVyuD4gRJ5msbo09JIU/photos/AVoNoXQqlbzBYB0UP4hHFZAQVtsdryoDD0L3IxWuO585AUayBCRuqu2FQUeQu94tNqsHQecIXrAwCqcCHA4L2f7089vtlh1uqfDKk2E-6QRNWYCLsaus0a85niw3zaRNXt7kVhf71WV7AWJ-IqxBsIT62IKkaiiiEYxtRVURtiiDyARcGSJ1Os6TByL2Du70JjyAU0X9fA4QaqzEwe44DTjnyzzigXWYRS1i8WfIHTTFthotA-eyx4tr5Kqysm9n-UnYiK-lVbI1-AbmhVyLt0OC2K9iZ2cmHoG9vOtSC7zjx_ZqNhA_aT9Z4UtC0L0JIaSizE_vf_vBQv1tK1VRigOvTEJ45zbxecEBfm2OjKwGLoErZ-QpctwVJRdC46qwJaZEu6PSEET2FGHktouBEB7dye5xg25-v9-crzr_q0umB52Ozw",
+        "widthPx": 3919,
+        "heightPx": 3011
+      },
+      {
+        "name": "places/ChIJ0ynyHVyuD4gRJ5msbo09JIU/photos/AVoNoXTOsFD6WtGgcbDIel_ZIHkXwwW9ipbDoaebZf9fm9YGFqBo-dYmv67PW6GkzuzjvaDxWPb2ojok2u6CCwGoS_u8DEOMrFoKFMezleKrp2iZU6aVYHNyXqhPZyJUUo8YsZPNgIzlItCEvdyhVWph_-ELJdFdzAxelLUzCOASYfPoC95jVzymLAOazHTJkaB6C8-Ldu8a04YO2y5bGfOS_BxNVTyPYdiqy9CgVEFGe6WEyptLHQFdDrh6HKYZlb8zqWcSTPrbtzHQ3wFLFkvrdoKjNGobIJor-og4iJXAsQLfSIOFxw9Sp1JwpiB8VQ0VNvRI25FysxJW0H9AJvIZxnEIjNp_GvxMTnRl-93Wb0C6dLDieLKzIHk2nqj5-xAnds5_0HNcPN36qPxIF0qYDxMObvuqvjJhtTbp853-nDvr",
+        "widthPx": 2100,
+        "heightPx": 1500
+      },
+      {
+        "name": "places/ChIJ0ynyHVyuD4gRJ5msbo09JIU/photos/AVoNoXQ1-8OlMLxGq1ALwP1cjezFyxcLuEhGOydV8oI2VQWD6IkgVNQw2nFxPFqqN1_KsPGpjkwagiIcOMze1tly6jmSWki9f9vJ6EyktbqJB-fxBH5itP-sf5En_b9Cf4sFkZnLs3JUA0f_lqPZ3lXwIWl4Dv1-J7e-dFEuHDD1hwy20i9o211PW0G97doT8WSr32rw559gsdPrRnvVwDwP1Cv4clxIopbIa6TGdWEUd--ZsiIUNfMxoM3GJ1b_dF242mywHCw_xenIy81qyarK2xPIXGjIanc20if_BCO5HTI8A2XVtPAO-KYxRiw405fdvxjP35smQHIMWae0Oi8DYI3q2zhF-kj8zwR-nmszCoxL7zbzdpyArWxood8vKQqQvqrwxcKLLSIZ0-607zhVAUuS-HcOt7Fh0auyoV1rf2tZww",
+        "widthPx": 2468,
+        "heightPx": 1904
+      }
+    ]
+  },
+  "a-thousand-tales": {
+    "placeId": "ChIJb98F3-axD4gRPa-lKqlnH-8",
+    "matchedName": "A Thousand Tales Restaurant / Bakery & Cafe",
+    "formattedAddress": "2340 Elmhurst Rd, Mt Prospect, IL 60056, USA",
+    "lat": 42.0237293,
+    "lng": -87.94175369999999,
+    "rating": 4.6,
+    "userRatingCount": 4823,
+    "googleMapsUri": "https://maps.google.com/?cid=17230604675605442365&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://thousandtales.site/",
+    "openingHours": [
+      "Monday: 7:00 AM – 10:00 PM",
+      "Tuesday: 7:00 AM – 10:00 PM",
+      "Wednesday: 7:00 AM – 10:00 PM",
+      "Thursday: 7:00 AM – 10:00 PM",
+      "Friday: 7:00 AM – 10:00 PM",
+      "Saturday: 7:00 AM – 10:00 PM",
+      "Sunday: 7:00 AM – 10:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJb98F3-axD4gRPa-lKqlnH-8/photos/AVoNoXTIburzd8P4VBW5TfHytzp3T9fGfDj6toRJOu38npcufoKcuy2gas2997Tgu0n4bJ-BkILJuuN7rV0ZUJF5Ekux0ioaVf_diZJ0zl3RvcX3Zt8gDGqKWG5nRO-xwlme4zueIPc3TVKzMHVhrCEolhoyu6--sS54Zg1cspwBh72LhOBZXy0TsPRMmoxJRL5q1vCcfMEeADckBZpKN2lWE9DjtwQmZeid36PBMYnsO6umUgoU7nnFfWuiuZfzFUfq_5-KarTk9jtx84-SlS9T6owXN-plMBCoyEQkgoK2uyND113NMGbvcPQkqElNjo0e17OqqjHkwyi9i41D1QpLtWh-my49L3pUx6F9Gxr2aZE_8UhfZNCuXYr3osdaZI6CB0gUCwHCg8EG-BtPluLfMJnh3Vu82cd6V7daBaoviV-PEA",
+        "widthPx": 4000,
+        "heightPx": 3000
+      },
+      {
+        "name": "places/ChIJb98F3-axD4gRPa-lKqlnH-8/photos/AVoNoXTmqpcO0s958zVcHTXnIBqDAhMWCyaN0RCTr9GSoGz0KO6_wq7jPv3A_SptVrsoSy9VZmhDCcUJMdqLcm4wJPwdRvrMwoJH8S1AY8zc1domzhQ32m_kx6rb6DcbiyldysWWzdoYC6wAO8ts5wiPJcdsXjc8iokShVzt7FH72wrTzoIKN3H8HlnYUKcpW_iKJ-sXt1kv6GZ8jzvjk43aQFLLjDyioTEe51-hFP8YapGOZBs3C2bk8e1tlT-pUGOBF4dQjIpfmsW4Vqrl7v5sMeZTtrBs7uYSfPC-cR9QqIy0FgvMhC_J83yb-9oYsgoOyK_mgGJF84ifWWVHsx0SmTfs1QA-Pqyq9yps7ElHh6G95iqTRsOMbJpQMsw9ccdtJ0GCTR0X334WXmhthyYBS_uiWbLBteSvh_bbl5YfBe5d",
+        "widthPx": 3024,
+        "heightPx": 4032
+      },
+      {
+        "name": "places/ChIJb98F3-axD4gRPa-lKqlnH-8/photos/AVoNoXS3wg_b-t58Jla6FsStT0sBf14knvc3qIB8kzEptUbPqYmZlnv5ZpyS0g-_ipR49BOqfqRbMsolR0FeAos0DYcTp465J0YwSJwSv32APJiJORuhzVjhX861yHtpuLHAQr_SgMN2ldCn-tYjzOiAHL0wv8eOQrKEVHQ1ik7dV5Y892UjPckx1staea8NckyBlzFD5cchz782ytLyYngokq-6TPzKx1Z2iIU1XaCZvDO8OQeITXEQljMJfEiFH6eQGImYadg2DSFAoYoNSFRFDCpVoWVj5X4UElkqpy9nYlWzQKn23YjVk4n2imFyID_3zREplBZq4nZcbGPOPMrSAfun5_5eZomBflEzSVWdouW88vFgxe1crOuBBJX2b3Ym4hbijnVkhxMP75Ng3KMU62Im0aNE9RM",
+        "widthPx": 1080,
+        "heightPx": 1080
+      }
+    ]
+  },
+  "jk-kabab": {
+    "placeId": "ChIJMVlmuq75DogRj8CqpqBwBEA",
+    "matchedName": "JK Kabab",
+    "formattedAddress": "572 Weston Ridge Dr #112, Naperville, IL 60563, USA",
+    "lat": 41.781009999999995,
+    "lng": -88.21284299999999,
+    "rating": 4.4,
+    "userRatingCount": 1244,
+    "googleMapsUri": "https://maps.google.com/?cid=4612935753627517071&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://www.jkkabab.com/",
+    "openingHours": [
+      "Monday: Closed",
+      "Tuesday: 11:30 AM – 9:00 PM",
+      "Wednesday: 11:30 AM – 9:00 PM",
+      "Thursday: 11:30 AM – 9:00 PM",
+      "Friday: 11:30 AM – 10:00 PM",
+      "Saturday: 11:30 AM – 10:00 PM",
+      "Sunday: 11:30 AM – 10:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJMVlmuq75DogRj8CqpqBwBEA/photos/AVoNoXSwHGx3YPL_WcWk9DheO63qa8vRqasSijrR7KMrD5gAH3tLKjzZbhJpEDT6f6rEApagaUwvlX54vMS0Q_dr4Oi8i-sFZz75-7IZvcBwvCNX9Lwr55ViOkVbLQ9kfhUihICKrRASAi5KeOHik1KjFtPXAudpD3rhfBO0xwcwot9jTTi4NBhRWIBjsvdUA-LiAbiv_GDM1kMS4bQHH_5nDFyDv80AEhc196C4e_FPBy2Eo9UHVskvtOX6R9T_dK6zIxxzmWVKxeq1Y1MFGmP-YytnGo7Vcp92hohNFrs9KP_Euom0FuT4w4WOILeODVJj3IXQU-A52hK-XnhyxWTYj1m6W-Ayfw72w7_M0wsqnMwzvkJkqu_ijyYObUgIjDmrUjQ56vmf0eyKti-h2f_bXzlyIw",
+        "widthPx": 3264,
+        "heightPx": 2448
+      },
+      {
+        "name": "places/ChIJMVlmuq75DogRj8CqpqBwBEA/photos/AVoNoXRtSGY8S1PVjNDeFR1kWPGLXSl0SM8EwNkRw_64b_PK3pnTc_Lz2jgsBE_4Unm-bcma4myz-9s8Kdex_Nosoaf8OVHf426PGBPYgRTUyLslLLDnp4AfkSabik3YzTkbQpXAQZ4ZmTrG2uaclKB4ES-kr3fHr12xDw5fkxTt1Rdi5A1wJJIuYu7QuCdyFk3B4YOcz0relXWinQWOGxU5IPbcYc--7QDILvj_nMXb1rCvTNrhghlYhUxJJDHVTvrQrIjJ97gg3TPW7VAesGN57syPBV3SYi3nAIszooHVvHzEdYqE6y97IWMYP52c6zEXTxOXCJyXiT8D76Mp4uwixvFu6a8kcabud-bEDxAU4Yy6wgAujKKD5g0CjgZmIONxISA4fsSXqpMKXumIa5cUt97vMg",
+        "widthPx": 550,
+        "heightPx": 440
+      },
+      {
+        "name": "places/ChIJMVlmuq75DogRj8CqpqBwBEA/photos/AVoNoXT79VUUX6xXF7dmCwTIRuAWc-Z1Vmn1hg7MBqRbOjFxzvqIInZ22XcKNJcsza7JcMuE91zExk1uznlobEZfLcnEEIYm-IgewLjtoKBzS6wjeyCXodzRrSapqIsKCQr-UvZ689cV3cimOVnMnjtEJQ-3EIrPXrKfL9h56iP7sety97zAJjPP3RxdFdCEV5OFycWrf1TEsH5PkAhJ0dAXxdOb6_3mUwHir89T2SKJHKNfqD7sDfN2M2WsXTLfztxvZO0QKJUIWX3sr0E1JVzLunrC-kOs9oOXMCjXjEPzepyDmFyhhxYtHs4SI4m-Xz6HBHU3xetsG-Xu3P1Ps7WDtUCb_QCE5iQ1QWs-Q25NH2ZVWL5WQ8u7Fdn2o48HcsXLxK5BN7JSJYFuYo2Jl_XB55Im0AMNC7dlhCH4C2LaJK9EuQ",
+        "widthPx": 3600,
+        "heightPx": 4800
+      }
+    ]
+  },
+  "habibi-shawarma": {
+    "placeId": "ChIJJwWkchNXDogRNyYGhEuHBL0",
+    "matchedName": "Habibi Shawarma",
+    "formattedAddress": "955 W 75th St, Naperville, IL 60565, USA",
+    "lat": 41.7496678,
+    "lng": -88.16483459999999,
+    "rating": 4.6,
+    "userRatingCount": 267,
+    "googleMapsUri": "https://maps.google.com/?cid=13620159931482514999&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://habibishawarmas.com/",
+    "openingHours": [
+      "Monday: Closed",
+      "Tuesday: 11:00 AM – 6:30 PM",
+      "Wednesday: 11:00 AM – 6:30 PM",
+      "Thursday: 11:00 AM – 6:30 PM",
+      "Friday: 11:00 AM – 6:30 PM",
+      "Saturday: 11:00 AM – 6:30 PM",
+      "Sunday: 11:00 AM – 6:30 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJJwWkchNXDogRNyYGhEuHBL0/photos/AVoNoXS9MuLFEswwKDRjvd8iL3Ehu6dCesB-OAnn9wYz_A-W0nJU0w1kkriWdoJSw6suG27uTPdBLiXsdvSmDK4rxmoMN3H-Ub8wqFF5saJso21x4sOoqeuIMpgOOBSOl2Ak2f_4cyGQhSwUtztjKgSMIRdjPc0vV1gdPLWL1Lia1DAYmnekSOuhDTAEQsFjsAPGd-p7SfZYIA3m2SmzT7hARMWGx7Fvd7hSHQchL65meQvT2M60Fz9_K8QpkLiqtopJOqxORdEU_GyT1uvwt9QBQoczieUseN_2TJ9eyRcmmmnbQClnBdMFfPFBZwsDZjcybb5TRgQzHn_3PaX0evJ1W19f_X-kuGBAwSVEbsFlx3vTuyseXQPo6NXJljBF4ApqKNZWP-Tzu2fvIYlrKaTclinGOU2BOAO7i0mm-wDyDS2fhQ",
+        "widthPx": 3024,
+        "heightPx": 4032
+      },
+      {
+        "name": "places/ChIJJwWkchNXDogRNyYGhEuHBL0/photos/AVoNoXSKAb2yGfYzyMx-o6LGVYFBAY25QE4ALn0rUKcyOe5H2erWxLcMTTA73bios95JiDQRS57271clrAS4iMDSUGK4djaSNSX_-EcOADmwz9wMOjc3UJicsAZWwjlFcg0gusLrgtT3CMEGxmw7y1524pGn8MkwRrnq_mRg7AvMrbPkfl-3PULgLqOR4_QK-DXLAVfFCBWhQbaUMlCFf7F7mBstqbQ1xD2KpRCeGdn8bhEkmvFTuS-n_7dDrLwqa2Aa-IhRLM7zGvZGZVrShjLt-fWajdXdjTyklgbF2AEkj3GWXSyV0a8pHySCtfQdFsbbA0ScpSG3C6S2dUvzZO-oh6l7DNnWhv7RMQGizyUeXFb9p3kPFZSZDNn2pR19IYGn0beeihvMWRZxw_No6lAv_0T1zZZqSmZheiBpu3spXlbdvw",
+        "widthPx": 3600,
+        "heightPx": 4800
+      },
+      {
+        "name": "places/ChIJJwWkchNXDogRNyYGhEuHBL0/photos/AVoNoXTBkkddhwPF6h_MVcNK7fISktt2n4xFiGrS7j2_FWZbQQ85Wj-6mohVT8u4uGNnz5rcasGJvbHpWjidqrQCTvArzHrXOgkr2dQacEJD15Ju7WfT63VSYCIWXg1-PFdMIuB8cv7ry7RK0n4np5p-yKoGz3taeB442ubPOsocvCVObpgTOjRVXd8voF1dha-Dja6fmgx3zMGUNFKfqdK1lXIKdVwLDPW3WzVFiHKhLIPI3MW1-HYk0o9jpKcdQ6NlzFm5zMiPo4221rku33uM_52Y8iwxjuyegsfd5Dvl2NS02tmPbH8QY-Srn5GDNABgO9diGt3g8riN0pYFHkC9NjfM-a8JmA_DhNv6Y7bumEjaqYbHVfRAAqQvgfx5r4swAyZy1OCFu45TR-uMliqSzMEjKRc",
+        "widthPx": 3600,
+        "heightPx": 4800
+      }
+    ]
+  },
+  "halal-express-villa-park": {
+    "placeId": "ChIJU3Co06tNDogR3q9Q21uqbrQ",
+    "matchedName": "Halal Express Cuisine",
+    "formattedAddress": "17W731 Roosevelt Rd, Oakbrook Terrace, IL 60181, USA",
+    "lat": 41.8594602,
+    "lng": -87.977322,
+    "rating": 4.4,
+    "userRatingCount": 537,
+    "googleMapsUri": "https://maps.google.com/?cid=13001516485763444702&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://www.halalexpresscuisine.com/",
+    "openingHours": [
+      "Monday: 11:00 AM – 7:00 PM",
+      "Tuesday: 11:00 AM – 7:00 PM",
+      "Wednesday: 11:00 AM – 7:00 PM",
+      "Thursday: 11:00 AM – 7:00 PM",
+      "Friday: 11:00 AM – 7:00 PM",
+      "Saturday: 11:00 AM – 7:00 PM",
+      "Sunday: 11:00 AM – 7:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJU3Co06tNDogR3q9Q21uqbrQ/photos/AVoNoXRpRr99monCQL6yRxeDL5k3aXb6cj5R3h-pE-RXRs4kVSIgpn7vWaBmuTVpmjxcXPcaKsMPB7nMQqxSEqBlT9PyZ5To5_ZXO_4FbAOFpCd97fmBQW26D8Wu6V0ebATiDLadN8_LcEb3U3srYgXx7aWf1lQHAGh8LH51agbklfsn6kSdvpDMVA1-WfG7uqd6uYMyLHqmviiHil3ZUJSRDTAilVjCAvoiNSEjJ02QaERDblZh7pBAE1sCjN1sgKRg3EHe0IIKQDeJPBZE6hCOaeuLZ64qbWSb8DqdPcxHWetBOOzYmhCPXvT1Y3vmCly0YcpbRN379_XOUAFMsF_nChe2QEuspbHAU2OgPxz9PF4nPQCfPAAOBo1huwjgF9iuUW44sDyzD6uakfhkR310uRv7cu1LQca4lDBT3Ep5sDktAM8",
+        "widthPx": 1333,
+        "heightPx": 1000
+      },
+      {
+        "name": "places/ChIJU3Co06tNDogR3q9Q21uqbrQ/photos/AVoNoXRWPeYFrAEdbRbf3KkPD4XNgzqZjqcR6YRiKiduZl8oSUPiIOCI8R5h5FIP23ZRYFElM1Oa7T8Q1ZWpffF0rFniG4El7vIkJtPi8hxB-fZNRu11-f_gsr7AL-O8V7SZbYs0gV2dCvE3Fdaxla8wKRfQKpq1ws_Er0nHzydwAFJ3KI9dbRD2KcjsTze1gTcvg2xO3yNSVL5kZmp_RoDZeZdv91rJx5kYgASw9FOjx5hPkgvOjOchKZOwry0dLlnft-NMQVLvH76uXyzggQzhlu6MsIc3KpEC3_UxTrYN06--Kz1HvY0MIGJCcnt1C6ZhSmcfdUA2lwefJrRoBJT0-ZgbUb-RwJtfK_ZEe2tBZ4iFS41WDUYGR7b_dGQ5N_I-Em6B3QLjgD2ZaLjR_jaIvUuaavYbRroqvROHIccF5YsZdg",
+        "widthPx": 2592,
+        "heightPx": 1936
+      },
+      {
+        "name": "places/ChIJU3Co06tNDogR3q9Q21uqbrQ/photos/AVoNoXS_ZDs-rX46Kc4yEiCtu4UOjjFvs72ntOgdIehE_bmLf7PKr4ALOOAoEo4kkTikwR4zXzFRBKhPZAXIw9DcKansXfk7Sqm6f0pdkRBmKDKP-xUBNE1q-7oKZgWUZeHDGqZ_k6AH-mO5pyAQ5s3Q04yVvTT1IN5B4jKLdODW9VmtCJV7wOybnUGPKyvHbkp-NQmW4ZZcsU2Ua_TsnHT7zcE2QJJJLlnT14wFJWE_kGHkYBTDXDZR-hGZOWOXgMj_AszR0V6Cy2TZgq-V1kPlCy0UNkio9Pyuigdy84Rv8o-M9xTMyHUCMlEkJOJKpCGKjALvDoDNDp6oYqAGV5xBS06gQl7qLZhPH-HYmU3vogad7_YtKuXX1GNl87RoEiZggG9XFpJ4jQolWESoKIfNWlR8vJVXqONZQcu81pBtQXxHzg",
+        "widthPx": 2592,
+        "heightPx": 1936
+      }
+    ]
+  },
+  "biryani-pointe": {
+    "placeId": "ChIJK-Mv_nxSDogRyfKk3C-zR_M",
+    "matchedName": "Biryani Pointe Lombard",
+    "formattedAddress": "40 W Roosevelt Rd, Lombard, IL 60148, USA",
+    "lat": 41.8603841,
+    "lng": -88.0194173,
+    "rating": 4,
+    "userRatingCount": 952,
+    "googleMapsUri": "https://maps.google.com/?cid=17530177092709577417&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "http://www.biryanipointelombard.com/",
+    "openingHours": [
+      "Monday: 5:00 – 10:00 PM",
+      "Tuesday: Closed",
+      "Wednesday: 5:00 – 10:00 PM",
+      "Thursday: 5:00 – 10:00 PM",
+      "Friday: 5:00 – 10:00 PM",
+      "Saturday: 10:00 AM – 10:00 PM",
+      "Sunday: 10:00 AM – 10:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJK-Mv_nxSDogRyfKk3C-zR_M/photos/AVoNoXSgm1VPdTZUVTqakOMgQ4ayrk0AXR0Z7cSzQscfKiswf7QSW-KVeA-XsgTfl9wpPuyhk28XOgf0DCUNN_nfxdif-g-NyeJEb6IZTbLrMD6SLvSGovQowzMZQ4VXUKeFid9w12Dt6EoIP7x-3nMrRf6uE8vnNMh3XyMDfS23G13eKNlgs6E9f6zOJ_4LNzH2KoXp6uvtFXq0afCIsgtvfQwGbnQ3AIEXAhHUtUC5iRTCXCMDy-fixFqJA7rM3styf7V1B7XAvnYrJnfYZ7_MjjhfJEEeHg79XR9WqZto3wsja5ES4iOU5_R0-Lu4ie3LXDW5Oq9jncgI5MGVAmAnn5-EejmqMuB1Tm1IPoB7DPIABjJ2ykoe95s2YG10ywFnI3I2M9mvIY4x0F8mf6LCvyA9V_JsRI0ZFLJNX3m6EdZqq07ib7WvqrLBQdU20rCB",
+        "widthPx": 4800,
+        "heightPx": 3614
+      },
+      {
+        "name": "places/ChIJK-Mv_nxSDogRyfKk3C-zR_M/photos/AVoNoXRW8bHkMTF4IhiS7NmUpZRt0TszdN8kZmV2TYLa42p9eUaONrYKRacbE0ugv3aHLgZoNND7afUrrxnoDztspthSZyzbANafEVFqKHxIN_PBoi9bzGh1Lyp7KKwSf8fXDR3u-2dXq-pPV_ntTbGDb7O0Av2460cgo04Mmv6wt7BdFrEQ9Q1rsWZ6j4u8KsrWMk-wmhlu8-diljxs3DPMog1ioeyNB_5sWXM9wq4q2Vick_lAb2v4wJRKWG_aZ01yJ6hxbQ2QrmN557Q0kMHCvbLbSpHx6EJBv1iv5-4SB42AehWZvJ2fgUrmVjvNglUTQ2KRu6DrxKKV7GEBURqdZ7nJMuHI3X4B_LSmKn1NAGGogu6XGfFnnM59-B7II0ULE2teqtPKCxt6Nn5nz0V4_7SzBtTNMkcMcxWGebp0Ap6ml-Ynv-H7e2c_Cmp8p7_M",
+        "widthPx": 2946,
+        "heightPx": 2349
+      },
+      {
+        "name": "places/ChIJK-Mv_nxSDogRyfKk3C-zR_M/photos/AVoNoXQoBIz2JeRApRAML1fA3jS8JeDJHbOmLurthm9f6Pf70jiyzuLCvKQVKL3IU-psuiCTwgtM1CfVHPBfSnNqiMhmUtZA75oos8gt_Tv3yTFFLPBDn2ZPtxvZ-LiueRi1TXnfv0Rm0y1VDqriIIS2fqABH2PdYdMPixYcGfo6bUmFT2vFwzb4wuoD5w1fJo0BMn0UiIB8e9b_VeniyAAU0hwmc4SSb7jG51ZGAIGo6uEOaFis_8CZVowbKsI3M9Hm_L1kBCAodMJpHcz_p_c3dChkUFoYNrRXu6wf_1pz8L5cck2lek7M3_kVWSC5LjeZ6HDuMZNBX9KS74nl-Up8ucZgy-qpbGuv3wUwkVHIihVAx-_XBbEDsJI1b2WUjFKmL3G8Wo_YODTbdsZ_8Ts2OfSSdyMJ_RgPHhw_yiR5yvURBdqEji_ikSs007BmCSgA",
+        "widthPx": 1280,
+        "heightPx": 1280
+      }
+    ]
+  },
+  "tapri": {
+    "placeId": "ChIJlQUJuf9RDogRKLrHYpP_wqE",
+    "matchedName": "Tapri",
+    "formattedAddress": "6430 Main St Ste 130, Woodridge, IL 60517, USA",
+    "lat": 41.768969899999995,
+    "lng": -88.0705651,
+    "rating": 4.7,
+    "userRatingCount": 541,
+    "googleMapsUri": "https://maps.google.com/?cid=11656159794070796840&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://taprisocial.com/?utm_source=google",
+    "openingHours": [
+      "Monday: Closed",
+      "Tuesday: 11:00 AM – 2:30 PM, 4:00 – 9:00 PM",
+      "Wednesday: 11:00 AM – 2:30 PM, 4:00 – 9:00 PM",
+      "Thursday: 11:00 AM – 2:30 PM, 4:00 – 9:00 PM",
+      "Friday: 11:00 AM – 10:00 PM",
+      "Saturday: 11:00 AM – 10:00 PM",
+      "Sunday: 11:00 AM – 9:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJlQUJuf9RDogRKLrHYpP_wqE/photos/AVoNoXREqld-ntAwuxhwWXTgR6AxfAHgPx-ubq0mxeOEo7a_0GKMqjgkfnxk8X1SGYukoPWshQKmIDFkXR1dXZomrIaNecXU2IrqP6XQeNhSBGuqHJeLOwS8RLBF5PH-yfYNS2lZDg81f9f1Z75J4jNK8fGhkr5GDLn9LHp62gVF_gxxDcF_wBZH0q-V13CFiJEw90pmsuMo9aRJWxRCkV_Nv1iMCeaHAnnfGJgTpkI7dhgjCrw_3YclqXlat1U_VqM-Z-uFFxKkCsfYyDXDEzh7ldxGm4RxKFNmxcHT1AQR57FYMiGB_Lalj1j9pH4uM2epjcpoDWAU3gm7OnYq8tLnGtm74sW_GNK7Ntof9SVH_jlk1DKJ91370yr422lGShiGSsF4OCmZVKzouE0fV4ZsC3qV1t4Fis3tgzVKXVO-LuG9sghIIe1wHcjAtIMXw-XN",
+        "widthPx": 4800,
+        "heightPx": 3600
+      },
+      {
+        "name": "places/ChIJlQUJuf9RDogRKLrHYpP_wqE/photos/AVoNoXStnAwkACP5AGD71sH0K4QaB975_aA5fr8afqdfY-0crfaf8PJ6rQxVpwr4tlDoiwS-SG5wgAoQDHtlESyfKsP4RryXSeaLl4TWfNvPsGF31n3HWm8A0IrXOPa8cDIBKlslZoGkCE_5RmuFxmgqmPh9jUvnoOr9btvF2GY9sRZsxow9iXFzmggQ8JWuqLHpNrlTQSAjd8DScx0fnkDe6-U99miKLTt2IkDryRkMJhLspDoR4hnI2B70RKamDpZxrKCYMMMfZ8LMZDRQ7kDnNXGjnkzlZbAEHG26JqopN_12r3Mbg3XOl-gSWnjZ0alm9ZD-r0uxWKytjFCD0y4xkaw8TtCUELlkqBIsxfYPlUpuYie1t8mGCibT0PfuY_JSmyWXWxarRszQP2EDLdVOtInybg-ek2-9RF5RnXTJvJEkbel1twYUTdYsEhSfhGwn",
+        "widthPx": 4032,
+        "heightPx": 3024
+      },
+      {
+        "name": "places/ChIJlQUJuf9RDogRKLrHYpP_wqE/photos/AVoNoXR1Ojc5ngx7Nv0wmAKVhsUdtVSjKPB4U4VEPPvBbtAN-7H4jBLtgnpO16vY-uw_r2DVm5BkM_zaHbSTT4Z8JDYFbAZDh5k3jT-SABc-68lqQVoIBLEawrANt0Axf-6vOsSnrdIH9SH0VGxRmalpEH5zQBq_p7RZsj2B3u9bfUyTa1nfm1h6_rVtkyWcBZSpTo_1a9szNllcQcO1CTYrgJR_zM7dLMFh24nhfOReo6YCIGxZHV9c0uVf540MDFTKxHV0cU1fdrmolTvmSNOhQceByTxiIDFL-H0-cm6CajiWVop74bwSSML96q4XuEdH7bb6ZuUOFV1-3crgbWNEyGfHFzxPY0UDanEYM96SrvcOU8uE2IFzZlKkRJH4sH6qcRNa4-XV6RMHvNVSNcF_5sMeVoJU25FLMsg5HCX2WR5-vYzAMJkhmGCcOqNEMr5T",
+        "widthPx": 2000,
+        "heightPx": 1333
+      }
+    ]
+  },
+  "al-bawadi-grill": {
+    "placeId": "ChIJs8og9Ns5DogREeC8JXB-JZk",
+    "matchedName": "Al Bawadi Grill",
+    "formattedAddress": "7216 W 87th St, Bridgeview, IL 60455, USA",
+    "lat": 41.7338135,
+    "lng": -87.8012114,
+    "rating": 4.4,
+    "userRatingCount": 7421,
+    "googleMapsUri": "https://maps.google.com/?cid=11035365482075840529&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "http://www.albawadigrill.com/",
+    "openingHours": [
+      "Monday: 10:00 AM – 10:00 PM",
+      "Tuesday: 10:00 AM – 10:00 PM",
+      "Wednesday: 10:00 AM – 10:00 PM",
+      "Thursday: 10:00 AM – 10:00 PM",
+      "Friday: 10:00 AM – 11:00 PM",
+      "Saturday: 10:00 AM – 11:00 PM",
+      "Sunday: 10:00 AM – 10:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJs8og9Ns5DogREeC8JXB-JZk/photos/AVoNoXRfm56m4CrWkpcYXREAJyzuJwxoVJaSPFD4WutIHGlOjPG_0LRxE_fZCdTvKdpcXHP95lQJFySnFePHr_udATkDwMTY6HdxgtMEVF_t3eC-SmpRPxzM98P2yzi7V9bKlu2IJOvFkZSRxcmICtVIwwmEfI00fLfrWOJgnImPyiP7RIFilDyakPWolZV_vbq2sYoH4tc0KWuIadw0BdAUhhL5B75NoHf7fNA_O_flgRd9xd0yT2g0jfon-uNRrRnXS6Xdcq0z5KQY6OTOlhTe71_6dt7_3o7wRmUMvZuMv_1vOFaXVtkM0-Gj6xN-Vi11Hb-xH_isWePyyExcXLcp_mJgpJEbll8_tyrCv5ByO6OZWLDyRRaAT-63-5S8T4BTeP8HO6xPyWSDYftBMcku90unUbBKkvs",
+        "widthPx": 4800,
+        "heightPx": 3179
+      },
+      {
+        "name": "places/ChIJs8og9Ns5DogREeC8JXB-JZk/photos/AVoNoXR3I2RyxDWyS6IHrnUdSn6cUqLWPmgbsJtzKK7YAoCuvFEL43PjEPo2d9fWQTvYn8pOcq09uSLpBo4ZoLr-ScPlLsWSzmCj4CVlFxffNADyCkhLdtbFp0C1VokvQyxocgQUN7sTAx9nEZre5yqgRr9pvpHNcSv0OuFHAeT_o9FfeTHKcLRDF9JeTN0iWqV-2pSPZgfRgwDIOycwW8XvuEZGYNpwk-1BBZcY310P478q9NULNglgBebdnOd7zzE6t_biA-iKrmQbmGfM8sPLhJN4Dsn6VCjORrMx7YFyf0KOy5_vMbds04E7v2DHvA9lTd357lWbAXoTVqSTpuM_f2QBf_AjSKw4J_OPpDZWCPQnZv5hLeOw_aR6ZKFn1HRNQQt2dh9xpUOcqyt5um997OIr3yApI-Ho6TwV3tdjxi9PPQ",
+        "widthPx": 4800,
+        "heightPx": 2700
+      },
+      {
+        "name": "places/ChIJs8og9Ns5DogREeC8JXB-JZk/photos/AVoNoXRd4c6y2ULErloCUls7QPbJE1_yhO6rZCyIdcYb0xq8YexH30kCrw4mnAojJ1f7j0R2TdB_KEvK6Dhk4XLjxzHvhU0JqYTtsvbs-RQ3XzcTlCOH7JRJGC-SVePTRrVrUMV3lKpfka63bOPw2BqMX4w-Wa0yBj0T_HLHl_LmgleXcDV86GE9_xbYHBsM1rY_CNoYRn4yvifwIGOqJTN9umL8h79X7l8G9arbJ0PVu-djGapg4eCzrR5IwJeydOjxzdcKxRLJWnWnbuoILoyQGD7NbNCvn3c3UqRdMUcqKjdxiMLtJUGu_Qc1gC89tZwdoh4XvHAgeuak22CnpEqpXMdXPxKN-OGp8FqjCe2N6aucB5s_WGrJRBoUyVFE4YJ40ITe5IiSJGvY32ynCLdZbepk3J7oMwhcuJtv8bkErnIYrA",
+        "widthPx": 3497,
+        "heightPx": 2400
+      }
+    ]
+  },
+  "nariman-restaurant": {
+    "placeId": "ChIJ-SFwKnU3DogRYyASQXk8kak",
+    "matchedName": "Nariman Restaurants",
+    "formattedAddress": "8312 S Harlem Ave, Bridgeview, IL 60455, USA",
+    "lat": 41.7403823,
+    "lng": -87.8001354,
+    "rating": 4.6,
+    "userRatingCount": 259,
+    "googleMapsUri": "https://maps.google.com/?cid=12218613755513282659&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://www.narimanrestaurant.com/",
+    "openingHours": [
+      "Monday: 10:00 AM – 9:00 PM",
+      "Tuesday: 10:00 AM – 9:00 PM",
+      "Wednesday: 10:00 AM – 9:00 PM",
+      "Thursday: 10:00 AM – 9:00 PM",
+      "Friday: 10:00 AM – 9:00 PM",
+      "Saturday: 10:00 AM – 9:00 PM",
+      "Sunday: 10:00 AM – 9:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJ-SFwKnU3DogRYyASQXk8kak/photos/AVoNoXQrmX8raqaEPMXNU-vIAfP1ZigYHdWn5kkZm8WDsYBEoT4AKCnMf7S8D5PR_ndTR6_xVjWOHJdzr3kFA2MeLg_1yFZmdsofvbsspZmFAAU1vTxOtL5PU_dw_l8rK4dbwmevlZIQwnDlfqvggvG8H44S1QQpuF68HCSy9W3XWTJTXstFnXU7b7XZgkPS7PJCRK-PVV680tiusLx5q4uDQKEB1RzNJLpoe5ba-RfdaxrS5UEGcoMGqLCkTz3hExMzMPc5emd1T8kalkJtxxexlEVZIJEjc0YWWJI9WMqgYPySWoosO6NK3OEGQeiU1RSZ2vRF7UJO_4D-QlrER79I8OlPo_f1SQ2HfEHPa6fScuSjnzZ8RgvnlJEgwfJ5pwAbau-05kSb7GSSViKn3Gdd9SFBJV1LjZTsmnKnVxXH_IY",
+        "widthPx": 2688,
+        "heightPx": 4800
+      },
+      {
+        "name": "places/ChIJ-SFwKnU3DogRYyASQXk8kak/photos/AVoNoXR_NGxTYs7-HrZeQSfRJhIHo3_hMlbvE18s8Gk09Ze3UEtdZEgdEmfbRGVMoSVmQfa7qQJrbAlN9tqzmjMrGdom1qLl8LhNZRzHuVNl5t0LUKFJRIckgG9T8hIM9yi3uPhAcn5BshXtKZKchE8PzuqtnaXlMmaSH6x69Lm5saiKk93s7fLZlxSsKKXDqomLXskYHOvNh-L7ordrJhArjlbtM6iB6XwXTKrnSHbPl3PgczurHUGYGtshJxRiJi3J_pManK-W1WOXzaICrkbECJJh-8f4OH5szOwV0GE_emsNCWJ8kzoJvxf_QhvYT2ETr15vDkU5V0cW8CX7bh2-Q-_Y_u-nljUrGi-w0W4moQYUWeOg7rRPyb09yKUxzrcQyHIQAppb2CZ9m-y0mueMQu69ocqeLHudh6v_pbiQmxNLjw",
+        "widthPx": 1920,
+        "heightPx": 1080
+      },
+      {
+        "name": "places/ChIJ-SFwKnU3DogRYyASQXk8kak/photos/AVoNoXQckgvNNEtKc1VNuMPeOATw1VY-5h-Z6BSMBG4wIGcrc_DH7BeDtBwXHpprEzJiICjoy5vXdYLTFWB53OgtX783rpeKuTbcoaK6N3ZVpErml016U4n0NVk3xkrcJCSvE64zd3imyutZH0Uij1EVqVWcyopfscJUO1lIZx2D2QVwhYW6Hel-0_lB_y-CSmSrYNfyV1qRPC0PM_2bNHyk5gl0qDpXfg06CTfwbA2VO6ZnRCCmdQiqTAGa6DQtRP9LR9S1d4a2HH370_jnRlXxGAhz4Ua9iaD2Adhd490Elqs90_Sux0YRvTfR0O-WfnFLWnCz7lJ2k_5jH1PkNg-PZXi2YEdz631x8sSwppscEcl8vxTXCAJC3tGN_7TfWBfUVBawl6iBFc3oB30_7UrBfeeYKS6AiUVFKl_1Ck09BeN8i5LMyEWDTZG-LkAm",
+        "widthPx": 3024,
+        "heightPx": 4032
+      }
+    ]
+  },
+  "krave-restaurant": {
+    "placeId": "ChIJAZMjfBc3DogRID5DbG7j60g",
+    "matchedName": "Krave Restaurant-Bridgeview",
+    "formattedAddress": "7022 S Harlem Ave, Bridgeview, IL 60455, USA",
+    "lat": 41.765505499999996,
+    "lng": -87.80213289999999,
+    "rating": 4.3,
+    "userRatingCount": 1752,
+    "googleMapsUri": "https://maps.google.com/?cid=5254543453660069408&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://krave-il.com/?utm_source=google",
+    "openingHours": [
+      "Monday: 7:00 AM – 10:00 PM",
+      "Tuesday: 7:00 AM – 10:00 PM",
+      "Wednesday: 7:00 AM – 10:00 PM",
+      "Thursday: 7:00 AM – 10:00 PM",
+      "Friday: Open 24 hours",
+      "Saturday: Open 24 hours",
+      "Sunday: 12:00 AM – 10:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJAZMjfBc3DogRID5DbG7j60g/photos/AVoNoXSCfK4LC54Sg_KWX2yW_MbyxcY00VyDAidPPXF7yvDYF7LgNj4g4VZSlPgTZvuR-G8mBijf2hluwc6jjlhPYXYnIDaZsnD87dfcG_Bj1NeFQLTzZR0JdDrYYiWWx0YpNa8P1bdhIlWjJU2tef4YdJoAlkPYOkniX0rGtUkvg0Slqq_5uu8K77YeU08N_rk1Q7NPkW-62ZcX9C5PNcmD3CANTCNx9EFMTJXrJx8BTapO4Wh9KmBidX9WSgVOWTkig8vBGKihttdalcPT7LJurYEsy_2nOMFygDHaQe1zmNPJwX3hIi87YCVOaVWIeYNKwrdturU3oLGpiQWuCMfTgbSfLCRlEgE1HzIVHZNjpQDFZD3c6xE5icOTGMGiEy9ZEIZICmNNoqhun5x9Cw7uYmhZnzM",
+        "widthPx": 2048,
+        "heightPx": 1366
+      },
+      {
+        "name": "places/ChIJAZMjfBc3DogRID5DbG7j60g/photos/AVoNoXSK8JA2VH_xS7-8A6SlEkKJhXB1F4HgL8abxWNKaTSUl9z7AtLffzSXybFPTW30A4-JE4iIHavJMK3SHeplrX24yOtiZ0Zwf1wufV7Wkz-L-jHrhVkjww1q1YOXzSCvDjK7lS5IYdPc86z0Q5mMD4nwGKW1hazDI4AP1RAxmQKqaXEOagfJCdheCVgp21H2GOjHYt8PJx-R0zDO6NJYnMRugI2ncv9zJBa8Bfqx8vMwcKA6494y43NKcv6h18xdCO7jyPLlOC5BwDRlWZLmgKbPAA0ey0lPBtnqLv0PS3MqeLFxKqIz3Boqzy6fEKw2NbrhFl1M_bRa51zkM8vgJ6NGRj0EGxDlVR3JTgNK3oq_3Lfz8H6JEhqWzJjrvOot3E4PgtrSo92bgrJf6jg1LdfBWxOr94GlBwE3sfbVlvEy",
+        "widthPx": 4800,
+        "heightPx": 3200
+      },
+      {
+        "name": "places/ChIJAZMjfBc3DogRID5DbG7j60g/photos/AVoNoXQgHhcPqpmKcpHpiHhUbH5gcFbHmHk5vYC7RbIBndR7iH70GMWqLTAxr3pU9T2xuWQOixejuK6xFU1rst5X4uQnPie85ucP4QP8XByV2_lj1z5vOEoxkChaoogZmpjJBD7bEcs0C60vPfLWNC3mEIX6ixafbhxYSvVZqRNpRzdnXEeo93QnUTKz3INlol7lDm6RoHAYNTU6A0FeY4TEumVaBNGmf6As7qcVjXRUTGdmzqaflmj7E4mmv0tK2RaAyJyvAxcU_nTCxh_KQKUBo8W8_u4fK7LRnbQBCqm40OHu-_kE3UKlSWT2CmcledIA4I9F61W30F99EIB-lJnbjLcNHCF6Qxbm3oWvDgsxLWl_uk3VOObwnCPyQmNYcdwwBZEdupQgtXF-4JAv2z41wEBiqqSLpyVtAK07ehhYKGzNsA",
+        "widthPx": 4032,
+        "heightPx": 3024
+      }
+    ]
+  },
+  "mdakhan": {
+    "placeId": "ChIJMb48stQ5DogRcqKyox9eVZQ",
+    "matchedName": "M'dakhan",
+    "formattedAddress": "9115 S Harlem Ave, Bridgeview, IL 60455, USA",
+    "lat": 41.725904199999995,
+    "lng": -87.79835,
+    "rating": 4.7,
+    "userRatingCount": 3900,
+    "googleMapsUri": "https://maps.google.com/?cid=10688552780617130610&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://www.mdakhan.com/",
+    "openingHours": [
+      "Monday: 10:00 AM – 10:30 PM",
+      "Tuesday: 10:00 AM – 10:30 PM",
+      "Wednesday: Closed",
+      "Thursday: 10:00 AM – 10:30 PM",
+      "Friday: 10:00 AM – 11:00 PM",
+      "Saturday: 10:00 AM – 11:00 PM",
+      "Sunday: 10:00 AM – 11:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJMb48stQ5DogRcqKyox9eVZQ/photos/AVoNoXRSiACNwqex_gWQ28CIIEAlMLawWySf50lJhDAk8xW5NTmRPWcjzbprRpi2pNO4FE4cImPGMVayJ_QDi9FzKwNLQqO0Z0VJw95RLuHwrkzazSW-0zHrmRVUF07RcQF3Ye-mwY7MoLkNe039tpnGMsYdTPofr2Edvli18NNX4ZJV1ERoNoxapuiVSsDRCZ8jo6VY3N6rvZs48KfeTHqe7ir_F7jMovBwmDU6FET6skVPO2WWzsvFj9tMZR2wCtPYO2y6WqFyfB5w1NH_4sRXHlViCupKeFcenFZ4OthsElvtn17pnEnAyD0MuLmU5MisvtIE4nF2RUQD6GpMHu61uJV0afuhoy3g4LirSSmfVwgfrMe8C8B0gvFj_5oOzfshcHMU-iI9YQmzh9QyGp7ffizy1BMXbBRnUbWgGkzjQ7t9Wg",
+        "widthPx": 4800,
+        "heightPx": 3600
+      },
+      {
+        "name": "places/ChIJMb48stQ5DogRcqKyox9eVZQ/photos/AVoNoXR0gaAc8apOXYr96QCTBzjWebE1XR9AsIi_8J6pZvc6xMIvgdyuryleidIaliKHgIka4tsNzSLKz4cHNQYbh4vP61YWMbfFc7Nx2ZrFBQBVYP1QyKW6zZfDUUmB9saJYNaKXVJYQaQx5d4MIYwUjvibtVBAWPL8_ElWwDcy6Q1Nd3m_XWGYPXTMM_Lx0NIYeb2igMvEgRxT6Aj1MggAMQ3Zy_NpkxORdyhsRkq0UG66945NxcHz9brFwwxjHp5y29PH2cLcVKa0fd-LKVag5zD2ItiLJXWoS_xOR3nsIV33vh_ZXN-zcah49xU9L2Sva1nofBvHUO6tL_eJFxKW-KGuxoQsc3vzKNgPEIDm0OVTZFvExEjy3a7fqmvayBvVYNPUJmBn9AhU3dJH2HfzIsWQdvEZJM9pwhQnZhEknfM",
+        "widthPx": 1290,
+        "heightPx": 726
+      },
+      {
+        "name": "places/ChIJMb48stQ5DogRcqKyox9eVZQ/photos/AVoNoXQLr-6PY6YtHvBEA5XxgfktuYZLOTQxxsu52T5IiRIQMkGnerXWvzt_JEUU-CttbdRkIhc_iHOwg2_nD84mD2kbSKGQ80OirNgfDEWFuuRVtZAOMmiuX4pPwdqBJVzxfKqyLxBjlONk6qPQg6tKORqlfHqOjkl5toQEeSOYjurdZa9mlyQPNrW4jfiQI1ktpAaAPMzWE09AHUvOVqQ8uo9IlrfQDHEg0CnSkj0SXguM-0taNQbBeFftC2qr4_fyOSB26DfIP7HBRh-QmT5HVg-8nZYuoL5hQIFJNekRq5vS3FFguwZQJvkZvSs3NwtXLJcJTnY5dBfpm6rjAtPXSES4VR7VQ-DVXC0PJRNwjRnh5cr6yN0_2oH8XT2pe4NbKw6bTCRKoXaC2_ddBvPZckiAQx5uwcrE0pMpjc97R7VHNuy4GK4k8DZpMC_hq2DL",
+        "widthPx": 3820,
+        "heightPx": 1762
+      }
+    ]
+  },
+  "holy-buckets": {
+    "placeId": "ChIJC2TlXRs5DogRLQjVW1I7h5w",
+    "matchedName": "Holy Buckets Halal Chicken & Pizza",
+    "formattedAddress": "7331 W 87th St, Bridgeview, IL 60455, USA",
+    "lat": 41.7330468,
+    "lng": -87.8028065,
+    "rating": 4.4,
+    "userRatingCount": 3086,
+    "googleMapsUri": "https://maps.google.com/?cid=11279049016686741549&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://holybucketschicken.com/bridgeview?utm_source=google",
+    "openingHours": [
+      "Monday: 11:00 AM – 9:30 PM",
+      "Tuesday: 11:00 AM – 9:30 PM",
+      "Wednesday: 11:00 AM – 9:30 PM",
+      "Thursday: 11:00 AM – 9:30 PM",
+      "Friday: 11:00 AM – 11:30 PM",
+      "Saturday: 11:00 AM – 11:30 PM",
+      "Sunday: 11:00 AM – 9:30 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJC2TlXRs5DogRLQjVW1I7h5w/photos/AVoNoXQRM7W-p2b0pL0UjX7AFjlXVYd_2HJ4cRByw02NlOgPwref2DWgJw4Vi_ek2hXiMF1wqc3psE2SOORNYIuOn1dm2yUgShvqE__pXx31f2XaJSQ0tuknfPyEwsrxq76Ykoo9anBQq_tk9D7bPs76dlycT-p3Fe3Cx-_aU-H7QzQnm9jhrYFqB45HGegpjh4ced6HOFqKmhBWEfy7Szqn92ZHQuucDaz4r6Md7bc0NzDlpd_yAYnfsqVVkCvD4CvAGrfT-0nLSXoYxVIh_d9xTrjlcQaMEzfxIF-3mFCBRxwgno6VtdjbBjo3j-RgKT_Ou2McYB7QMdtXa-f5z5Elmd6eiJDOabxH_nzH1XGStznwngTRgBglSPCEMGLguED-Cj4tEaawbeWLM0qegBCQmxNEos6_2Q9QkWpnkaAToV0Ivg",
+        "widthPx": 4800,
+        "heightPx": 3600
+      },
+      {
+        "name": "places/ChIJC2TlXRs5DogRLQjVW1I7h5w/photos/AVoNoXRupvLsYjwSWBNGN-QokNp5xQOJDVoHO96qeDUpwpjcmjqI2_7MR5Vi79ESmGMviR4wW42A1OybmHV1KE5P8juZ1mlR8ktKmSnWzf2kBYryut7N6Htr7Md9GzLAe-Vbz10lOVuSQqxS9nZQWXqXUfsJ9BdBBCIYQD4freDKkvia5g1dpBolfWmzOiVplXBiFZRaTWED0HkDFZuD5UlYuetBstmUusduN-p13jLhUwCrgSHd_Nve7AMMoPFiYu3AxfjaWOeF35ssPF4e9lY2V2luqONNTU13lLllM9ayfTCwhXyoZbqCmrVdc2qtllFtl6s7zLcEhoperm9E1c5wD84mXnLUTirMEIrpyWoaRzdYIgYyKoLMZsJpYJs4u_o0_GUTfvviqHl98kFzSo8A70dn1LE5EVo2R-xRm9BIbm61K9iOGwYY0KHlIPpLBWK6",
+        "widthPx": 4800,
+        "heightPx": 4800
+      },
+      {
+        "name": "places/ChIJC2TlXRs5DogRLQjVW1I7h5w/photos/AVoNoXSZcjFyd7aJ846DefFkZfIH9ni7Q8mtr4VfJ98FLgmOVSLXd2rf71LDdClDruM6zKUmGH66bmP3x9K7jIm1ZQDXWJx1ivKDhW1d0ggwI4CSIqmHjMASyJM8qLSh0RHKghqjsulgYwCH7AgiKQjcZlltNdATQNfTwWZubZxyLmAV7UgRyg3CoUUQfqoJ4FkIKkS5lsulLCN5glzpIsh89Km-1wsYfduc6-bFGFC9361q_v08SrOuGe5rlUiif2P2Ob_KNnTgr4YquX7b7v2w14ifBeGdBNuxECV_kKchx-WVXNYOzSCezs_wHIHVpKqPZ7w1atkrcEE3MdwASCOqGkHJMfhW4z7mtK0P-zbFJXEBtN8VTJTy3t3yda2WSqRB1HMcqTLkkLKsVw1fYBVmsXdrKynvdC8HT--2qn4N_uqUB3fTEMndkbTX81bqGbXL",
+        "widthPx": 2000,
+        "heightPx": 2000
+      }
+    ]
+  },
+  "alasala": {
+    "placeId": "ChIJs4NTkcI3DogR-Mwl-ea8Gmg",
+    "matchedName": "Alasala Restaurant",
+    "formattedAddress": "8028 S Harlem Ave, Bridgeview, IL 60455, USA",
+    "lat": 41.745089500000006,
+    "lng": -87.7999968,
+    "rating": 4.4,
+    "userRatingCount": 1463,
+    "googleMapsUri": "https://maps.google.com/?cid=7501515829547486456&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://alasalarestaurant.com/",
+    "openingHours": [
+      "Monday: 11:00 AM – 2:00 AM",
+      "Tuesday: 11:00 AM – 2:00 AM",
+      "Wednesday: 11:00 AM – 2:00 AM",
+      "Thursday: 11:00 AM – 2:00 AM",
+      "Friday: 11:00 AM – 2:00 AM",
+      "Saturday: 11:00 AM – 3:30 AM",
+      "Sunday: 11:00 AM – 2:00 AM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJs4NTkcI3DogR-Mwl-ea8Gmg/photos/AVoNoXRYtWFZuqTRyFttpGRVR1PIT1jenghaqB5Bnm6CMIwcYoOs1egtdKB_K4HCClpMV5s0Ywa7EKpnMtQZg0fJJk1QdaEStCLycIB2JYtJlfsVq8TTcpWMqpliAF42JjLW7SqWCUoDG14r-gJSUh2X9CJR_Xrx9yZ6UXcs_0rTRZhKowWc92J3Kr7Fc0V-66xl0VqQHVhAiVV1Sx3n6sEuTXdgnwc1SADKjFpNHq8VNxXF154O2Iq6_WZLjYZBU_3dMaGVsk9NE11Ailrag-ZPRrZ91Wxi1UlptSYk3wULsBrZlAKgFWVWuUP1hr0mn7FZdcK_kwZqrjYV1DuKzI-aydRJa6wmg2petbHBVyo63KbEv1sY4EUNRPN-jg60skGxxiWyAGbC0wrC6Tn-0P5YH7EQwtyr",
+        "widthPx": 2000,
+        "heightPx": 1500
+      },
+      {
+        "name": "places/ChIJs4NTkcI3DogR-Mwl-ea8Gmg/photos/AVoNoXR3HL4l9TONXKaD_B9g24CPk6ooryf2XynlICfHFajT4G3WF0kZ-PST6E5yPdgNMW0DABycCbAnmi1AwFBbXkjlnlp63FU-USF4wr7VWkBx8Th9-U4AKOg2XDyLgaHY3o9CMhfCDA3nrLw6I-eTDFEmfsGwrQrUS6RaqTac5d8F39hDAW3bxMNuso-gX3xxZY3R31B8njigkXIPjFLaMdgY7XSpbaooT66EF3v9_IPS7IoYdFS1sk07BDb2RQJs-Scy_sXcvh4RjN2ADJKdyK8mBi9TzCKklx-lCzjSvpYewrvMDJRt0e5XaVX6zEk-RrrX4cVVLTWxRaCWskxyLxrRlJydReo34jytyFOH6hVqj8rOEv6BlVqseVVVcAlYvn55nGzhLuWRoHTDjc23MAEZiwFBkPtBV3VYKYjV63u6",
+        "widthPx": 4032,
+        "heightPx": 3024
+      },
+      {
+        "name": "places/ChIJs4NTkcI3DogR-Mwl-ea8Gmg/photos/AVoNoXQix6Cv_5FaIxDR7RaK3z6v9bF0lCaMiz8nfdSXCOeaSMYCSyV8IoPqAizzaOAnLsJ1zM_E3e2_jEwXgt_vG0QVwHtM2BKxbaFoi71Oc0Sx1BskfJLiZ8NJ11hE21ofpibC0ZHZRxv6KW0d36ND581lQsdeilXIzEDXuCLnCCC_E6hsvIK1ivjzsvgvZWJ4BS0cujXyVIgL1tycJc0-MsDqKiFB45BN5ix-v1HOcdw-S00Z3Fp428BkHNy6Mn6MwY2zWeuN6mqAGkWhStS3x-0kh2r6-NagHf0d5m4L39AP_g2q00soYQgB7FRhB_BR12150VUlf6Srx8gKc1yGzJ2cZovuMfkHzeqmaTjB31H40R5HEpF1UxphxmqrXAFT_pJH36mzdt6N_9U2qDb7JuEMRPIy5DGlCYcLgkUwB8tZVw",
+        "widthPx": 4032,
+        "heightPx": 3024
+      }
+    ]
+  },
+  "semsem-mediterranean": {
+    "placeId": "ChIJm0JK_mw-DogR885kFOo5EAg",
+    "matchedName": "SemSem Mediterranean",
+    "formattedAddress": "6905 W 159th St, Tinley Park, IL 60477, USA",
+    "lat": 41.6019319,
+    "lng": -87.7885149,
+    "rating": 4.5,
+    "userRatingCount": 2354,
+    "googleMapsUri": "https://maps.google.com/?cid=581028029458075379&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "http://www.mysemsem.com/",
+    "openingHours": [
+      "Monday: 10:00 AM – 10:00 PM",
+      "Tuesday: 10:00 AM – 10:00 PM",
+      "Wednesday: 10:00 AM – 10:00 PM",
+      "Thursday: 10:00 AM – 10:00 PM",
+      "Friday: 10:00 AM – 10:00 PM",
+      "Saturday: 10:00 AM – 10:00 PM",
+      "Sunday: 10:00 AM – 10:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJm0JK_mw-DogR885kFOo5EAg/photos/AVoNoXRM5eaPXFr-49qQORZwgFKvOa2EUOXqi1Zy97ndOtDcflZBbLG0lfmx2XGCkoDYbAWXss7MQm0_Bg6D4gpSjUmOp1M0u0pRlNjuSwdHDrDLK8BJLCwyqnLl8W6Int6M0w0CWtZNodpmCYIwWglGEI4PAzslq2FLfcf9qhsQ8fVf3O33Vk6ioJy4mE5DPKg1Dp535hh342B4j8mj-iKkpk5QX84dfls3ccPWf-uqZ9KGVpdGZhFdPnOIJlPVh4oMOfcy86JM3c1fvdXd2mFxQSVUVwbVa8HtrUkK1RmgFQ78I3K1YAfQYoPNq5XOrjywTDhyw0mgaT5xxN2KAt6vH5wvAhtnG_Wa_nfX52HJSu9BmWrENjuw3EZKMxeUXqxAJeUFCg5ck9uAyPct9Eh5HWqhGw",
+        "widthPx": 4000,
+        "heightPx": 3000
+      },
+      {
+        "name": "places/ChIJm0JK_mw-DogR885kFOo5EAg/photos/AVoNoXRe3kUjRhjcqqiZlmRWPXM_bKk-GPm0R2iPbytxqNfR7dcUswuZuFt_lZGok99GobPYk2AT3UChDEjR2A2aGuzZ9TG2Gyt3OOq_Pu4xMDOipNQRLr1jgf9xxVGFFCSkj4lHM3_H3pdHizlCjAL5qqXo_cAtO0NtuBzsPB1dKy91BlueAAnNFTsUm3BE7y05Wg9a_2TYp-rARVwssIWEQcg9SySd8iOhcBhbQby7gH9TJ1lGTOlCj4t_2QKcK_jmhS9nOtOwAXk7knf_ndwe1BG4xEgWbwAU2ASYxPDQwBduM4D_tOKLZpWTOYYwfTPfG1Q0yJoYTmI0De1XOc1Gyx0z1HtP3m12M_33P18VdLk_nXTJCiX53UeTNStBH8wVeXapOCkqMmKfsBvQvD9DWoixmZvvLXI",
+        "widthPx": 2758,
+        "heightPx": 1140
+      },
+      {
+        "name": "places/ChIJm0JK_mw-DogR885kFOo5EAg/photos/AVoNoXRSk8oWnLR_NchB5YaoYGS6jP31qyugKU3-JTuIi_52gcmk_yBXBL9G_jvSopy3zESwT994FG8Hpb5rFmc42w-mMDgBSioOdWdddwiYd3RLMQNAKFVeRYFR8b278okKicobvpFv9_pVxUQIGugqtx-R5ZEjAhp0n_9tF9eluJ0u0bCY1QYp88Op7ZchTQxh-i8IAV-sCBoChkuhTTjzN3oNyt_gJIKyFYjeH1U0o-SyMub8hKzvyJarhrpofOMKSzJXeBJCAXmLKj8LU5NEJdsUd-74c4dCPNaOZ7uqtPKGUVt1FCSoksptcLohLQFWPEQiW1Gg71_FNVWtwYYEBVOkqhyeISvwH5d3J4DUANS-584LJFOC338_9uJqIVLT-jvOzlI7XIEjDDnvMSMwvhgOymw",
+        "widthPx": 4000,
+        "heightPx": 1868
+      }
+    ]
+  },
+  "brooklyn-halal": {
+    "placeId": "ChIJjZBt3go5DogR9FurXiHCIOY",
+    "matchedName": "Brooklyn Halal Grilled Chicken & Pizza",
+    "formattedAddress": "10607 S Harlem Ave, Worth, IL 60482, USA",
+    "lat": 41.697399399999995,
+    "lng": -87.7972607,
+    "rating": 4.2,
+    "userRatingCount": 800,
+    "googleMapsUri": "https://maps.google.com/?cid=16582467276556164084&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://brooklyn-halal-grilled.shop/",
+    "openingHours": [
+      "Monday: 11:00 AM – 12:00 AM",
+      "Tuesday: 11:00 AM – 12:00 AM",
+      "Wednesday: 11:00 AM – 12:00 AM",
+      "Thursday: 11:00 AM – 12:00 AM",
+      "Friday: 11:00 AM – 12:00 AM",
+      "Saturday: 11:00 AM – 12:00 AM",
+      "Sunday: 11:00 AM – 12:00 AM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJjZBt3go5DogR9FurXiHCIOY/photos/AVoNoXT-denq7GZsk-DIrd45wbYTn752eg0hJvTW9LarBSi-Vve6vcC4sWnZWQHOJD18g5zNsPbChULrYmwzEuV114iDo5D8nOcClyASZc5RzcCtYBbs0opRzMa0c-OwSCTR89lzqtspke8rMW2YPpkP2GsXguuInY0syFec3gO6xoMqIakymAzDIlrsigMiMu8T6vOoUMB2rgGV3dAtwQp55HRVN1SPS_8E-5HTGK2JtesGwSD6WXmQeG63bFoY9lGLTyeGKcT7T2x7ymacxPNea989HMDFDCDkyY3RP3NxGGcW_0-vXtXdIafEz2AcUdogblP8Yp1VJNE0hqmyCMSWlOGRGwOYYk5BOu6Qu1rf6lAE8RQFUmhDL3TttIfY3l7xtmVgRBwoVjtGdcAS10GViDLiUNHXLOvAbGPYnf68w7KpKw",
+        "widthPx": 4608,
+        "heightPx": 3456
+      },
+      {
+        "name": "places/ChIJjZBt3go5DogR9FurXiHCIOY/photos/AVoNoXSWNQw2haVSPMRMVOVCnz3oe3uFu4TfN2O1mruawJmo-fFrrA8-OYH5GS1Ugq0IpoBTi9Bf544Zt480IOlk8C1IMQg2b7Rooye-ZzSXgNEFOhi4GOMxuH1fARM_PRJfu0HyhxvzwKEp6D672n9TYVkeLjHdJirDyGmtVo3csjFtnnYkY9Hb3zO82zh47mSoEkZ0mKO2Blirwq3Kk1JFlYZcZyTL1RMiLJGol11-rg2FMT1KC3MabcJFAvDj-7Rqpw_jVYFacsjPAYawzfsjRW0NSCarnnjC_BribNItfAo0UvuLUi_jI5-XsdfuPoK741j0497DmLiyMJ4R6O6gjw3gsifWUEvRRF1M50IpN1JSym658xAGEotZVoCE5h_FiYwJYfaaeEMq9BPoZDea6UkGz4tNFkRgRGXj581u_q9W12O9_22S_LTRlFgu5VuZ",
+        "widthPx": 4000,
+        "heightPx": 3000
+      },
+      {
+        "name": "places/ChIJjZBt3go5DogR9FurXiHCIOY/photos/AVoNoXTbY-J2rmyucgWeGpOfzUY5jL3VL5BIZRKerMq9IKPtzZnH7meShsS4qhoLVTxTTMS07zfR-i3zdM_7-yw8uZkx6A5vluXPrsoqQ_owyc7PwiSNduzH7metdCAhMvnTuEHF7uGPvJnfdD_drrPBnCejBrYXuTJgfn1wxGxXmgBdP6HsXFLEPONWGSNFjI1HkMhupNavZL5nenPbqz72D7FDCq61N3lfRpwYlBkA8GRebHQLLv0IRlplQns3XjJAOCZDklvyeEPLzvg2JxpZKDTU2OQNqxJrrSe_emsOpMqTMCGOctjA2aeWzW9B4wVmcYPPfcLjHrkboRkhfz0szg57-kBzl56yW5C0hoTXUt-JF-AQFbSrqXTTcEfEtFV2P0Rvu2QIKhfQHhILD5_GucX14vWzil1MO2BpKF8q3SMn7oORHuGQkHzBvpa-cQ",
+        "widthPx": 3024,
+        "heightPx": 4032
+      }
+    ]
+  },
+  "nazs-halal-food": {
+    "placeId": "ChIJbSx8VzQ_DogRTOJjWpuuPnI",
+    "matchedName": "Naz's Halal Food - Tinley Park",
+    "formattedAddress": "15929 S Harlem Ave, Tinley Park, IL 60477, USA",
+    "lat": 41.600631199999995,
+    "lng": -87.7928372,
+    "rating": 4.6,
+    "userRatingCount": 289,
+    "googleMapsUri": "https://maps.google.com/?cid=8232209151139504716&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://nazshalal.com/",
+    "openingHours": [
+      "Monday: 10:30 AM – 2:00 AM",
+      "Tuesday: 10:30 AM – 2:00 AM",
+      "Wednesday: 10:30 AM – 2:00 AM",
+      "Thursday: 10:30 AM – 2:00 AM",
+      "Friday: 10:30 AM – 4:00 AM",
+      "Saturday: 10:30 AM – 4:00 AM",
+      "Sunday: 10:30 AM – 2:00 AM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJbSx8VzQ_DogRTOJjWpuuPnI/photos/AVoNoXQzpRnuISaRuDc7d2Zmj5dPRRXrD-6FSXSQRTz5OM3PphavkWpYIrVFrxC3oDeSzNlbfPJoCBHb9T3jEniBBKesouYhkth5Sl_n37GcDzJ2zRqsgwo1NLK0lOkqiuCMusQuOFPkMzO_mgns5sv-5mfyClDT0Q84THFeq8E9dKz0TNopIOeCXiQEkvTp4i7_cCBSd7QswJA9bNZAzdxIoaFQtQJI0jH9MW7hlHv8NhCODd-jyJbD3wqZpo4gYj_G98ZhT6_TZOgiyiL2d-Gsa1utJ71id5dthqIqZeB3fROoemnUobzT0Cn_tojRKLwhJj13ursoHLrC0GrQ-AUo4ZtLE2l7RkY7Kck2cMpb-FYx9dQ4xV5VTmvAYWKD-YoDDXD8KvGAPegdJaW4lcOewDyLQoYkyuj8gC8OboOi-a1906iuawL4Cv-aF-UCYj6C",
+        "widthPx": 3000,
+        "heightPx": 4000
+      },
+      {
+        "name": "places/ChIJbSx8VzQ_DogRTOJjWpuuPnI/photos/AVoNoXQ3hKPQ0ZMzf9nZB6A2t0hEwuXPd6XOearntwr78y5Ghk2sKyB16QNxHnPNs4TtVcBCii3Dn8joxtzFYfAR5Dsv2YQZZ7cr4uCnyPCyIog1-uHao1s6qLK33mgZBvRer_OnReF-QnOG4roXSZC2q1mQH6J41ANpTCrchBCmpG2eHSYVwV95QSVJC1EjV44129eKAh5Z-su7KdfR0xZf7NPuhlEYS-Utwx-A3IjDFaQbPbvEQOpTVLvBpr1JHF0MiB4gTxmBKatlVIVxrahM2wi2Dr05AKcDh_rl36owNGFMTig3mvvaDNcP0699_m7k89yKreWGsXURh7xz9NoUyzYqEPeqtcJPJyZ0cL6zfyw6a9Z_LF30JLM0RuXkCAEm8qbTLo-vqTz3nJnyUNuK9P7Ef8Z9WVKKVwDXG8geNYNi-A",
+        "widthPx": 3936,
+        "heightPx": 2216
+      },
+      {
+        "name": "places/ChIJbSx8VzQ_DogRTOJjWpuuPnI/photos/AVoNoXQgQi-IgxgzlWuXwiTzeipwpGQuTq9e5M2WZVrcahuL_pRUqGpg6c_TXG9-wfvWagMrhx3-Xtzz_kZEZk9MMS0cLkFyJYtqmCQGGvOoAhZqsNR5Ziw8w5kEFIQL9UGRW3dxh0lZyYpaebXm1nNbAxPQMf2bW3bzI6-bzxAsjWZOE7VxLjQhy7_xwW6WGBbic9TbzYIEcMdJvk5qJkbSwkhUaEoCNV423bZmNYh9l3Ni6csis_tR2eK7cvyZgMNBfIiCbX6UYsVxGklD4YwOaMhBPvv5BB0Af9uPQKH-RDhi-qL47moC-4p_4VR9v07j5YH3YhU6Z2YVGkJHiowiQIoU1QXE-a1jNSzFhKURiJIodVWLXtZE9cReANqh_j1jIbYEf-iu9MlOU9FPy4e7a8mrRZmX9m8PiCejnVb62q1brQ",
+        "widthPx": 2858,
+        "heightPx": 1609
+      }
+    ]
+  },
+  "hakuna-matata": {
+    "placeId": "ChIJn3i9gNk_DogRKo5UDi_52aI",
+    "matchedName": "Hakuna Matata 2",
+    "formattedAddress": "15615 S Harlem Ave B, Orland Park, IL 60462, USA",
+    "lat": 41.607420499999996,
+    "lng": -87.7937413,
+    "rating": 4.9,
+    "userRatingCount": 1784,
+    "googleMapsUri": "https://maps.google.com/?cid=11734684284589739562&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://orlandpark.hakunamatatail.com/",
+    "openingHours": [
+      "Monday: 10:00 AM – 12:00 AM",
+      "Tuesday: 10:00 AM – 12:00 AM",
+      "Wednesday: 10:00 AM – 12:00 AM",
+      "Thursday: 10:00 AM – 12:00 AM",
+      "Friday: 10:00 AM – 12:00 AM",
+      "Saturday: 10:00 AM – 12:00 AM",
+      "Sunday: 10:00 AM – 12:00 AM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJn3i9gNk_DogRKo5UDi_52aI/photos/AVoNoXR3ZAQZ5UdRPrEUjQqykn1jhDUjsjYS-V8h_8ZvfwL2BFeKZbgCMt8jnqZxiqRN5dLSIXQl3LuTn1jCroBTjwKOmCiKc5Xv--GFc2VNNLsksJ5Bo2mDgOqCUcpfASytSOLXk14eSOnw_-7JGdMp8rXc5r3CEb91ym8n45qu5CsDHeiaN8_4a4tU2-00TAqfNYjjo1A4C5RWm61sFOZ8jJ64LHImeLATZ60IIl-vCujpdV-9cFk7BvfaZRHbsQ1raXeOH2d8-zUZymawFiArY7f40bLXM2yaks0R0nhkjArGByoK8Ifh9_yxpoZtMNvQNnDar-94ZIvEWkOwLoMuBCSWSaya_H7v-n_-b6XOgTIW-1PsjRU_Ehw8WaGQlwuKcGK90EqGqiA3ySGaMP7aUTBlzvcrxfB0IocIW-1jfT_pGQ",
+        "widthPx": 3600,
+        "heightPx": 4800
+      },
+      {
+        "name": "places/ChIJn3i9gNk_DogRKo5UDi_52aI/photos/AVoNoXQlxN-qyyfXs9qXb84bANFazXinCgXryXcR-CT8B-jDvb4uTA6SBdrww0XnXsGSYPT0QPeD6AmQM3DbY4qgiJnHj2GUwGXjkhmwBE35IQ2ZV_NkUvfEZsvq2VF6cY8zW5byEIiqonNUl84sD_Ubyh4rcFmVjrkiC3N2A2Qa1qFxtkGh9U_tCzYF_EUs6b0oiA7gKstPNqP-8fUbwvSmiW9NTw-mfOFbTii9mooTg_Axwcz4RWssibksYB66WTTt7Cvm10WDEYL7i00fyVNdOCVAywyHQuHlIPhv6wTzvePVapSNrG0faOTLR3OgTm_NTveQltRe0khN_JPdxLyQ8OtmvJf69y8WhIyzkX6XXWqF6V3m7Uc2mLZLxvm_E3cuxd82CVu2t-Gy-uvK5GzCBUYHs-HaDQdsavYakpL2xzCL",
+        "widthPx": 4800,
+        "heightPx": 3600
+      },
+      {
+        "name": "places/ChIJn3i9gNk_DogRKo5UDi_52aI/photos/AVoNoXRqBaPK77xWGO3ZHPGPgEPcdeZKw_e7aL8e_ZPXbI2B73zFFLmqJAYeEaaDTGwqazbYZKy5pk1CaJMtYzwx79Mc4toEd3WI3gBgJMjx2H4-EccfIOoOp8NUHsw6Cry0AIssSALHtNpbxrVwHATGiQFvb_sW6ncG9SiNqYhnJpdEquTpDzDYmQu9ygsStP0umz7iW9VHUidbOyW8t2My2FS64AQZEky8gy2FzzAaOZU7HJJKLyDec22ybZlZrHJRnOTdeYlNAUeoDFU33zkNgJLGxFsG_Y-PTJmUpUJkyvlgInXntyi_wKzhXDfz6nBxNGajm6Ik70c4s5SF5HAFobjac6mGJxYxnHXIdgKSJoqtUdIvoZoNg4xBcpA1J8E5JsTHZmzGA4sCbtMWutplkhX5YTXjYPb90bFcmV42X5ga",
+        "widthPx": 1088,
+        "heightPx": 1445
+      }
+    ]
+  },
+  "wow-halal-grill": {
+    "placeId": "ChIJyYU_EgA_DogR6eKxOHkDE4A",
+    "matchedName": "WOW Halal Grill & Pizza",
+    "formattedAddress": "16703 S Harlem Ave, Tinley Park, IL 60477, USA",
+    "lat": 41.5863776,
+    "lng": -87.7930197,
+    "rating": 4.7,
+    "userRatingCount": 410,
+    "googleMapsUri": "https://maps.google.com/?cid=9228723880589386473&g_mp=Cidnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaFRleHQQAhgEIAA",
+    "websiteUri": "https://www.wowhalalgrill.com/",
+    "openingHours": [
+      "Monday: Closed",
+      "Tuesday: 10:00 AM – 10:00 PM",
+      "Wednesday: 10:00 AM – 10:00 PM",
+      "Thursday: 10:00 AM – 10:00 PM",
+      "Friday: 10:00 AM – 12:00 AM",
+      "Saturday: 10:00 AM – 12:00 AM",
+      "Sunday: 10:00 AM – 10:00 PM"
+    ],
+    "photos": [
+      {
+        "name": "places/ChIJyYU_EgA_DogR6eKxOHkDE4A/photos/AVoNoXTV5gjC1XFmV2Jt2oeeuuYBj50O1ikcl0LDckIRJDjYWJrhT4F7ikoFOEn4R9m08kQt9urYD6UrpshSY_NTTB8BZMSh5IMLIR__jU1WDpQI2_cFqswG8IIpz7oAIajBsv6yiGC3Y-giOC73GtGroE2EV7AVxZXcQvcr0tZ3Y0F7V9ghXPznm3lhjZ-WXTo62tmOooGCDQdKTXKf9OEC4ka8X7KzpTjSyIuS4lwDv7eRhwUnLS6CgVnoBk9wPHr17m43Vzwlg02botOuHrPd6iICzfG52-edDb3Mln-_vTH6dpyaI3MYlEDaNM6iivUIba1y9S0dnsUN-dsDUIzxAhVc9Sn7AXRTub4-eya1F_LRVTwOfuIf_FbKFBkObe0j1OXsMAlnSBOlwICoy0jM2APuUGa_arGipbyZvrEVQvmMvA",
+        "widthPx": 4000,
+        "heightPx": 3000
+      },
+      {
+        "name": "places/ChIJyYU_EgA_DogR6eKxOHkDE4A/photos/AVoNoXT42AFEMTi3yi9qtabuxBdnYeuQ9QxTNaLJM9AVH4_WuuPcQ8WJEYKoniZEm3yXwZYnTAXQjaOFafTbRbgIpMeTgJS2NcHSWuXvI9aq7f_k2Qelb-lLOZITecm8q9I9a-pNsJWvEl0y1mkXq-qUiW8Jn5iwkroqliPZFDmMIqLipv8vAWjuPiYITd-1nUUfLe37rIQ2oF0EWA9MAMrdOHJKvPWi7ltqtGu9lmeECJw71bsTYww73sn8k9JR6JB7OmwE82ajywIR0SJEIUM0wm_oRNE7Fek9W1SHpApw0tWXEk8C-Aul_pl0q33HdaubrkiZNDLqiVxjKVd6J3Vz4ovWvbNbTxSvxo-4sNgzZ3a8oAMAv0b_UTGoT6gZbNJsPLRj4WFCC6jYq9BWe_AnNsU6-mNemq6_g7FVk0trSSGB5Q",
+        "widthPx": 1284,
+        "heightPx": 1096
+      },
+      {
+        "name": "places/ChIJyYU_EgA_DogR6eKxOHkDE4A/photos/AVoNoXQ5VO2zfvoaUz1cqhcLBoliDZ2eG9CHCUQnX0eA-fAwjQm61u4M4h_SoIMmS2DtdxLHNGwtMc_lKBI_vnTBccV8kG1SWzIu1hal96yD-TegJl5DHnZlvuP0m6tolbT8XV8ywMBFnHUTkMneQesBGJoW8gtswa3ceUOoMhuV1Icikx2HfMjzUf1N4MJoUHXw9zm4PVzIMHN46SVpEx7EoNJ7ZmkQji7bDeR399BVHJ6TvrfBq-rcr0GhXouzLDRYGnLA8XW91mGZbYsIwystQ1IFL2_0U4rM19zA3-u3FSEhTAgyQsCs56kCucrzaLyUI-5Orl6MkXTK6ztzbPApJr8WaneofUHilPRVK_nWzMP4kSPOl-dD6-YbKbX47rVG_seCqQhO6b9JQFUWZ0wHQAdRSxxedr8gbCSd6oCykTJ5UA",
+        "widthPx": 3200,
+        "heightPx": 4800
+      }
+    ]
+  }
+}

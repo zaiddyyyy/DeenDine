@@ -307,12 +307,27 @@ export default function Home() {
                         <span className="text-[10px] font-black uppercase tracking-[.14em] text-[#678078]">
                           {activeRestaurant.distance != null ? `${formatDistance(activeRestaurant.distance)} away` : activeRestaurant.priceLevel}
                         </span>
-                        <span className="flex items-center gap-1 text-xs font-extrabold"><Star className="size-3.5 fill-[#f5b942] text-[#f5b942]" /> {activeRestaurant.rating.toFixed(1)}</span>
+                        <span className="flex items-center gap-1 text-xs font-extrabold">
+                          <Star className="size-3.5 fill-[#f5b942] text-[#f5b942]" /> {activeRestaurant.rating.toFixed(1)}
+                          <span className="font-semibold text-[#8a9a93]">({activeRestaurant.reviewCount.toLocaleString()})</span>
+                        </span>
                       </div>
                       <h2 className="mt-1 truncate text-lg font-black tracking-[-.03em]">{activeRestaurant.name}</h2>
                       <p className="mt-1 text-xs font-semibold text-[#60776f]">{activeRestaurant.cuisine} · {activeRestaurant.neighborhood}</p>
-                      <div className="mt-3 flex items-center gap-1.5 text-xs font-extrabold text-[#0f7254]">
-                        <BadgeCheck className="size-4" /> {STATUS_LABEL[activeRestaurant.halalStatus]}
+                      <div className="mt-3 flex items-center justify-between gap-2">
+                        <span className="flex items-center gap-1.5 text-xs font-extrabold text-[#0f7254]">
+                          <BadgeCheck className="size-4" /> {STATUS_LABEL[activeRestaurant.halalStatus]}
+                        </span>
+                        {activeRestaurant.googleMapsUri && (
+                          <a
+                            href={activeRestaurant.googleMapsUri}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="shrink-0 text-[10px] font-extrabold text-[#527068] underline underline-offset-2 hover:text-[#0f7254]"
+                          >
+                            Google reviews ↗
+                          </a>
+                        )}
                       </div>
                     </div>
                   </div>
@@ -411,6 +426,7 @@ export default function Home() {
                         <span className="flex shrink-0 items-center gap-1 text-xs font-extrabold text-[#071c17]">
                           <Star className="size-3 fill-[#f5b942] text-[#f5b942]" />
                           {restaurant.rating.toFixed(1)}
+                          <span className="font-semibold text-[#9aa8a2]">({restaurant.reviewCount.toLocaleString()})</span>
                         </span>
                       </div>
                       <p className="mt-0.5 truncate text-xs font-semibold text-[#66766f]">
@@ -523,7 +539,7 @@ export default function Home() {
             <span className="grid size-9 place-items-center rounded-[12px] bg-[#c9f15a] text-[#071c17]"><MapPin className="size-4" strokeWidth={2.5} /></span>
             <span className="text-xl font-black tracking-[-.04em]">Halaly</span>
           </div>
-          <p className="max-w-xl text-sm leading-6 text-white/52">A clearer way to discover halal food across Chicago and its suburbs. Restaurant details are a curated starting dataset from public halal directories, actively being verified and expanded.</p>
+          <p className="max-w-xl text-sm leading-6 text-white/52">A clearer way to discover halal food across Chicago and its suburbs. Halal status is our own editorial curation from public halal directories; photos, ratings, and addresses are verified against Google&apos;s live listings.</p>
           <p className="text-sm font-bold text-white/45">Chicago, Illinois</p>
         </div>
       </footer>

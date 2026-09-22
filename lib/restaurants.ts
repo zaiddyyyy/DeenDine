@@ -1,3 +1,5 @@
+import googlePlacesDataJson from "./google-places-data.json";
+
 export type HalalStatus = "zabiha" | "halal" | "select-items";
 
 export type Region =
@@ -23,6 +25,10 @@ export interface Restaurant {
   lat: number;
   lng: number;
   description: string;
+  /** Present when verified against Google Places (see scripts/enrich-places.mjs). */
+  googleMapsUri?: string;
+  websiteUri?: string;
+  openingHours?: string[];
 }
 
 /**
@@ -33,7 +39,7 @@ export interface Restaurant {
  * snapshot and should be re-verified (hours, certification, still open) by
  * an editorial/data pipeline before being treated as authoritative.
  */
-export const restaurants: Restaurant[] = [
+const baseRestaurants: Restaurant[] = [
   {
     id: "karachi-chaat-house",
     name: "Karachi Chaat House",
@@ -579,6 +585,50 @@ export const restaurants: Restaurant[] = [
     description: "Casual halal grill-and-pizza spot serving the Tinley Park area.",
   },
 ];
+
+interface GooglePlaceEnrichment {
+  placeId: string;
+  matchedName: string | null;
+  formattedAddress: string | null;
+  lat: number | null;
+  lng: number | null;
+  rating: number | null;
+  userRatingCount: number | null;
+  googleMapsUri: string | null;
+  websiteUri: string | null;
+  openingHours: string[] | null;
+  photos: { name: string; widthPx: number; heightPx: number }[];
+}
+
+const googlePlacesData = googlePlacesDataJson as Record<string, GooglePlaceEnrichment>;
+
+function placePhotoUrl(photoName: string, width = 900): string {
+  return `/api/place-photo?name=${encodeURIComponent(photoName)}&w=${width}`;
+}
+
+/**
+ * Base seed data merged with verified Google Places data (ratings, review
+ * counts, coordinates, formatted address, photos, hours) where a confident
+ * match was found by scripts/enrich-places.mjs. Halal status is never
+ * sourced from Google — that stays our own editorial call.
+ */
+export const restaurants: Restaurant[] = baseRestaurants.map((restaurant) => {
+  const enrichment = googlePlacesData[restaurant.id];
+  if (!enrichment) return restaurant;
+
+  return {
+    ...restaurant,
+    lat: enrichment.lat ?? restaurant.lat,
+    lng: enrichment.lng ?? restaurant.lng,
+    address: enrichment.formattedAddress ?? restaurant.address,
+    rating: enrichment.rating ?? restaurant.rating,
+    reviewCount: enrichment.userRatingCount ?? restaurant.reviewCount,
+    image: enrichment.photos[0] ? placePhotoUrl(enrichment.photos[0].name) : restaurant.image,
+    googleMapsUri: enrichment.googleMapsUri ?? undefined,
+    websiteUri: enrichment.websiteUri ?? undefined,
+    openingHours: enrichment.openingHours ?? undefined,
+  };
+});
 
 export const REGIONS: {
   id: Region;
