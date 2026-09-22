@@ -391,7 +391,7 @@ export default function Home() {
               )}
             </div>
 
-            <div className="absolute -bottom-7 -left-4 rounded-[22px] border border-white/10 bg-[#11372c] px-5 py-4 shadow-2xl sm:-left-7">
+            <div className="absolute -bottom-7 -left-4 hidden rounded-[22px] border border-white/10 bg-[#11372c] px-5 py-4 shadow-2xl sm:-left-7 sm:block">
               <p className="text-[10px] font-black uppercase tracking-[.16em] text-[#c9f15a]">
                 {geoStatus === "denied" ? "Location blocked" : geoStatus === "granted" ? "Near you" : "Searching now"}
               </p>
@@ -445,9 +445,9 @@ export default function Home() {
             </select>
           </div>
 
-          <div className="grid gap-6 lg:grid-cols-[420px_minmax(0,1fr)]">
-            <div className="order-2 flex flex-col gap-3 lg:order-1">
-              <div className="flex items-center justify-between gap-3 rounded-2xl border border-[#dde5e1] bg-white px-4 py-3">
+          <div className="grid min-w-0 gap-6 lg:grid-cols-[420px_minmax(0,1fr)]">
+            <div className="order-2 min-w-0 flex flex-col gap-3 lg:order-1">
+              <div className="flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-[#dde5e1] bg-white px-4 py-3">
                 <span className="text-sm font-bold text-[#153f32]">
                   {filtered.length} {filtered.length === 1 ? "restaurant" : "restaurants"}
                 </span>
@@ -473,7 +473,7 @@ export default function Home() {
 
               <div
                 key={`${selectedRegion}-${selectedCuisine}-${submittedQuery}`}
-                className="flex max-h-[640px] flex-col gap-3 overflow-y-auto scrollbar-thin pr-1"
+                className="flex max-h-[640px] flex-col gap-3 overflow-y-auto overscroll-contain scrollbar-thin pr-1"
               >
                 {filtered.length === 0 && (
                   <div className="list-item-enter rounded-2xl border border-dashed border-[#c7d3cd] bg-white/60 px-5 py-10 text-center text-sm font-semibold text-[#66766f]">
@@ -553,7 +553,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="order-1 h-[420px] isolate overflow-hidden rounded-[32px] border border-[#dde5e1] shadow-[0_30px_80px_rgba(7,28,23,.12)] lg:order-2 lg:h-[720px]">
+            <div className="order-1 h-[420px] min-w-0 isolate overflow-hidden rounded-[32px] border border-[#dde5e1] shadow-[0_30px_80px_rgba(7,28,23,.12)] lg:order-2 lg:h-[720px]">
               <HalalMap
                 restaurants={filtered}
                 activeId={activeRestaurant?.id ?? null}
@@ -654,7 +654,7 @@ export default function Home() {
       {certRestaurant && (
         <div
           className={cn(
-            "fixed inset-0 z-[999] flex items-center justify-center bg-[#071c17]/70 p-4 backdrop-blur-sm",
+            "fixed inset-0 z-[999] overflow-y-auto overscroll-contain bg-[#071c17]/70 p-4 backdrop-blur-sm",
             certClosing ? "modal-backdrop-exit" : "modal-backdrop-enter",
           )}
           onClick={closeCert}
@@ -664,7 +664,7 @@ export default function Home() {
         >
           <div
             className={cn(
-              "relative w-full max-w-lg overflow-hidden rounded-[24px] bg-white shadow-2xl",
+              "relative mx-auto my-6 w-full max-w-lg overflow-hidden rounded-[24px] bg-white shadow-2xl sm:my-[8vh]",
               certClosing ? "modal-panel-exit" : "modal-panel-enter",
             )}
             onClick={(event) => event.stopPropagation()}
