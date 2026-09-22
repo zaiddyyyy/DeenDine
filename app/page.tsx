@@ -3,6 +3,7 @@
 import { FormEvent, useEffect, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import Image from "next/image";
+import { Reveal } from "@/components/reveal";
 import {
   ArrowRight,
   BadgeCheck,
@@ -249,19 +250,24 @@ export default function Home() {
 
         <div className="relative mx-auto grid max-w-[1440px] gap-12 px-5 pb-16 pt-14 sm:px-8 sm:pb-24 sm:pt-20 lg:grid-cols-[minmax(0,.88fr)_minmax(560px,1.12fr)] lg:gap-10 lg:px-12 lg:pb-28 lg:pt-24">
           <div className="flex flex-col justify-center">
-            <Badge className="mb-7 w-fit border border-[#c9f15a]/20 bg-[#c9f15a]/10 px-3 py-1.5 text-[.7rem] font-extrabold uppercase tracking-[.15em] text-[#dfff89]">
-              <ShieldCheck className="size-3.5" />
-              Built for halal confidence
-            </Badge>
+            <Reveal>
+              <Badge className="mb-7 w-fit border border-[#c9f15a]/20 bg-[#c9f15a]/10 px-3 py-1.5 text-[.7rem] font-extrabold uppercase tracking-[.15em] text-[#dfff89]">
+                <ShieldCheck className="size-3.5" />
+                Built for halal confidence
+              </Badge>
+            </Reveal>
 
             <h1 className="max-w-[720px] text-balance text-[clamp(3.4rem,7vw,6.8rem)] font-black leading-[.88] tracking-[-.075em]">
-              Good food.
-              <span className="mt-2 block text-[#c9f15a]">Clear answers.</span>
+              <Reveal as="span" className="block" delayMs={100}>Good food.</Reveal>
+              <Reveal as="span" className="mt-2 block text-[#c9f15a]" delayMs={220}>Clear answers.</Reveal>
             </h1>
-            <p className="mt-7 max-w-[610px] text-balance text-lg leading-8 text-white/65 sm:text-xl">
-              Find halal restaurants across Chicagoland with the details that matter—certification, Zabiha options, and whether the whole menu is halal.
-            </p>
+            <Reveal delayMs={340}>
+              <p className="mt-7 max-w-[610px] text-balance text-lg leading-8 text-white/65 sm:text-xl">
+                Find halal restaurants across Chicagoland with the details that matter—certification, Zabiha options, and whether the whole menu is halal.
+              </p>
+            </Reveal>
 
+            <Reveal delayMs={440}>
             <form id="discover" onSubmit={submitSearch} className="mt-9 max-w-[700px] rounded-[28px] border border-white/12 bg-white p-2.5 text-[#071c17] shadow-[0_30px_90px_rgba(0,0,0,.28)]">
               <div className="flex items-center gap-2 px-3">
                 <Search className="size-5 shrink-0 text-[#527068]" />
@@ -303,12 +309,15 @@ export default function Home() {
                 </ToggleGroup>
               </div>
             </form>
+            </Reveal>
 
-            <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm font-semibold text-white/55">
-              <span className="flex items-center gap-2"><Check className="size-4 text-[#c9f15a]" /> Chicago & suburbs</span>
-              <span className="flex items-center gap-2"><Check className="size-4 text-[#c9f15a]" /> Verification details</span>
-              <span className="flex items-center gap-2"><Check className="size-4 text-[#c9f15a]" /> Menu-level clarity</span>
-            </div>
+            <Reveal delayMs={540}>
+              <div className="mt-6 flex flex-wrap items-center gap-x-6 gap-y-3 text-sm font-semibold text-white/55">
+                <span className="flex items-center gap-2"><Check className="size-4 text-[#c9f15a]" /> Chicago & suburbs</span>
+                <span className="flex items-center gap-2"><Check className="size-4 text-[#c9f15a]" /> Verification details</span>
+                <span className="flex items-center gap-2"><Check className="size-4 text-[#c9f15a]" /> Menu-level clarity</span>
+              </div>
+            </Reveal>
           </div>
 
           <div className="relative min-h-[570px] lg:min-h-[660px]">
@@ -569,11 +578,13 @@ export default function Home() {
       <section id="verification" className="bg-[#f4f1e8] py-20 sm:py-28">
         <div className="mx-auto max-w-[1280px] px-5 sm:px-8 lg:px-12">
           <div className="grid gap-12 lg:grid-cols-[.8fr_1.2fr] lg:gap-20">
-            <div>
-              <p className="text-xs font-black uppercase tracking-[.2em] text-[#0f7254]">Know before you go</p>
-              <h2 className="mt-4 max-w-[520px] text-balance text-[clamp(2.6rem,5vw,4.7rem)] font-black leading-[.96] tracking-[-.06em] text-[#071c17]">More than a halal pin.</h2>
-              <p className="mt-6 max-w-[540px] text-lg leading-8 text-[#50665f]">DeenDine is designed to show the evidence behind a listing, so you can decide with confidence—not guess from a menu label.</p>
-            </div>
+            <Reveal>
+              <div>
+                <p className="text-xs font-black uppercase tracking-[.2em] text-[#0f7254]">Know before you go</p>
+                <h2 className="mt-4 max-w-[520px] text-balance text-[clamp(2.6rem,5vw,4.7rem)] font-black leading-[.96] tracking-[-.06em] text-[#071c17]">More than a halal pin.</h2>
+                <p className="mt-6 max-w-[540px] text-lg leading-8 text-[#50665f]">DeenDine is designed to show the evidence behind a listing, so you can decide with confidence—not guess from a menu label.</p>
+              </div>
+            </Reveal>
 
             <div className="grid gap-4 sm:grid-cols-2">
               {[
@@ -581,15 +592,17 @@ export default function Home() {
                 { icon: Utensils, number: "02", title: "Menu status clarified", copy: "Know whether the full menu is halal or only specific dishes are available." },
                 { icon: ShieldCheck, number: "03", title: "Your standard, first", copy: "Choose Zabiha, halal, or both and keep that preference visible in your results." },
                 { icon: MapPin, number: "04", title: "Built around Chicagoland", copy: "Explore the city and surrounding suburbs in one focused regional map." },
-              ].map((item) => (
-                <article key={item.number} className="group rounded-[28px] border border-[#d8d8ca] bg-white/75 p-6 transition-all hover:-translate-y-1 hover:border-[#0f7254]/35 hover:bg-white hover:shadow-[0_22px_60px_rgba(7,28,23,.08)] sm:p-7">
-                  <div className="flex items-center justify-between">
-                    <span className="grid size-12 place-items-center rounded-[16px] bg-[#e4f0e9] text-[#0f7254]"><item.icon className="size-5" /></span>
-                    <span className="text-sm font-black text-[#b6b8aa]">{item.number}</span>
-                  </div>
-                  <h3 className="mt-8 text-xl font-black tracking-[-.035em] text-[#071c17]">{item.title}</h3>
-                  <p className="mt-3 leading-7 text-[#66766f]">{item.copy}</p>
-                </article>
+              ].map((item, index) => (
+                <Reveal key={item.number} delayMs={index * 70} className="h-full">
+                  <article className="group h-full rounded-[28px] border border-[#d8d8ca] bg-white/75 p-6 transition-all hover:-translate-y-1 hover:border-[#0f7254]/35 hover:bg-white hover:shadow-[0_22px_60px_rgba(7,28,23,.08)] sm:p-7">
+                    <div className="flex items-center justify-between">
+                      <span className="grid size-12 place-items-center rounded-[16px] bg-[#e4f0e9] text-[#0f7254]"><item.icon className="size-5" /></span>
+                      <span className="text-sm font-black text-[#b6b8aa]">{item.number}</span>
+                    </div>
+                    <h3 className="mt-8 text-xl font-black tracking-[-.035em] text-[#071c17]">{item.title}</h3>
+                    <p className="mt-3 leading-7 text-[#66766f]">{item.copy}</p>
+                  </article>
+                </Reveal>
               ))}
             </div>
           </div>
@@ -598,27 +611,30 @@ export default function Home() {
 
       <section id="coverage" className="bg-white py-20 sm:py-28">
         <div className="mx-auto max-w-[1280px] px-5 sm:px-8 lg:px-12">
-          <div className="rounded-[34px] bg-[#0f7254] px-6 py-10 text-white sm:px-10 sm:py-14 lg:flex lg:items-center lg:justify-between lg:px-14">
-            <div className="max-w-2xl">
-              <p className="text-xs font-black uppercase tracking-[.2em] text-[#dfff89]">Launching across Chicagoland</p>
-              <h2 className="mt-4 text-balance text-4xl font-black leading-tight tracking-[-.05em] sm:text-5xl">From Devon Avenue to the southwest suburbs.</h2>
+          <Reveal>
+            <div className="rounded-[34px] bg-[#0f7254] px-6 py-10 text-white sm:px-10 sm:py-14 lg:flex lg:items-center lg:justify-between lg:px-14">
+              <div className="max-w-2xl">
+                <p className="text-xs font-black uppercase tracking-[.2em] text-[#dfff89]">Launching across Chicagoland</p>
+                <h2 className="mt-4 text-balance text-4xl font-black leading-tight tracking-[-.05em] sm:text-5xl">From Devon Avenue to the southwest suburbs.</h2>
+              </div>
+              <Button asChild className="mt-7 h-12 rounded-full bg-[#c9f15a] px-6 font-black text-[#071c17] hover:bg-white lg:mt-0">
+                <a href="#map">Search your area <ChevronRight className="size-4" /></a>
+              </Button>
             </div>
-            <Button asChild className="mt-7 h-12 rounded-full bg-[#c9f15a] px-6 font-black text-[#071c17] hover:bg-white lg:mt-0">
-              <a href="#map">Search your area <ChevronRight className="size-4" /></a>
-            </Button>
-          </div>
+          </Reveal>
 
           <div className="mt-8 grid gap-px overflow-hidden rounded-[28px] border border-[#dde5e1] bg-[#dde5e1] sm:grid-cols-2 lg:grid-cols-3">
-            {REGIONS.map((region) => (
-              <button
-                key={region.id}
-                type="button"
-                onClick={() => selectRegion(region.id)}
-                className="group flex items-center justify-between bg-[#f7faf8] px-6 py-6 text-left font-extrabold text-[#153d31] transition-[background-color,transform] duration-150 ease-out hover:bg-[#e7f4ee] motion-safe:active:scale-[0.99]"
-              >
-                <span className="flex items-center gap-3"><MapPin className="size-4 text-[#0f7254]" /> {region.label}</span>
-                <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
-              </button>
+            {REGIONS.map((region, index) => (
+              <Reveal key={region.id} delayMs={index * 60} className="h-full">
+                <button
+                  type="button"
+                  onClick={() => selectRegion(region.id)}
+                  className="group flex h-full w-full items-center justify-between bg-[#f7faf8] px-6 py-6 text-left font-extrabold text-[#153d31] transition-[background-color,transform] duration-150 ease-out hover:bg-[#e7f4ee] motion-safe:active:scale-[0.99]"
+                >
+                  <span className="flex items-center gap-3"><MapPin className="size-4 text-[#0f7254]" /> {region.label}</span>
+                  <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
+                </button>
+              </Reveal>
             ))}
           </div>
         </div>

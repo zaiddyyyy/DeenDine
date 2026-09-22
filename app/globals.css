@@ -163,6 +163,29 @@ input {
   animation: halaly-pulse 2s ease-out infinite;
 }
 
+/* Scroll/mount reveal — marketing surfaces only (hero, feature sections). */
+.reveal {
+  clip-path: inset(0 0 100% 0);
+  transition: clip-path 600ms var(--ease-in-out);
+}
+
+.reveal[data-visible] {
+  clip-path: inset(0 0 0 0);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal {
+    clip-path: none;
+    opacity: 0;
+    transition: opacity 400ms ease;
+  }
+
+  .reveal[data-visible] {
+    clip-path: none;
+    opacity: 1;
+  }
+}
+
 /* Content swap — a fresh selection replacing the previous one in place. */
 @keyframes content-swap-in {
   from {
