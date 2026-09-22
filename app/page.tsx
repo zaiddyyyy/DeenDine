@@ -8,6 +8,7 @@ import {
   ArrowRight,
   BadgeCheck,
   Check,
+  ChevronDown,
   ChevronRight,
   ImageIcon,
   LocateFixed,
@@ -52,6 +53,29 @@ const HalalMap = dynamic(() => import("@/components/map/halal-map"), {
 type Preference = "zabiha" | "halal" | "both";
 type GeoStatus = "idle" | "loading" | "granted" | "denied" | "error";
 
+const FAQS = [
+  {
+    question: "How do we verify the halal status of restaurants?",
+    answer:
+      "We verify manually — by contacting each restaurant directly and asking to see the halal certifications they have on display.",
+  },
+  {
+    question: "Is fully halal the same as Zabiha halal?",
+    answer:
+      "Not always. Most of our listed restaurants are Zabiha certified, but not all. We update a restaurant's status as soon as we receive their certification.",
+  },
+  {
+    question: "What happens if a restaurant stops serving halal food?",
+    answer:
+      "We track each restaurant's certification and its expiration date, and re-verify their compliance whenever it's due.",
+  },
+  {
+    question: "Is DeenDine 100% accurate?",
+    answer:
+      "We do our best to stay accurate, but we can't guarantee it — DeenDine isn't responsible if a restaurant fails to notify us of a change in their halal status.",
+  },
+];
+
 function regionChipClass(active: boolean) {
   return cn(
     "rounded-full border px-4 py-2 text-sm font-bold transition-[color,background-color,border-color,transform] duration-150 ease-out motion-safe:active:scale-[0.97]",
@@ -72,6 +96,7 @@ export default function Home() {
   const [geoStatus, setGeoStatus] = useState<GeoStatus>("idle");
   const [certRestaurant, setCertRestaurant] = useState<Restaurant | null>(null);
   const [certClosing, setCertClosing] = useState(false);
+  const [openFaqIndex, setOpenFaqIndex] = useState<number | null>(null);
   const [flyTarget, setFlyTarget] = useState<FlyTarget>({
     center: CHICAGOLAND_CENTER,
     zoom: CHICAGOLAND_ZOOM,
@@ -230,6 +255,7 @@ export default function Home() {
             <a className="transition-colors hover:text-white" href="#map">Discover</a>
             <a className="transition-colors hover:text-white" href="#verification">How we verify</a>
             <a className="transition-colors hover:text-white" href="#coverage">Areas</a>
+            <a className="transition-colors hover:text-white" href="#faq">FAQ</a>
           </div>
 
           <div className="flex items-center gap-2">
@@ -636,6 +662,55 @@ export default function Home() {
                 </button>
               </Reveal>
             ))}
+          </div>
+        </div>
+      </section>
+
+      <section id="faq" className="bg-[#eef4f1] py-20 sm:py-28">
+        <div className="mx-auto max-w-[900px] px-5 sm:px-8 lg:px-12">
+          <Reveal>
+            <p className="text-xs font-black uppercase tracking-[.2em] text-[#0f7254]">FAQ</p>
+            <h2 className="mt-4 text-balance text-[clamp(2.4rem,4.5vw,3.6rem)] font-black leading-[.98] tracking-[-.05em] text-[#071c17]">
+              Questions, answered.
+            </h2>
+          </Reveal>
+
+          <div className="mt-10 flex flex-col gap-3">
+            {FAQS.map((faq, index) => {
+              const isOpen = openFaqIndex === index;
+              return (
+                <Reveal key={faq.question} delayMs={index * 60}>
+                  <div className="overflow-hidden rounded-[20px] border border-[#dde5e1] bg-white">
+                    <button
+                      type="button"
+                      onClick={() => setOpenFaqIndex(isOpen ? null : index)}
+                      className="flex w-full items-center justify-between gap-4 px-5 py-4 text-left sm:px-6 sm:py-5"
+                      aria-expanded={isOpen}
+                    >
+                      <span className="text-base font-black tracking-[-.02em] text-[#071c17] sm:text-lg">
+                        {faq.question}
+                      </span>
+                      <ChevronDown
+                        className={cn(
+                          "size-5 shrink-0 text-[#0f7254] transition-transform duration-300 ease-out",
+                          isOpen && "rotate-180",
+                        )}
+                      />
+                    </button>
+                    <div
+                      className="faq-panel grid"
+                      style={{ gridTemplateRows: isOpen ? "1fr" : "0fr" }}
+                    >
+                      <div className="overflow-hidden">
+                        <p className="px-5 pb-5 text-sm leading-7 text-[#50665f] sm:px-6 sm:pb-6">
+                          {faq.answer}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </Reveal>
+              );
+            })}
           </div>
         </div>
       </section>

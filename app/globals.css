@@ -344,6 +344,17 @@ select {
   animation: modal-panel-out 160ms var(--ease-out) forwards;
 }
 
+/* FAQ accordion — grid-rows trick animates to content height without JS measurement. */
+.faq-panel {
+  transition: grid-template-rows 300ms var(--ease-out);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .faq-panel {
+    transition: none;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   /* Keep the fade (aids comprehension); drop the scale movement. */
   @keyframes modal-panel-in {
