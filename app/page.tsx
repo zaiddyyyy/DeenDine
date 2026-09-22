@@ -173,11 +173,11 @@ export default function Home() {
     <main className="min-h-screen overflow-hidden bg-background text-foreground">
       <nav className="relative z-40 border-b border-white/10 bg-[#071c17]/95 text-white backdrop-blur-xl">
         <div className="mx-auto flex h-[76px] max-w-[1440px] items-center justify-between px-5 sm:px-8 lg:px-12">
-          <a href="#top" className="group flex items-center gap-3" aria-label="Halaly home">
+          <a href="#top" className="group flex items-center gap-3" aria-label="DeenDine home">
             <span className="grid size-10 place-items-center rounded-[14px] bg-[#c9f15a] text-[#071c17] shadow-[0_0_0_1px_rgba(255,255,255,.14)] transition-transform group-hover:-rotate-3">
               <MapPin className="size-5" strokeWidth={2.5} />
             </span>
-            <span className="text-[1.35rem] font-black tracking-[-0.045em]">Halaly</span>
+            <span className="text-[1.35rem] font-black tracking-[-0.045em]">DeenDine</span>
           </a>
 
           <div className="hidden items-center gap-8 text-sm font-semibold text-white/72 md:flex">
@@ -407,50 +407,64 @@ export default function Home() {
                   </div>
                 )}
                 {filtered.map((restaurant) => (
-                  <button
+                  <div
                     key={restaurant.id}
-                    type="button"
-                    onClick={() => selectRestaurant(restaurant.id)}
                     className={cn(
-                      "flex gap-3 rounded-2xl border p-3 text-left transition-all hover:-translate-y-0.5 hover:shadow-[0_14px_34px_rgba(7,28,23,.1)]",
+                      "rounded-2xl border p-3 transition-all hover:-translate-y-0.5 hover:shadow-[0_14px_34px_rgba(7,28,23,.1)]",
                       activeRestaurant?.id === restaurant.id
                         ? "border-[#0f7254] bg-[#e7f4ee]"
                         : "border-[#dde5e1] bg-white",
                     )}
                   >
-                    <div
-                      className="h-[72px] w-[72px] shrink-0 rounded-[14px] bg-cover bg-center"
-                      style={{ backgroundImage: `url('${restaurant.image}')` }}
-                    />
-                    <div className="min-w-0 flex-1">
-                      <div className="flex items-center justify-between gap-2">
-                        <h3 className="truncate text-sm font-black text-[#071c17]">{restaurant.name}</h3>
-                        <span className="flex shrink-0 items-center gap-1 text-xs font-extrabold text-[#071c17]">
-                          <Star className="size-3 fill-[#f5b942] text-[#f5b942]" />
-                          {restaurant.rating.toFixed(1)}
-                          <span className="font-semibold text-[#9aa8a2]">({restaurant.reviewCount.toLocaleString()})</span>
-                        </span>
-                      </div>
-                      <p className="mt-0.5 truncate text-xs font-semibold text-[#66766f]">
-                        {restaurant.cuisine} · {restaurant.neighborhood}
-                      </p>
-                      <div className="mt-1.5 flex items-center justify-between gap-2">
-                        <span
-                          className={cn(
-                            "inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-extrabold text-white",
-                            STATUS_DOT[restaurant.halalStatus],
-                          )}
-                        >
-                          {STATUS_LABEL[restaurant.halalStatus]}
-                        </span>
-                        {restaurant.distance != null && (
-                          <span className="shrink-0 text-[10px] font-bold text-[#0f7254]">
-                            {formatDistance(restaurant.distance)}
+                    <button
+                      type="button"
+                      onClick={() => selectRestaurant(restaurant.id)}
+                      className="flex w-full gap-3 text-left"
+                    >
+                      <div
+                        className="h-[72px] w-[72px] shrink-0 rounded-[14px] bg-cover bg-center"
+                        style={{ backgroundImage: `url('${restaurant.image}')` }}
+                      />
+                      <div className="min-w-0 flex-1">
+                        <div className="flex items-center justify-between gap-2">
+                          <h3 className="truncate text-sm font-black text-[#071c17]">{restaurant.name}</h3>
+                          <span className="flex shrink-0 items-center gap-1 text-xs font-extrabold text-[#071c17]">
+                            <Star className="size-3 fill-[#f5b942] text-[#f5b942]" />
+                            {restaurant.rating.toFixed(1)}
+                            <span className="font-semibold text-[#9aa8a2]">({restaurant.reviewCount.toLocaleString()})</span>
                           </span>
-                        )}
+                        </div>
+                        <p className="mt-0.5 truncate text-xs font-semibold text-[#66766f]">
+                          {restaurant.cuisine} · {restaurant.neighborhood}
+                        </p>
+                        <div className="mt-1.5 flex items-center justify-between gap-2">
+                          <span
+                            className={cn(
+                              "inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-extrabold text-white",
+                              STATUS_DOT[restaurant.halalStatus],
+                            )}
+                          >
+                            {STATUS_LABEL[restaurant.halalStatus]}
+                          </span>
+                          {restaurant.distance != null && (
+                            <span className="shrink-0 text-[10px] font-bold text-[#0f7254]">
+                              {formatDistance(restaurant.distance)}
+                            </span>
+                          )}
+                        </div>
                       </div>
-                    </div>
-                  </button>
+                    </button>
+                    {restaurant.googleMapsUri && (
+                      <a
+                        href={restaurant.googleMapsUri}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="mt-2 inline-flex items-center gap-1 pl-[84px] text-[10px] font-extrabold text-[#527068] underline underline-offset-2 hover:text-[#0f7254]"
+                      >
+                        View on Google Maps ↗
+                      </a>
+                    )}
+                  </div>
                 ))}
               </div>
             </div>
@@ -483,7 +497,7 @@ export default function Home() {
             <div>
               <p className="text-xs font-black uppercase tracking-[.2em] text-[#0f7254]">Know before you go</p>
               <h2 className="mt-4 max-w-[520px] text-balance text-[clamp(2.6rem,5vw,4.7rem)] font-black leading-[.96] tracking-[-.06em] text-[#071c17]">More than a halal pin.</h2>
-              <p className="mt-6 max-w-[540px] text-lg leading-8 text-[#50665f]">Halaly is designed to show the evidence behind a listing, so you can decide with confidence—not guess from a menu label.</p>
+              <p className="mt-6 max-w-[540px] text-lg leading-8 text-[#50665f]">DeenDine is designed to show the evidence behind a listing, so you can decide with confidence—not guess from a menu label.</p>
             </div>
 
             <div className="grid gap-4 sm:grid-cols-2">
@@ -539,7 +553,7 @@ export default function Home() {
         <div className="mx-auto flex max-w-[1280px] flex-col gap-8 px-5 py-10 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-12">
           <div className="flex items-center gap-3">
             <span className="grid size-9 place-items-center rounded-[12px] bg-[#c9f15a] text-[#071c17]"><MapPin className="size-4" strokeWidth={2.5} /></span>
-            <span className="text-xl font-black tracking-[-.04em]">Halaly</span>
+            <span className="text-xl font-black tracking-[-.04em]">DeenDine</span>
           </div>
           <p className="max-w-xl text-sm leading-6 text-white/52">A clearer way to discover halal food across Chicago and its suburbs. Halal status is our own editorial curation from public halal directories; photos, ratings, and addresses are verified against Google&apos;s live listings.</p>
           <p className="text-sm font-bold text-white/45">Chicago, Illinois</p>
