@@ -1,12 +1,13 @@
 "use client";
 
-import { FormEvent, useMemo, useState } from "react";
+import { FormEvent, useEffect, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
 import {
   ArrowRight,
   BadgeCheck,
   Check,
   ChevronRight,
+  ImageIcon,
   LocateFixed,
   Loader2,
   MapPin,
@@ -16,6 +17,7 @@ import {
   Sparkles,
   Star,
   Utensils,
+  X,
 } from "lucide-react";
 
 import { Badge } from "@/components/ui/badge";
@@ -28,9 +30,11 @@ import { formatDistance, haversineMiles } from "@/lib/geo";
 import {
   CHICAGOLAND_CENTER,
   CHICAGOLAND_ZOOM,
+  CUISINE_CATEGORIES,
   REGIONS,
   restaurants,
   type Region,
+  type Restaurant,
 } from "@/lib/restaurants";
 import { STATUS_DOT, STATUS_LABEL } from "@/lib/status";
 
@@ -60,14 +64,25 @@ export default function Home() {
   const [query, setQuery] = useState("");
   const [submittedQuery, setSubmittedQuery] = useState("");
   const [selectedRegion, setSelectedRegion] = useState<Region | "all">("all");
+  const [selectedCuisine, setSelectedCuisine] = useState<string>("all");
   const [activeId, setActiveId] = useState<string | null>(null);
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [geoStatus, setGeoStatus] = useState<GeoStatus>("idle");
+  const [certRestaurant, setCertRestaurant] = useState<Restaurant | null>(null);
   const [flyTarget, setFlyTarget] = useState<FlyTarget>({
     center: CHICAGOLAND_CENTER,
     zoom: CHICAGOLAND_ZOOM,
     token: 0,
   });
+
+  useEffect(() => {
+    if (!certRestaurant) return;
+    function handleKeyDown(event: KeyboardEvent) {
+      if (event.key === "Escape") setCertRestaurant(null);
+    }
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [certRestaurant]);
 
   function flyTo(lat: number, lng: number, zoom: number) {
     setFlyTarget((prev) => ({ center: [lat, lng], zoom, token: prev.token + 1 }));
@@ -82,6 +97,10 @@ export default function Home() {
 
     if (selectedRegion !== "all") {
       list = list.filter((r) => r.region === selectedRegion);
+    }
+
+    if (selectedCuisine !== "all") {
+      list = list.filter((r) => r.cuisineCategory === selectedCuisine);
     }
 
     if (preference === "zabiha") {
@@ -114,7 +133,7 @@ export default function Home() {
     });
 
     return withDistance;
-  }, [selectedRegion, preference, submittedQuery, userLocation]);
+  }, [selectedRegion, selectedCuisine, preference, submittedQuery, userLocation]);
 
   const activeRestaurant = filtered.find((r) => r.id === activeId) ?? filtered[0] ?? null;
 
@@ -374,6 +393,23 @@ export default function Home() {
             </div>
           </div>
 
+          <div className="mb-6 flex flex-wrap items-center gap-3">
+            <span className="text-sm font-bold text-[#496159]">Cuisine</span>
+            <select
+              value={selectedCuisine}
+              onChange={(event) => setSelectedCuisine(event.target.value)}
+              className="h-10 rounded-full border border-[#dde5e1] bg-white px-4 text-sm font-bold text-[#153f32] outline-none focus-visible:border-[#0f7254] focus-visible:ring-2 focus-visible:ring-[#0f7254]/30"
+              aria-label="Filter by cuisine"
+            >
+              <option value="all">All cuisines</option>
+              {CUISINE_CATEGORIES.map((category) => (
+                <option key={category} value={category}>
+                  {category}
+                </option>
+              ))}
+            </select>
+          </div>
+
           <div className="grid gap-6 lg:grid-cols-[420px_minmax(0,1fr)]">
             <div className="order-2 flex flex-col gap-3 lg:order-1">
               <div className="flex items-center justify-between gap-3 rounded-2xl border border-[#dde5e1] bg-white px-4 py-3">
@@ -454,16 +490,25 @@ export default function Home() {
                         </div>
                       </div>
                     </button>
-                    {restaurant.googleMapsUri && (
-                      <a
-                        href={restaurant.googleMapsUri}
-                        target="_blank"
-                        rel="noreferrer"
-                        className="mt-2 inline-flex items-center gap-1 pl-[84px] text-[10px] font-extrabold text-[#527068] underline underline-offset-2 hover:text-[#0f7254]"
+                    <div className="mt-2 flex flex-wrap items-center justify-between gap-x-3 gap-y-1 pl-[84px]">
+                      {restaurant.googleMapsUri && (
+                        <a
+                          href={restaurant.googleMapsUri}
+                          target="_blank"
+                          rel="noreferrer"
+                          className="inline-flex items-center gap-1 text-[10px] font-extrabold text-[#527068] underline underline-offset-2 hover:text-[#0f7254]"
+                        >
+                          View on Google Maps ↗
+                        </a>
+                      )}
+                      <button
+                        type="button"
+                        onClick={() => setCertRestaurant(restaurant)}
+                        className="inline-flex items-center gap-1 text-[10px] font-extrabold text-[#527068] underline underline-offset-2 hover:text-[#0f7254]"
                       >
-                        View on Google Maps ↗
-                      </a>
-                    )}
+                        <ImageIcon className="size-3" /> View certification
+                      </button>
+                    </div>
                   </div>
                 ))}
               </div>
@@ -559,6 +604,60 @@ export default function Home() {
           <p className="text-sm font-bold text-white/45">Chicago, Illinois</p>
         </div>
       </footer>
+
+      {certRestaurant && (
+        <div
+          className="fixed inset-0 z-[999] flex items-center justify-center bg-[#071c17]/70 p-4 backdrop-blur-sm"
+          onClick={() => setCertRestaurant(null)}
+          role="dialog"
+          aria-modal="true"
+          aria-label={`${certRestaurant.name} halal certification`}
+        >
+          <div
+            className="relative w-full max-w-lg overflow-hidden rounded-[24px] bg-white shadow-2xl"
+            onClick={(event) => event.stopPropagation()}
+          >
+            <button
+              type="button"
+              onClick={() => setCertRestaurant(null)}
+              aria-label="Close"
+              className="absolute right-3 top-3 z-10 grid size-9 place-items-center rounded-full bg-white/95 text-[#071c17] shadow-md transition hover:bg-[#e7f4ee]"
+            >
+              <X className="size-4" />
+            </button>
+
+            <div className="px-6 pb-4 pt-6">
+              <span
+                className={cn(
+                  "inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-[10px] font-extrabold text-white",
+                  STATUS_DOT[certRestaurant.halalStatus],
+                )}
+              >
+                {STATUS_LABEL[certRestaurant.halalStatus]}
+              </span>
+              <h3 className="mt-2 text-xl font-black tracking-[-.03em] text-[#071c17]">{certRestaurant.name}</h3>
+              <p className="text-sm font-semibold text-[#66766f]">{certRestaurant.address}</p>
+            </div>
+
+            {certRestaurant.certificateImage ? (
+              // eslint-disable-next-line @next/next/no-img-element
+              <img
+                src={certRestaurant.certificateImage}
+                alt={`${certRestaurant.name} halal certification document`}
+                className="max-h-[65vh] w-full bg-[#f4f8f6] object-contain"
+              />
+            ) : (
+              <div className="mx-6 mb-6 flex flex-col items-center gap-2 rounded-2xl border border-dashed border-[#c7d3cd] bg-[#f4f8f6] px-5 py-12 text-center">
+                <ImageIcon className="size-6 text-[#9aa8a2]" />
+                <p className="text-sm font-bold text-[#496159]">Certification photo coming soon</p>
+                <p className="max-w-xs text-xs font-semibold text-[#8a9a93]">
+                  We&apos;re collecting and verifying halal/Zabiha certification photos directly from each restaurant.
+                </p>
+              </div>
+            )}
+          </div>
+        </div>
+      )}
     </main>
   );
 }

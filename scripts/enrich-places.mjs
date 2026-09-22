@@ -109,6 +109,17 @@ const RESTAURANTS = [
   { id: "epic-burger-north-ave", name: "Epic Burger", address: "1000 W North Ave, Chicago, IL 60642" },
   { id: "epic-burger-skokie", name: "Epic Burger", address: "4999 Old Orchard Shop Center East Ring Rd, Skokie, IL 60077" },
   { id: "epic-burger-northbrook", name: "Epic Burger", address: "1036 Willow Rd, Northbrook, IL 60062" },
+  { id: "seven-spices", name: "7 Spices", address: "Skokie, IL" },
+  { id: "zad-by-pita-inn", name: "Zad by Pita Inn", address: "Skokie, IL" },
+  { id: "sizzle-skokie", name: "Sizzle", address: "Skokie, IL" },
+  { id: "browns-chicken-skokie", name: "Brown's Chicken", address: "3949 Oakton St, Skokie, IL 60076" },
+  { id: "masala-magic", name: "Masala Magic Restaurant", address: "1011 N Orleans St, Chicago, IL 60610" },
+  { id: "olive-mediterranean-grill", name: "Olive Mediterranean Grill", address: "1001 W North Ave, Chicago, IL 60642" },
+  { id: "the-charcoal-grill", name: "The Charcoal Grill", address: "Schaumburg, IL" },
+  { id: "bawarchi-biryanis", name: "Bawarchi Biryanis", address: "Schaumburg, IL" },
+  { id: "imli-schaumburg", name: "IMLI", address: "1725 E Algonquin Rd, Schaumburg, IL 60173" },
+  { id: "al-badia-tandoori-dallah", name: "Al Badia Tandoori Dallah", address: "234 W Roosevelt Rd, Villa Park, IL 60181" },
+  { id: "al-manakeesh", name: "Al Manakeesh", address: "8401 S Harlem Ave, Bridgeview, IL 60455" },
 ];
 
 const FIELD_MASK = [

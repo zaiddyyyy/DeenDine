@@ -29,6 +29,53 @@ export interface Restaurant {
   googleMapsUri?: string;
   websiteUri?: string;
   openingHours?: string[];
+  /**
+   * Path to a photographed halal/Zabiha certification document, e.g.
+   * "/certificates/al-bawadi-grill.jpg". Drop the image in
+   * public/certificates/ named after the restaurant's id and set this
+   * field to wire it up — left unset until a certificate is collected.
+   */
+  certificateImage?: string;
+  /** Broad category derived from `cuisine`, used by the cuisine filter. */
+  cuisineCategory: string;
+}
+
+/** Broad cuisine bucket used by the cuisine filter, derived from the free-text `cuisine` field. */
+function categorizeCuisine(cuisine: string): string {
+  const c = cuisine.toLowerCase();
+  if (c.includes("indo-chinese") || c.includes("chinese")) return "Chinese";
+  if (
+    c.includes("nihari") ||
+    c.includes("pakistani") ||
+    c.includes("indian") ||
+    c.includes("bangladeshi") ||
+    c.includes("hyderabadi") ||
+    c.includes("biryani") ||
+    c.includes("chai")
+  )
+    return "South Asian";
+  if (c.includes("nashville") || c.includes("hot chicken") || c.includes("peri peri") || c.includes("fried chicken"))
+    return "Chicken";
+  if (c.includes("smoked bbq") || c.includes("b.b.q") || c.includes(" bbq")) return "BBQ";
+  if (c.includes("pizza")) return "Pizza";
+  if (c.includes("burger") || c.includes("wings") || c.includes("comfort food")) return "American";
+  if (c.includes("bakery") || c.includes("cafe")) return "Bakery / Cafe";
+  if (c.includes("uzbek") || c.includes("afghan") || c.includes("uyghur") || c.includes("central asian"))
+    return "Central Asian";
+  if (c.includes("mediterranean") && !c.includes("middle eastern")) return "Mediterranean";
+  if (
+    c.includes("middle eastern") ||
+    c.includes("falafel") ||
+    c.includes("shawarma") ||
+    c.includes("egyptian") ||
+    c.includes("palestinian") ||
+    c.includes("halal cart")
+  )
+    return "Middle Eastern";
+  if (c.includes("african")) return "African";
+  if (c.includes("halal grill") || c.includes("halal fast food") || c.includes("ny-style") || c.includes("ny halal"))
+    return "Halal Grill";
+  return "Other";
 }
 
 /**
@@ -39,7 +86,7 @@ export interface Restaurant {
  * snapshot and should be re-verified (hours, certification, still open) by
  * an editorial/data pipeline before being treated as authoritative.
  */
-const baseRestaurants: Restaurant[] = [
+const baseRestaurants: Omit<Restaurant, "cuisineCategory">[] = [
   {
     id: "karachi-chaat-house",
     name: "Karachi Chaat House",
@@ -1416,6 +1463,182 @@ const baseRestaurants: Restaurant[] = [
     lng: -87.7970,
     description: "Northbrook location of the Chicago burger chain; select items are halal.",
   },
+  {
+    id: "seven-spices",
+    name: "7 Spices",
+    neighborhood: "Skokie",
+    region: "North Suburbs",
+    address: "Skokie, IL",
+    cuisine: "Indian / Indo-Chinese",
+    halalStatus: "halal",
+    rating: 4.4,
+    reviewCount: 300,
+    priceLevel: "$",
+    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&fm=jpg&q=80&w=900",
+    lat: 42.0334,
+    lng: -87.7473,
+    description: "Halal Hyderabadi and Indo-Chinese cuisine in Skokie.",
+  },
+  {
+    id: "zad-by-pita-inn",
+    name: "Zad by Pita Inn",
+    neighborhood: "Skokie",
+    region: "North Suburbs",
+    address: "Skokie, IL",
+    cuisine: "Middle Eastern / Mediterranean",
+    halalStatus: "halal",
+    rating: 4.4,
+    reviewCount: 200,
+    priceLevel: "$",
+    image: "https://images.unsplash.com/photo-1529006557810-274b9b2fc783?auto=format&fit=crop&fm=jpg&q=80&w=900",
+    lat: 42.0334,
+    lng: -87.7460,
+    description: "Sister concept to Pita Inn, serving halal Middle Eastern fare in Skokie.",
+  },
+  {
+    id: "sizzle-skokie",
+    name: "Sizzle",
+    neighborhood: "Skokie",
+    region: "North Suburbs",
+    address: "Skokie, IL",
+    cuisine: "American / Burgers",
+    halalStatus: "halal",
+    rating: 4.5,
+    reviewCount: 180,
+    priceLevel: "$",
+    image: "https://images.unsplash.com/photo-1571091718767-18b5b1457add?auto=format&fit=crop&fm=jpg&q=80&w=900",
+    lat: 42.0334,
+    lng: -87.7480,
+    description: "Halal smash burgers, crispy chicken sandwiches, and boba tea in Skokie.",
+  },
+  {
+    id: "browns-chicken-skokie",
+    name: "Brown's Chicken",
+    neighborhood: "Skokie",
+    region: "North Suburbs",
+    address: "3949 Oakton St, Skokie, IL 60076",
+    cuisine: "American / Fried Chicken",
+    halalStatus: "halal",
+    rating: 4.2,
+    reviewCount: 260,
+    priceLevel: "$",
+    image: "https://images.unsplash.com/photo-1626500881415-06751e26ef0e?auto=format&fit=crop&fm=jpg&q=80&w=900",
+    lat: 42.0392,
+    lng: -87.7530,
+    description: "Chicago-area fried chicken chain location serving all-halal meat in Skokie.",
+  },
+  {
+    id: "masala-magic",
+    name: "Masala Magic Restaurant",
+    neighborhood: "River North",
+    region: "Chicago",
+    address: "1011 N Orleans St, Chicago, IL 60610",
+    cuisine: "Bangladeshi / Indian",
+    halalStatus: "halal",
+    rating: 4.5,
+    reviewCount: 150,
+    priceLevel: "$$",
+    image: "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&fm=jpg&q=80&w=900",
+    lat: 41.9019,
+    lng: -87.6373,
+    description: "Halal Bangladeshi and Indian cuisine in River North.",
+  },
+  {
+    id: "olive-mediterranean-grill",
+    name: "Olive Mediterranean Grill",
+    neighborhood: "Goose Island",
+    region: "Chicago",
+    address: "1001 W North Ave, Chicago, IL 60642",
+    cuisine: "Mediterranean",
+    halalStatus: "halal",
+    rating: 4.3,
+    reviewCount: 300,
+    priceLevel: "$",
+    image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&fm=jpg&q=80&w=900",
+    lat: 41.9108,
+    lng: -87.6540,
+    description: "Halal Mediterranean grill near Goose Island.",
+  },
+  {
+    id: "the-charcoal-grill",
+    name: "The Charcoal Grill",
+    neighborhood: "Schaumburg",
+    region: "Northwest Suburbs",
+    address: "Schaumburg, IL",
+    cuisine: "American / Pakistani Grill",
+    halalStatus: "halal",
+    rating: 4.6,
+    reviewCount: 220,
+    priceLevel: "$",
+    image: "https://images.unsplash.com/photo-1600628421055-4d30de868b8f?auto=format&fit=crop&fm=jpg&q=80&w=900",
+    lat: 42.0333,
+    lng: -88.0834,
+    description: "Pickup-only halal charcoal-grilled burgers and rice bowls with South Asian flavors.",
+  },
+  {
+    id: "bawarchi-biryanis",
+    name: "Bawarchi Biryanis",
+    neighborhood: "Schaumburg",
+    region: "Northwest Suburbs",
+    address: "Schaumburg, IL",
+    cuisine: "Indian / Pakistani",
+    halalStatus: "halal",
+    rating: 4.3,
+    reviewCount: 400,
+    priceLevel: "$$",
+    image: "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?auto=format&fit=crop&fm=jpg&q=80&w=900",
+    lat: 42.0333,
+    lng: -88.0800,
+    description: "Halal Indian and Pakistani biryani house in a Schaumburg strip mall.",
+  },
+  {
+    id: "imli-schaumburg",
+    name: "IMLI",
+    neighborhood: "Schaumburg",
+    region: "Northwest Suburbs",
+    address: "1725 E Algonquin Rd, Schaumburg, IL 60173",
+    cuisine: "Indian",
+    halalStatus: "halal",
+    rating: 4.4,
+    reviewCount: 350,
+    priceLevel: "$$",
+    image: "https://images.unsplash.com/photo-1631515243349-e0cb75fb8d3a?auto=format&fit=crop&fm=jpg&q=80&w=900",
+    lat: 42.0459,
+    lng: -88.0670,
+    description: "Modern halal Indian dining room serving biryani, naan, and butter chicken.",
+  },
+  {
+    id: "al-badia-tandoori-dallah",
+    name: "Al Badia / Tandoori / Dallah",
+    neighborhood: "Villa Park",
+    region: "West Suburbs",
+    address: "234 W Roosevelt Rd, Villa Park, IL 60181",
+    cuisine: "Middle Eastern / Pakistani",
+    halalStatus: "halal",
+    rating: 4.4,
+    reviewCount: 300,
+    priceLevel: "$",
+    image: "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&fm=jpg&q=80&w=900",
+    lat: 41.8734,
+    lng: -87.9760,
+    description: "Combined halal Middle Eastern and Pakistani menu on Roosevelt Rd in Villa Park.",
+  },
+  {
+    id: "al-manakeesh",
+    name: "Al Manakeesh",
+    neighborhood: "Bridgeview",
+    region: "Southwest Suburbs",
+    address: "8401 S Harlem Ave, Bridgeview, IL 60455",
+    cuisine: "Middle Eastern / Palestinian",
+    halalStatus: "halal",
+    rating: 4.5,
+    reviewCount: 400,
+    priceLevel: "$",
+    image: "https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&fm=jpg&q=80&w=900",
+    lat: 41.7412,
+    lng: -87.8070,
+    description: "Wood-fired manakeesh and Palestinian halal fare in Bridgeview.",
+  },
 ];
 
 interface GooglePlaceEnrichment {
@@ -1446,10 +1669,13 @@ function placePhotoUrl(photoName: string, width = 900): string {
  */
 export const restaurants: Restaurant[] = baseRestaurants.map((restaurant) => {
   const enrichment = googlePlacesData[restaurant.id];
-  if (!enrichment) return restaurant;
+  const cuisineCategory = categorizeCuisine(restaurant.cuisine);
+
+  if (!enrichment) return { ...restaurant, cuisineCategory };
 
   return {
     ...restaurant,
+    cuisineCategory,
     lat: enrichment.lat ?? restaurant.lat,
     lng: enrichment.lng ?? restaurant.lng,
     address: enrichment.formattedAddress ?? restaurant.address,
@@ -1461,6 +1687,10 @@ export const restaurants: Restaurant[] = baseRestaurants.map((restaurant) => {
     openingHours: enrichment.openingHours ?? undefined,
   };
 });
+
+export const CUISINE_CATEGORIES: string[] = Array.from(
+  new Set(restaurants.map((r) => r.cuisineCategory)),
+).sort();
 
 export const REGIONS: {
   id: Region;
