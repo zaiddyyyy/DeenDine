@@ -1,0 +1,161 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "../vendor/shadcn-tailwind-4.13.0.css";
+
+@utility scrollbar-thin {
+  scrollbar-width: thin;
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #071c17;
+  --card: #ffffff;
+  --card-foreground: #071c17;
+  --popover: #ffffff;
+  --popover-foreground: #071c17;
+  --primary: #0f7254;
+  --primary-foreground: #ffffff;
+  --secondary: #e7f4ee;
+  --secondary-foreground: #0a4938;
+  --muted: #eef4f1;
+  --muted-foreground: #60766f;
+  --accent: #c9f15a;
+  --accent-foreground: #071c17;
+  --destructive: #c82b35;
+  --border: #dbe5e0;
+  --input: #dbe5e0;
+  --ring: #0f7254;
+  --chart-1: #0f7254;
+  --chart-2: #c9f15a;
+  --chart-3: #78b8be;
+  --chart-4: #f5b942;
+  --chart-5: #cf6544;
+  --radius: 0.875rem;
+  --sidebar: #f4f8f6;
+  --sidebar-foreground: #071c17;
+  --sidebar-primary: #0f7254;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #e7f4ee;
+  --sidebar-accent-foreground: #0a4938;
+  --sidebar-border: #dbe5e0;
+  --sidebar-ring: #0f7254;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 5px);
+  --font-sans: "Avenir Next", Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Avenir Next", Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
+}
+
+::selection {
+  background: #c9f15a;
+  color: #071c17;
+}
+
+button,
+a,
+input {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Leaflet map theming */
+.leaflet-container {
+  width: 100%;
+  height: 100%;
+  font-family: "Avenir Next", Avenir, "Segoe UI", Helvetica, Arial, sans-serif;
+  background: #dce4dc;
+}
+
+.leaflet-control-zoom {
+  border: none !important;
+  box-shadow: 0 12px 30px rgba(7, 28, 23, 0.18) !important;
+}
+
+.leaflet-control-zoom a {
+  color: #071c17 !important;
+  border-radius: 10px !important;
+}
+
+.leaflet-control-attribution {
+  font-size: 10px !important;
+  background: rgba(255, 255, 255, 0.75) !important;
+}
+
+.halaly-tooltip {
+  border-radius: 10px !important;
+  border: none !important;
+  background: #071c17 !important;
+  color: #fff !important;
+  font-weight: 700 !important;
+  font-size: 11px !important;
+  padding: 4px 10px !important;
+  box-shadow: 0 8px 20px rgba(7, 28, 23, 0.25) !important;
+}
+
+.halaly-tooltip::before {
+  border-top-color: #071c17 !important;
+}
+
+@keyframes halaly-pulse {
+  0% {
+    transform: scale(0.55);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+.halaly-user-pulse {
+  animation: halaly-pulse 2s ease-out infinite;
+}
