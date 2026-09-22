@@ -13,8 +13,10 @@ import {
   ImageIcon,
   LocateFixed,
   Loader2,
+  Mail,
   MapPin,
   Menu,
+  Phone,
   Search,
   ShieldCheck,
   Sparkles,
@@ -716,13 +718,41 @@ export default function Home() {
       </section>
 
       <footer className="bg-[#071c17] text-white">
-        <div className="mx-auto flex max-w-[1280px] flex-col gap-8 px-5 py-10 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-12">
-          <div className="flex items-center gap-3">
-            <Image src="/logo.png" alt="" width={36} height={36} className="size-9 rounded-[12px]" />
-            <span className="text-xl font-black tracking-[-.04em]">DeenDine</span>
+        <div className="mx-auto max-w-[1280px] px-5 py-12 sm:px-8 lg:px-12">
+          <div className="flex flex-col gap-10 border-b border-white/10 pb-10 md:flex-row md:justify-between">
+            <div className="max-w-sm">
+              <div className="flex items-center gap-3">
+                <Image src="/logo.png" alt="" width={36} height={36} className="size-9 rounded-[12px]" />
+                <span className="text-xl font-black tracking-[-.04em]">DeenDine</span>
+              </div>
+              <p className="mt-4 text-sm leading-6 text-white/52">A clearer way to discover halal food across Chicago and its suburbs. Halal status is our own editorial curation from public halal directories; photos, ratings, and addresses are verified against Google&apos;s live listings.</p>
+            </div>
+
+            <div>
+              <p className="text-xs font-black uppercase tracking-[.2em] text-[#c9f15a]">Contact us</p>
+              <div className="mt-4 flex flex-col gap-3 text-sm font-bold text-white/70">
+                <a
+                  href="mailto:contact@deendine.app"
+                  className="flex items-center gap-2.5 transition-colors hover:text-white"
+                >
+                  <Mail className="size-4 shrink-0 text-[#c9f15a]" /> contact@deendine.app
+                </a>
+                <a
+                  href="tel:+13128890948"
+                  className="flex items-center gap-2.5 transition-colors hover:text-white"
+                >
+                  <Phone className="size-4 shrink-0 text-[#c9f15a]" /> +1 (312) 889-0948
+                </a>
+                <span className="flex items-center gap-2.5">
+                  <MapPin className="size-4 shrink-0 text-[#c9f15a]" /> Lombard, IL
+                </span>
+              </div>
+            </div>
           </div>
-          <p className="max-w-xl text-sm leading-6 text-white/52">A clearer way to discover halal food across Chicago and its suburbs. Halal status is our own editorial curation from public halal directories; photos, ratings, and addresses are verified against Google&apos;s live listings.</p>
-          <p className="text-sm font-bold text-white/45">Chicago, Illinois</p>
+
+          <p className="pt-6 text-xs font-semibold text-white/35">
+            © {new Date().getFullYear()} DeenDine. All rights reserved.
+          </p>
         </div>
       </footer>
 
