@@ -9,6 +9,9 @@
 :root {
   --background: #ffffff;
   --foreground: #071c17;
+  /* Shared motion vocabulary (Emil Kowalski) — extend these, don't fork them. */
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
   --card: #ffffff;
   --card-foreground: #071c17;
   --popover: #ffffff;
@@ -158,4 +161,163 @@ input {
 
 .halaly-user-pulse {
   animation: halaly-pulse 2s ease-out infinite;
+}
+
+/* Content swap — a fresh selection replacing the previous one in place. */
+@keyframes content-swap-in {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.content-swap-enter {
+  animation: content-swap-in 200ms var(--ease-out);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @keyframes content-swap-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/* Banner — rare, appears once per state change (e.g. geolocation denied). */
+@keyframes banner-in {
+  from {
+    opacity: 0;
+    transform: translateY(-4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.banner-enter {
+  animation: banner-in 250ms var(--ease-out);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @keyframes banner-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/* List entrance — a filtered set of results replacing the previous set. */
+@keyframes list-item-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.list-item-enter {
+  animation: list-item-in 200ms var(--ease-out) both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  @keyframes list-item-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+}
+
+/* Certification modal — enter/exit (transform + opacity only). */
+@keyframes modal-backdrop-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modal-backdrop-out {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes modal-panel-in {
+  from {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes modal-panel-out {
+  from {
+    opacity: 1;
+    transform: scale(1);
+  }
+  to {
+    opacity: 0;
+    transform: scale(0.96);
+  }
+}
+
+.modal-backdrop-enter {
+  animation: modal-backdrop-in 200ms var(--ease-out) forwards;
+}
+
+.modal-backdrop-exit {
+  animation: modal-backdrop-out 160ms var(--ease-out) forwards;
+}
+
+.modal-panel-enter {
+  animation: modal-panel-in 220ms var(--ease-out) forwards;
+}
+
+.modal-panel-exit {
+  animation: modal-panel-out 160ms var(--ease-out) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  /* Keep the fade (aids comprehension); drop the scale movement. */
+  @keyframes modal-panel-in {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  @keyframes modal-panel-out {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
 }

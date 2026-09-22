@@ -53,7 +53,7 @@ type GeoStatus = "idle" | "loading" | "granted" | "denied" | "error";
 
 function regionChipClass(active: boolean) {
   return cn(
-    "rounded-full border px-4 py-2 text-sm font-bold transition-colors",
+    "rounded-full border px-4 py-2 text-sm font-bold transition-[color,background-color,border-color,transform] duration-150 ease-out motion-safe:active:scale-[0.97]",
     active
       ? "border-[#071c17] bg-[#071c17] text-white"
       : "border-[#dde5e1] bg-white text-[#153f32] hover:border-[#0f7254]/40 hover:bg-[#e7f4ee]",
@@ -70,16 +70,30 @@ export default function Home() {
   const [userLocation, setUserLocation] = useState<{ lat: number; lng: number } | null>(null);
   const [geoStatus, setGeoStatus] = useState<GeoStatus>("idle");
   const [certRestaurant, setCertRestaurant] = useState<Restaurant | null>(null);
+  const [certClosing, setCertClosing] = useState(false);
   const [flyTarget, setFlyTarget] = useState<FlyTarget>({
     center: CHICAGOLAND_CENTER,
     zoom: CHICAGOLAND_ZOOM,
     token: 0,
   });
 
+  function openCert(restaurant: Restaurant) {
+    setCertRestaurant(restaurant);
+    setCertClosing(false);
+  }
+
+  function closeCert() {
+    setCertClosing(true);
+    window.setTimeout(() => {
+      setCertRestaurant(null);
+      setCertClosing(false);
+    }, 160); // matches .modal-panel-exit / .modal-backdrop-exit duration in globals.css
+  }
+
   useEffect(() => {
     if (!certRestaurant) return;
     function handleKeyDown(event: KeyboardEvent) {
-      if (event.key === "Escape") setCertRestaurant(null);
+      if (event.key === "Escape") closeCert();
     }
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
@@ -312,7 +326,7 @@ export default function Home() {
                 <button
                   type="button"
                   onClick={useMyLocation}
-                  className="pointer-events-auto grid size-10 place-items-center rounded-full bg-white text-[#153f32] shadow-md transition hover:bg-[#e7f4ee]"
+                  className="pointer-events-auto grid size-10 place-items-center rounded-full bg-white text-[#153f32] shadow-md transition-[background-color,transform] duration-150 ease-out hover:bg-[#e7f4ee] motion-safe:active:scale-[0.95]"
                   aria-label="Center on my location"
                 >
                   {geoStatus === "loading" ? <Loader2 className="size-4.5 animate-spin" /> : <LocateFixed className="size-4.5" />}
@@ -321,7 +335,7 @@ export default function Home() {
 
               {activeRestaurant && (
                 <div className="absolute bottom-5 left-5 right-5 overflow-hidden rounded-[26px] border border-white/60 bg-white/95 p-3.5 text-[#071c17] shadow-[0_20px_55px_rgba(7,28,23,.2)] backdrop-blur-xl sm:left-auto sm:w-[390px]">
-                  <div className="flex gap-4">
+                  <div key={activeRestaurant.id} className="flex gap-4 content-swap-enter">
                     <div
                       className="h-[114px] w-[112px] shrink-0 rounded-[18px] bg-cover bg-center"
                       role="img"
@@ -434,24 +448,28 @@ export default function Home() {
               </div>
 
               {(geoStatus === "denied" || geoStatus === "error") && (
-                <p className="rounded-xl bg-[#fdece7] px-4 py-3 text-xs font-semibold text-[#9a3412]">
+                <p className="banner-enter rounded-xl bg-[#fdece7] px-4 py-3 text-xs font-semibold text-[#9a3412]">
                   {geoStatus === "denied"
                     ? "Location access was blocked. Enable it in your browser settings to see restaurants sorted by distance."
                     : "Couldn't get your location. You can still browse by neighborhood or suburb below."}
                 </p>
               )}
 
-              <div className="flex max-h-[640px] flex-col gap-3 overflow-y-auto scrollbar-thin pr-1">
+              <div
+                key={`${selectedRegion}-${selectedCuisine}-${submittedQuery}`}
+                className="flex max-h-[640px] flex-col gap-3 overflow-y-auto scrollbar-thin pr-1"
+              >
                 {filtered.length === 0 && (
-                  <div className="rounded-2xl border border-dashed border-[#c7d3cd] bg-white/60 px-5 py-10 text-center text-sm font-semibold text-[#66766f]">
+                  <div className="list-item-enter rounded-2xl border border-dashed border-[#c7d3cd] bg-white/60 px-5 py-10 text-center text-sm font-semibold text-[#66766f]">
                     No matches yet — try widening your preference or clearing the search.
                   </div>
                 )}
-                {filtered.map((restaurant) => (
+                {filtered.map((restaurant, index) => (
                   <div
                     key={restaurant.id}
+                    style={{ animationDelay: `${Math.min(index * 25, 300)}ms` }}
                     className={cn(
-                      "rounded-2xl border p-3 transition-all hover:-translate-y-0.5 hover:shadow-[0_14px_34px_rgba(7,28,23,.1)]",
+                      "list-item-enter rounded-2xl border p-3 transition-all hover:-translate-y-0.5 hover:shadow-[0_14px_34px_rgba(7,28,23,.1)]",
                       activeRestaurant?.id === restaurant.id
                         ? "border-[#0f7254] bg-[#e7f4ee]"
                         : "border-[#dde5e1] bg-white",
@@ -460,7 +478,7 @@ export default function Home() {
                     <button
                       type="button"
                       onClick={() => selectRestaurant(restaurant.id)}
-                      className="flex w-full gap-3 text-left"
+                      className="flex w-full gap-3 text-left transition-transform duration-150 ease-out motion-safe:active:scale-[0.99]"
                     >
                       <div
                         className="h-[72px] w-[72px] shrink-0 rounded-[14px] bg-cover bg-center"
@@ -508,8 +526,8 @@ export default function Home() {
                       )}
                       <button
                         type="button"
-                        onClick={() => setCertRestaurant(restaurant)}
-                        className="inline-flex items-center gap-1 text-[10px] font-extrabold text-[#527068] underline underline-offset-2 hover:text-[#0f7254]"
+                        onClick={() => openCert(restaurant)}
+                        className="inline-flex items-center gap-1 text-[10px] font-extrabold text-[#527068] underline underline-offset-2 transition-[color,transform] duration-150 ease-out hover:text-[#0f7254] motion-safe:active:scale-[0.97]"
                       >
                         <ImageIcon className="size-3" /> View certification
                       </button>
@@ -589,7 +607,7 @@ export default function Home() {
                 key={region.id}
                 type="button"
                 onClick={() => selectRegion(region.id)}
-                className="group flex items-center justify-between bg-[#f7faf8] px-6 py-6 text-left font-extrabold text-[#153d31] transition-colors hover:bg-[#e7f4ee]"
+                className="group flex items-center justify-between bg-[#f7faf8] px-6 py-6 text-left font-extrabold text-[#153d31] transition-[background-color,transform] duration-150 ease-out hover:bg-[#e7f4ee] motion-safe:active:scale-[0.99]"
               >
                 <span className="flex items-center gap-3"><MapPin className="size-4 text-[#0f7254]" /> {region.label}</span>
                 <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
@@ -612,21 +630,27 @@ export default function Home() {
 
       {certRestaurant && (
         <div
-          className="fixed inset-0 z-[999] flex items-center justify-center bg-[#071c17]/70 p-4 backdrop-blur-sm"
-          onClick={() => setCertRestaurant(null)}
+          className={cn(
+            "fixed inset-0 z-[999] flex items-center justify-center bg-[#071c17]/70 p-4 backdrop-blur-sm",
+            certClosing ? "modal-backdrop-exit" : "modal-backdrop-enter",
+          )}
+          onClick={closeCert}
           role="dialog"
           aria-modal="true"
           aria-label={`${certRestaurant.name} halal certification`}
         >
           <div
-            className="relative w-full max-w-lg overflow-hidden rounded-[24px] bg-white shadow-2xl"
+            className={cn(
+              "relative w-full max-w-lg overflow-hidden rounded-[24px] bg-white shadow-2xl",
+              certClosing ? "modal-panel-exit" : "modal-panel-enter",
+            )}
             onClick={(event) => event.stopPropagation()}
           >
             <button
               type="button"
-              onClick={() => setCertRestaurant(null)}
+              onClick={closeCert}
               aria-label="Close"
-              className="absolute right-3 top-3 z-10 grid size-9 place-items-center rounded-full bg-white/95 text-[#071c17] shadow-md transition hover:bg-[#e7f4ee]"
+              className="absolute right-3 top-3 z-10 grid size-9 place-items-center rounded-full bg-white/95 text-[#071c17] shadow-md transition-[background-color,transform] duration-150 ease-out hover:bg-[#e7f4ee] motion-safe:active:scale-[0.95]"
             >
               <X className="size-4" />
             </button>
