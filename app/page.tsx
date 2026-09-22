@@ -268,16 +268,18 @@ export default function Home() {
 
           <div className="relative min-h-[570px] lg:min-h-[660px]">
             <div className="absolute inset-0 overflow-hidden rounded-[34px] border border-white/10 bg-[#dce4dc] shadow-[0_45px_120px_rgba(0,0,0,.36)]">
-              <HalalMap
-                restaurants={filtered}
-                activeId={activeRestaurant?.id ?? null}
-                onSelect={selectRestaurant}
-                userLocation={userLocation}
-                initialCenter={CHICAGOLAND_CENTER}
-                initialZoom={CHICAGOLAND_ZOOM}
-                flyTarget={flyTarget}
-                scrollWheelZoom={false}
-              />
+              <div className="absolute inset-0 isolate">
+                <HalalMap
+                  restaurants={filtered}
+                  activeId={activeRestaurant?.id ?? null}
+                  onSelect={selectRestaurant}
+                  userLocation={userLocation}
+                  initialCenter={CHICAGOLAND_CENTER}
+                  initialZoom={CHICAGOLAND_ZOOM}
+                  flyTarget={flyTarget}
+                  scrollWheelZoom={false}
+                />
+              </div>
 
               <div className="pointer-events-none absolute inset-x-0 top-0 flex items-start justify-between p-5">
                 <Badge className="pointer-events-auto border border-white/70 bg-white/90 px-3 py-1.5 font-extrabold text-[#153f32] shadow-sm backdrop-blur">
@@ -453,7 +455,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="order-1 h-[420px] overflow-hidden rounded-[32px] border border-[#dde5e1] shadow-[0_30px_80px_rgba(7,28,23,.12)] lg:order-2 lg:h-[720px]">
+            <div className="order-1 h-[420px] isolate overflow-hidden rounded-[32px] border border-[#dde5e1] shadow-[0_30px_80px_rgba(7,28,23,.12)] lg:order-2 lg:h-[720px]">
               <HalalMap
                 restaurants={filtered}
                 activeId={activeRestaurant?.id ?? null}
