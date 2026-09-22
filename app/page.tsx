@@ -2,6 +2,7 @@
 
 import { FormEvent, useEffect, useMemo, useState } from "react";
 import dynamic from "next/dynamic";
+import Image from "next/image";
 import {
   ArrowRight,
   BadgeCheck,
@@ -193,9 +194,13 @@ export default function Home() {
       <nav className="relative z-40 border-b border-white/10 bg-[#071c17]/95 text-white backdrop-blur-xl">
         <div className="mx-auto flex h-[76px] max-w-[1440px] items-center justify-between px-5 sm:px-8 lg:px-12">
           <a href="#top" className="group flex items-center gap-3" aria-label="DeenDine home">
-            <span className="grid size-10 place-items-center rounded-[14px] bg-[#c9f15a] text-[#071c17] shadow-[0_0_0_1px_rgba(255,255,255,.14)] transition-transform group-hover:-rotate-3">
-              <MapPin className="size-5" strokeWidth={2.5} />
-            </span>
+            <Image
+              src="/logo.png"
+              alt=""
+              width={40}
+              height={40}
+              className="size-10 rounded-[14px] shadow-[0_0_0_1px_rgba(255,255,255,.14)] transition-transform group-hover:-rotate-3"
+            />
             <span className="text-[1.35rem] font-black tracking-[-0.045em]">DeenDine</span>
           </a>
 
@@ -597,7 +602,7 @@ export default function Home() {
       <footer className="bg-[#071c17] text-white">
         <div className="mx-auto flex max-w-[1280px] flex-col gap-8 px-5 py-10 sm:px-8 md:flex-row md:items-center md:justify-between lg:px-12">
           <div className="flex items-center gap-3">
-            <span className="grid size-9 place-items-center rounded-[12px] bg-[#c9f15a] text-[#071c17]"><MapPin className="size-4" strokeWidth={2.5} /></span>
+            <Image src="/logo.png" alt="" width={36} height={36} className="size-9 rounded-[12px]" />
             <span className="text-xl font-black tracking-[-.04em]">DeenDine</span>
           </div>
           <p className="max-w-xl text-sm leading-6 text-white/52">A clearer way to discover halal food across Chicago and its suburbs. Halal status is our own editorial curation from public halal directories; photos, ratings, and addresses are verified against Google&apos;s live listings.</p>

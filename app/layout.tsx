@@ -6,8 +6,9 @@ export const metadata: Metadata = {
   description:
     "Discover halal and Zabiha restaurants across Chicago and its suburbs, with a live map, your location, and clear certification and menu-level details.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/apple-touch-icon.png",
   },
 };
 
